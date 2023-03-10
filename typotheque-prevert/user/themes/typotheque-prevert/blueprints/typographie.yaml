@@ -15,10 +15,6 @@ form:
 
           fields:
 
-            header.custom.nbstyles:
-              type: text
-              label: Nombres de styles
-
             header.custom.auteur:
               type: text
               label: Auteur(s)
@@ -26,10 +22,6 @@ form:
             header.custom.datesortie:
               type: text
               label: Date
-
-            header.custom.licence:
-              type: text
-              label: Licence
 
             header.custom.archivezip:
               type: file

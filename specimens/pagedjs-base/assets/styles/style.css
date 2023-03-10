@@ -1,0 +1,25 @@
+body {
+font-size: 12pt;
+line-height: 1.33em;
+font-family: 'Alegreya', serif;
+font-variant-numeric: oldstyle-nums;
+}
+
+p {
+padding: 0;
+margin: 0;
+}
+
+p + p {
+text-indent: 2em;
+}
+
+img{
+  width: 100%;
+  margin-top: 7mm;
+}
+
+.legendes{
+  font-size: 9pt;
+  margin-bottom: 5mm;
+}

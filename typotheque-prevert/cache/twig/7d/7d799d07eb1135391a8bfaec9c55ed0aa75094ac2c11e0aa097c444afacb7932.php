@@ -71,12 +71,8 @@ class __TwigTemplate_0f10004e02d81bc177439cf2244b6cae4af8c4f8d68c1f78bc321f6b0cf
             // line 13
             echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($this->getAttribute($context["post"], "header", []), "custom", []), "datesortie", []), "html", null, true);
             echo "</div>
-          <div>Licence : ";
-            // line 14
-            echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($this->getAttribute($context["post"], "header", []), "custom", []), "licence", []), "html", null, true);
-            echo "</div>
           <div class=\"";
-            // line 15
+            // line 14
             echo twig_escape_filter($this->env, $this->getAttribute($context["post"], "title", []), "html", null, true);
             echo "\" contenteditable=\"true\">
             A B C D E F G H I J K L M N O P Q R S T U V W X Y Z<br>
@@ -105,7 +101,7 @@ class __TwigTemplate_0f10004e02d81bc177439cf2244b6cae4af8c4f8d68c1f78bc321f6b0cf
 
     public function getDebugInfo()
     {
-        return array (  80 => 15,  76 => 14,  72 => 13,  68 => 12,  56 => 11,  52 => 10,  46 => 7,  42 => 5,  39 => 4,  29 => 1,);
+        return array (  76 => 14,  72 => 13,  68 => 12,  56 => 11,  52 => 10,  46 => 7,  42 => 5,  39 => 4,  29 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -131,7 +127,6 @@ class __TwigTemplate_0f10004e02d81bc177439cf2244b6cae4af8c4f8d68c1f78bc321f6b0cf
           <h1 class=\"{{ post.title }}\" ><a href=\"{{ base_url_absolute }}{{post.route}}/fichiersfontes/{{post.header.custom.archivezip|first.name}}\">{{ post.title }}</a></h1>
           <div>Auteur(s) : {{ post.header.custom.auteur }}</div>
           <div>Année : {{ post.header.custom.datesortie }}</div>
-          <div>Licence : {{ post.header.custom.licence }}</div>
           <div class=\"{{ post.title }}\" contenteditable=\"true\">
             A B C D E F G H I J K L M N O P Q R S T U V W X Y Z<br>
             a b c d e f g h i j k l m n o p q r s t u v w x y z<br>
