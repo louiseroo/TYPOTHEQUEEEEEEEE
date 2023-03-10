@@ -3,7 +3,7 @@
 <head>
 {% block head %}
     <meta charset="utf-8" />
-    <title>{% if header.title %}{{ header.title|e }} | {% endif %}{{ site.title|e }}</title>
+    <title>Typothèque Lycée Jacques Prévert</title>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,16 +23,7 @@
         }
         {% endfor %}
     </style>
-    <style class="color">
-        :root{ 
-            --color: #895d5d; 
-            }
-    </style>
-    <style class="background">
-		:root {
-			--background: white;
-		}
-	</style>
+
 {% endblock head %}
 
 {% block stylesheets %}

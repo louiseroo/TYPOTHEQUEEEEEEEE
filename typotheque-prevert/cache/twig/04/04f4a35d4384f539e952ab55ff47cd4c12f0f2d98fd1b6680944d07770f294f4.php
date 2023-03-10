@@ -65,6 +65,6 @@ class __TwigTemplate_79843ad19280055546dec0cea9b8afcb78e6215c2f66629da523cce4366
 <a id=\"titlebar-button-copy\" href=\"#modal-page-copy\" data-remodal-target=\"modal-page-copy\" class=\"button page-copy\">
     <i class=\"fa fa-copy\"></i> {{ \"PLUGIN_ADMIN.COPY\"|tu }}
 </a>
-", "flex-objects/types/pages/buttons/copy.html.twig", "/home/edi0th/www/typotheque-prevert/user/plugins/flex-objects/admin/templates/flex-objects/types/pages/buttons/copy.html.twig");
+", "flex-objects/types/pages/buttons/copy.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/flex-objects/admin/templates/flex-objects/types/pages/buttons/copy.html.twig");
     }
 }

@@ -130,6 +130,6 @@ class __TwigTemplate_f1e8d8865c177d4f1990de6218dbb2fee90bded18b669dc737eed81148e
     type=\"text\"
     {{ parent() }}
 {% endblock %}
-", "forms/fields/selectize/selectize.html.twig", "/home/edi0th/www/typotheque-prevert/user/plugins/admin/themes/grav/templates/forms/fields/selectize/selectize.html.twig");
+", "forms/fields/selectize/selectize.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/forms/fields/selectize/selectize.html.twig");
     }
 }

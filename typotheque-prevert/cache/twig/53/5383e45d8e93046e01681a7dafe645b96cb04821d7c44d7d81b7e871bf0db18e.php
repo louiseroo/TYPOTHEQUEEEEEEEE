@@ -60,6 +60,6 @@ class __TwigTemplate_2a4e5c22c2edfb8bf47b56f9d064d400df01db2e9b904a6c4bb03065cd8
     public function getSourceContext()
     {
         return new Source("{% extends 'partials/base-root.html.twig' %}
-", "partials/base.html.twig", "/home/edi0th/www/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/base.html.twig");
+", "partials/base.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/base.html.twig");
     }
 }

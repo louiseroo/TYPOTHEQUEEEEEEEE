@@ -252,6 +252,6 @@ class __TwigTemplate_7852ea6b9fc15f0e929b7278fd4996a79769d39b0e4ccd46d58504c734e
     {% endblock titlebar_title %}
 
 {% endblock %}
-", "flex-objects/types/default/titlebar/edit.html.twig", "/home/edi0th/www/typotheque-prevert/user/plugins/flex-objects/admin/templates/flex-objects/types/default/titlebar/edit.html.twig");
+", "flex-objects/types/default/titlebar/edit.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/flex-objects/admin/templates/flex-objects/types/default/titlebar/edit.html.twig");
     }
 }

@@ -56,6 +56,6 @@ class __TwigTemplate_d9da0d8730fc38e3af0f9f40c62862149363310a1dbadf17876aa446869
         return new Source("<button class=\"lines-button x\" type=\"button\" role=\"button\" aria-label=\"Toggle Navigation\" data-sidebar-mobile-toggle>
     <span class=\"lines\"></span>
 </button>
-", "partials/nav-toggle.html.twig", "/home/edi0th/www/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/nav-toggle.html.twig");
+", "partials/nav-toggle.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/nav-toggle.html.twig");
     }
 }

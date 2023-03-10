@@ -75,6 +75,6 @@ class __TwigTemplate_9786eb27c29d067ddfea330eb37da633f050d8aaa65b74c05e9410c7978
     <i class=\"fa fa-cog\"></i> {{ 'PLUGIN_ADMIN.CONFIGURATION'|tu }}
 </a>
 {% endif %}
-", "flex-objects/types/default/buttons/configuration.html.twig", "/home/edi0th/www/typotheque-prevert/user/plugins/flex-objects/admin/templates/flex-objects/types/default/buttons/configuration.html.twig");
+", "flex-objects/types/default/buttons/configuration.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/flex-objects/admin/templates/flex-objects/types/default/buttons/configuration.html.twig");
     }
 }

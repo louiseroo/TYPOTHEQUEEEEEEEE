@@ -62,6 +62,6 @@ class __TwigTemplate_ce5c509465e924dfb5fc8984693e636600b999cacd5825edd6b91594c0e
     {
         return new Source("{% set user_avatar = admin.user.getAvatarUrl() %}
 <img src=\"{{ user_avatar ~ '?s=80' }}\" />
-", "partials/nav-user-avatar.html.twig", "/home/edi0th/www/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/nav-user-avatar.html.twig");
+", "partials/nav-user-avatar.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/nav-user-avatar.html.twig");
     }
 }

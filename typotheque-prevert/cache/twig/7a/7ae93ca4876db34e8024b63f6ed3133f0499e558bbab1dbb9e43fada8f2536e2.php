@@ -70,7 +70,7 @@ class __TwigTemplate_667cf8f90a88df2ea154e316ca7ccf17b11987ad3db35324e4ec9a67335
             echo "
     ";
             // line 14
-            $this->loadTemplate("forms/fields/section/section.html.twig", "forms/fields/section/section.html.twig", 14, "1685528500")->display(twig_array_merge($context, ["name" => $this->getAttribute(($context["field"] ?? null), "name", []), "fields" => $this->getAttribute(($context["field"] ?? null), "fields", [])]));
+            $this->loadTemplate("forms/fields/section/section.html.twig", "forms/fields/section/section.html.twig", 14, "1663616682")->display(twig_array_merge($context, ["name" => $this->getAttribute(($context["field"] ?? null), "name", []), "fields" => $this->getAttribute(($context["field"] ?? null), "fields", [])]));
             // line 22
             echo "
 ";
@@ -126,13 +126,13 @@ class __TwigTemplate_667cf8f90a88df2ea154e316ca7ccf17b11987ad3db35324e4ec9a67335
 
 {% endif %}
 {% endblock %}
-", "forms/fields/section/section.html.twig", "/home/edi0th/www/typotheque-prevert/user/plugins/admin/themes/grav/templates/forms/fields/section/section.html.twig");
+", "forms/fields/section/section.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/forms/fields/section/section.html.twig");
     }
 }
 
 
 /* forms/fields/section/section.html.twig */
-class __TwigTemplate_667cf8f90a88df2ea154e316ca7ccf17b11987ad3db35324e4ec9a673355256d___1685528500 extends \Twig\Template
+class __TwigTemplate_667cf8f90a88df2ea154e316ca7ccf17b11987ad3db35324e4ec9a673355256d___1663616682 extends \Twig\Template
 {
     public function __construct(Environment $env)
     {
@@ -225,6 +225,6 @@ class __TwigTemplate_667cf8f90a88df2ea154e316ca7ccf17b11987ad3db35324e4ec9a67335
 
 {% endif %}
 {% endblock %}
-", "forms/fields/section/section.html.twig", "/home/edi0th/www/typotheque-prevert/user/plugins/admin/themes/grav/templates/forms/fields/section/section.html.twig");
+", "forms/fields/section/section.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/forms/fields/section/section.html.twig");
     }
 }

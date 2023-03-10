@@ -122,6 +122,6 @@ class __TwigTemplate_105cc176b9d612bc0a8a5c7ede5c0f776503f0be47d9d285ea68668fbdb
         </div>
     </a>
 </div>
-", "partials/nav-user-details.html.twig", "/home/edi0th/www/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/nav-user-details.html.twig");
+", "partials/nav-user-details.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/nav-user-details.html.twig");
     }
 }

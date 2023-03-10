@@ -2,12 +2,12 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledJsonFile',
     'filename' => '/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/data/flex/indexes/pages.json',
-    'modified' => 1678441118,
-    'size' => 1716,
+    'modified' => 1678453828,
+    'size' => 2241,
     'data' => [
         'version' => '1.5',
-        'timestamp' => 1678441118,
-        'count' => 7,
+        'timestamp' => 1678453828,
+        'count' => 9,
         'index' => [
             '' => [
                 'key' => '',
@@ -36,7 +36,7 @@ return [
                 'key' => 'typotheque',
                 'storage_key' => 'typotheque',
                 'template' => 'typotheque',
-                'storage_timestamp' => 1678441118,
+                'storage_timestamp' => 1678453807,
                 'markdown' => [
                     '' => [
                         'typotheque' => 1678441118
@@ -44,9 +44,10 @@ return [
                 ],
                 'children' => [
                     '02.michaux' => 1678438716,
-                    '03.jester' => 1678438732
+                    '03.jester' => 1678438732,
+                    '04.death' => 1678453807
                 ],
-                'checksum' => 'd13d1b78481abf2d1ce2c2c9c4f70c5c'
+                'checksum' => 'dc6d7fcd76d2a8115aeaef2f24eff971'
             ],
             'typotheque/02.michaux' => [
                 'key' => 'typotheque/michaux',
@@ -91,6 +92,28 @@ return [
                 'template' => NULL,
                 'storage_timestamp' => 1678438732,
                 'checksum' => '3fdf9ad2d1e0c0636e4e83e7e27c90f3'
+            ],
+            'typotheque/04.death' => [
+                'key' => 'typotheque/death',
+                'storage_key' => 'typotheque/04.death',
+                'template' => 'typographie',
+                'storage_timestamp' => 1678453828,
+                'markdown' => [
+                    '' => [
+                        'typographie' => 1678453828
+                    ]
+                ],
+                'children' => [
+                    'fichiersfontes' => 1678453828
+                ],
+                'checksum' => 'b728db37aebb6e7dd1db3d8932389c62'
+            ],
+            'typotheque/04.death/fichiersfontes' => [
+                'key' => 'typotheque/death/fichiersfontes',
+                'storage_key' => 'typotheque/04.death/fichiersfontes',
+                'template' => NULL,
+                'storage_timestamp' => 1678453828,
+                'checksum' => '94b9ea89d469dcd408566d44c22b4154'
             ]
         ]
     ]

@@ -1,13 +1,13 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1678375191,
-    'checksum' => '12156588d9e89a09f2b871e46b30898a',
+    'timestamp' => 1678453859,
+    'checksum' => 'd336f697bd0c31a2c810f81187ea99e0',
     'files' => [
         'user/config' => [
             'media' => [
                 'file' => 'user/config/media.yaml',
-                'modified' => 1678375189
+                'modified' => 1678453859
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
@@ -19,7 +19,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1678375125
+                'modified' => 1678453835
             ],
             'versions' => [
                 'file' => 'user/config/versions.yaml',
@@ -33,7 +33,7 @@ return [
             ],
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1678375186
+                'modified' => 1678453753
             ],
             'mime' => [
                 'file' => 'system/config/mime.yaml',
@@ -775,7 +775,7 @@ node_modules'
                 'otf' => [
                     'type' => 'file',
                     'thumb' => 'media/thumb-json.png',
-                    'mime' => 'application/vnd.ms-opentype',
+                    'mime' => 'application/octet-stream',
                     'image' => NULL
                 ],
                 'ttf' => [
@@ -787,12 +787,14 @@ node_modules'
                 'woff' => [
                     'type' => 'file',
                     'thumb' => 'media/thumb-json.png',
-                    'mime' => 'application/octet-stream'
+                    'mime' => 'application/octet-stream',
+                    'image' => NULL
                 ],
                 'woff2' => [
                     'type' => 'file',
                     'thumb' => 'media/thumb-json.png',
-                    'mime' => 'application/octet-stream'
+                    'mime' => 'application/octet-stream',
+                    'image' => NULL
                 ]
             ]
         ],

@@ -1,5 +1,0 @@
-1678375791
-O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:10:"typotheque";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:2:{s:5:"title";s:11:"Typothèque";s:6:"custom";a:2:{s:10:"archivezip";a:0:{}s:8:"titresvg";a:0:{}}}s:11:"frontmatter";s:66:"title: Typothèque
-custom:
-    archivezip: {  }
-    titresvg: {  }";s:8:"markdown";s:0:"";}s:7:"storage";a:7:{s:3:"key";s:10:"typotheque";s:11:"storage_key";s:10:"typotheque";s:8:"template";s:10:"typotheque";s:17:"storage_timestamp";i:1678291770;s:8:"markdown";a:1:{s:0:"";a:1:{s:10:"typotheque";i:1678291723;}}s:8:"children";a:2:{s:10:"02.michaux";b:0;s:9:"03.jester";b:0;}s:8:"checksum";s:32:"e542247e5002be49c63fdcf40f2c4b11";}}

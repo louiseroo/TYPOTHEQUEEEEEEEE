@@ -85,6 +85,6 @@ class __TwigTemplate_0ebf855960c3063b4749778190bc7ae676cf07afb09cf812abef4e4cb4d
         <i class=\"fa fa-refresh\"></i>
     </div>
 {% endblock %}
-", "forms/fields/folder-slug/folder-slug.html.twig", "/home/edi0th/www/typotheque-prevert/user/plugins/admin/themes/grav/templates/forms/fields/folder-slug/folder-slug.html.twig");
+", "forms/fields/folder-slug/folder-slug.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/forms/fields/folder-slug/folder-slug.html.twig");
     }
 }

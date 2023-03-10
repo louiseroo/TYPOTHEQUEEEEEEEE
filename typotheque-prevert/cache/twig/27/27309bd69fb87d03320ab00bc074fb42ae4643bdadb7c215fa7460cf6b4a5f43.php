@@ -52,6 +52,6 @@ class __TwigTemplate_732d3e2f4c88a0da1b621c11fb06e6c737a7a648efe153e4a475e3cc1b2
     public function getSourceContext()
     {
         return new Source("<div class=\"remodal\" data-remodal-id=\"changelog\" data-remodal-options=\"hashTracking: false\"></div>
-", "partials/modal-changelog.html.twig", "/home/edi0th/www/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/modal-changelog.html.twig");
+", "partials/modal-changelog.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/modal-changelog.html.twig");
     }
 }

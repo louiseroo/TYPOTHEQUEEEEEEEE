@@ -132,6 +132,6 @@ class __TwigTemplate_dbad52fe8021fb0633af32fc7b5e8fed9d4618ff007070be5536eff0297
         {% endfor %}
     </ul>
 </div>
-", "flex-objects/types/pages/buttons/add.html.twig", "/home/edi0th/www/typotheque-prevert/user/plugins/flex-objects/admin/templates/flex-objects/types/pages/buttons/add.html.twig");
+", "flex-objects/types/pages/buttons/add.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/flex-objects/admin/templates/flex-objects/types/pages/buttons/add.html.twig");
     }
 }

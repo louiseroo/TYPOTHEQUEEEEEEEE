@@ -52,7 +52,7 @@ class __TwigTemplate_956de5e44f58b95cd61c11d689adfe5a093469e06265b708b129f84c2d3
         echo " data-grav-keepalive=\"true\">
     ";
         // line 6
-        $this->loadTemplate("partials/blueprints-copy.html.twig", "partials/blueprints-copy.html.twig", 6, "33484817")->display(twig_array_merge($context, ["name" => null, "fields" => $this->getAttribute(($context["blueprints"] ?? null), "fields", [])]));
+        $this->loadTemplate("partials/blueprints-copy.html.twig", "partials/blueprints-copy.html.twig", 6, "155223962")->display(twig_array_merge($context, ["name" => null, "fields" => $this->getAttribute(($context["blueprints"] ?? null), "fields", [])]));
         // line 10
         echo "
     <input type=\"hidden\" name=\"task\" value=\"copy\" />
@@ -121,13 +121,13 @@ class __TwigTemplate_956de5e44f58b95cd61c11d689adfe5a093469e06265b708b129f84c2d3
     {{ nonce_field('admin-form', 'admin-nonce')|raw }}
 
 </form>
-", "partials/blueprints-copy.html.twig", "/home/edi0th/www/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/blueprints-copy.html.twig");
+", "partials/blueprints-copy.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/blueprints-copy.html.twig");
     }
 }
 
 
 /* partials/blueprints-copy.html.twig */
-class __TwigTemplate_956de5e44f58b95cd61c11d689adfe5a093469e06265b708b129f84c2d39a776___33484817 extends \Twig\Template
+class __TwigTemplate_956de5e44f58b95cd61c11d689adfe5a093469e06265b708b129f84c2d39a776___155223962 extends \Twig\Template
 {
     public function __construct(Environment $env)
     {
@@ -209,6 +209,6 @@ class __TwigTemplate_956de5e44f58b95cd61c11d689adfe5a093469e06265b708b129f84c2d3
     {{ nonce_field('admin-form', 'admin-nonce')|raw }}
 
 </form>
-", "partials/blueprints-copy.html.twig", "/home/edi0th/www/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/blueprints-copy.html.twig");
+", "partials/blueprints-copy.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/blueprints-copy.html.twig");
     }
 }

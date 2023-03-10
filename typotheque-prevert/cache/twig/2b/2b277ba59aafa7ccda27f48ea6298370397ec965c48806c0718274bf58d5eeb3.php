@@ -95,6 +95,6 @@ class __TwigTemplate_8bf74eb6a419adf260f306f8cf6a69de78c1172bbcbb289b3c88ccde183
         </div>
     </form>
 </div>
-", "flex-objects/types/default/modals/remove.html.twig", "/home/edi0th/www/typotheque-prevert/user/plugins/flex-objects/admin/templates/flex-objects/types/default/modals/remove.html.twig");
+", "flex-objects/types/default/modals/remove.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/flex-objects/admin/templates/flex-objects/types/default/modals/remove.html.twig");
     }
 }

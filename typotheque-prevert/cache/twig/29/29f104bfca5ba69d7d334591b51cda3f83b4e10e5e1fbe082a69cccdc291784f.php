@@ -74,6 +74,6 @@ class __TwigTemplate_ecf3b42f8f7169013efb05ec300289c3d28394031495fa76dd3c0408793
 
 {% block field %}
 <input type=\"hidden\" name=\"__unique_form_id__\" value=\"{{ form.uniqueid() ?? random_string(20) }}\" />
-{% endblock %}", "forms/fields/uniqueid/uniqueid.html.twig", "/home/edi0th/www/typotheque-prevert/user/plugins/form/templates/forms/fields/uniqueid/uniqueid.html.twig");
+{% endblock %}", "forms/fields/uniqueid/uniqueid.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/form/templates/forms/fields/uniqueid/uniqueid.html.twig");
     }
 }

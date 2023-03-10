@@ -102,6 +102,6 @@ class __TwigTemplate_2269770538b159828b3d7270856afc98127fc176dea290b005d725e5435
 {% if language_codes.rtl(grav.user.language) %}
     {% do assets.addCss(theme_url~'/css/rtl.css') %}
 {% endif %}
-", "partials/stylesheets.html.twig", "/home/edi0th/www/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/stylesheets.html.twig");
+", "partials/stylesheets.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/stylesheets.html.twig");
     }
 }

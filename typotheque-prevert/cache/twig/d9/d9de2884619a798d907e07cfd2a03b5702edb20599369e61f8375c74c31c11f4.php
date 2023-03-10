@@ -114,6 +114,6 @@ class __TwigTemplate_b938c6bf87f8e5f7717d0d84d15e5ebed78f93949b93c852ce7ee969bd9
         <div class=\"{{ message.scope }} alert\">{{ message.message|raw }}</div>
     {%- endfor -%}
 </div>
-", "partials/messages.html.twig", "/home/edi0th/www/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/messages.html.twig");
+", "partials/messages.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/messages.html.twig");
     }
 }

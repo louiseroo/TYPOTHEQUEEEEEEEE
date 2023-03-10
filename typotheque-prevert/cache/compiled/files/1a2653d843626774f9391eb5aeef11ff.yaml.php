@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/themes/typotheque-prevert/blueprints/typographie.yaml',
-    'modified' => 1678375919,
-    'size' => 1167,
+    'modified' => 1678443195,
+    'size' => 976,
     'data' => [
         'title' => 'Typographie',
         'extends@' => [
@@ -19,10 +19,6 @@ return [
                         'content' => [
                             'type' => 'tab',
                             'fields' => [
-                                'header.custom.nbstyles' => [
-                                    'type' => 'text',
-                                    'label' => 'Nombres de styles'
-                                ],
                                 'header.custom.auteur' => [
                                     'type' => 'text',
                                     'label' => 'Auteur(s)'
@@ -30,10 +26,6 @@ return [
                                 'header.custom.datesortie' => [
                                     'type' => 'text',
                                     'label' => 'Date'
-                                ],
-                                'header.custom.licence' => [
-                                    'type' => 'text',
-                                    'label' => 'Licence'
                                 ],
                                 'header.custom.archivezip' => [
                                     'type' => 'file',

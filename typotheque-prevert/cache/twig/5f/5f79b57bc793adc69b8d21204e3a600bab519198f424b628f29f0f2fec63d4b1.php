@@ -96,6 +96,6 @@ class __TwigTemplate_464a4fce0b2159636615dececa2b7d9b9c0ab109fdbc6313bbd08800f71
     {% if field.disabled or isDisabledToggleable %}disabled=\"disabled\"{% endif %}
     name=\"{{ (scope ~ field.name)|fieldName }}\"
     value=\"{{ blueprints.name }}\" />
-{% endblock %}", "forms/fields/blueprint/blueprint.html.twig", "/home/edi0th/www/typotheque-prevert/user/plugins/admin/themes/grav/templates/forms/fields/blueprint/blueprint.html.twig");
+{% endblock %}", "forms/fields/blueprint/blueprint.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/forms/fields/blueprint/blueprint.html.twig");
     }
 }

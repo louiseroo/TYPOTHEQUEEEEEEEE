@@ -67,7 +67,7 @@ class __TwigTemplate_dcffbe1926314d453d942fc865f5a5b3e0f56067a9dde03a659e90d1bb4
         echo ">
     ";
         // line 12
-        $this->loadTemplate("partials/blueprints.html.twig", "partials/blueprints.html.twig", 12, "781983157")->display(twig_array_merge($context, ["name" => null, "fields" => $this->getAttribute(($context["blueprints"] ?? null), "fields", [])]));
+        $this->loadTemplate("partials/blueprints.html.twig", "partials/blueprints.html.twig", 12, "1793626114")->display(twig_array_merge($context, ["name" => null, "fields" => $this->getAttribute(($context["blueprints"] ?? null), "fields", [])]));
         // line 16
         echo "
     ";
@@ -210,13 +210,13 @@ class __TwigTemplate_dcffbe1926314d453d942fc865f5a5b3e0f56067a9dde03a659e90d1bb4
         {{ nonce_field('admin-form', 'admin-nonce')|raw }}
     {% endif %}
 </form>
-", "partials/blueprints.html.twig", "/home/edi0th/www/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/blueprints.html.twig");
+", "partials/blueprints.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/blueprints.html.twig");
     }
 }
 
 
 /* partials/blueprints.html.twig */
-class __TwigTemplate_dcffbe1926314d453d942fc865f5a5b3e0f56067a9dde03a659e90d1bb40a2ed___781983157 extends \Twig\Template
+class __TwigTemplate_dcffbe1926314d453d942fc865f5a5b3e0f56067a9dde03a659e90d1bb40a2ed___1793626114 extends \Twig\Template
 {
     public function __construct(Environment $env)
     {
@@ -313,6 +313,6 @@ class __TwigTemplate_dcffbe1926314d453d942fc865f5a5b3e0f56067a9dde03a659e90d1bb4
         {{ nonce_field('admin-form', 'admin-nonce')|raw }}
     {% endif %}
 </form>
-", "partials/blueprints.html.twig", "/home/edi0th/www/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/blueprints.html.twig");
+", "partials/blueprints.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/blueprints.html.twig");
     }
 }

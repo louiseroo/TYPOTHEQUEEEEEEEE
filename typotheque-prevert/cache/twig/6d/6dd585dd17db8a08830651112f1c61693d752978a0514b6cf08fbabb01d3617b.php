@@ -566,6 +566,6 @@ class __TwigTemplate_a41eaaa792033b067892363b09a6b3ad6122847d8d93bb53f834898ebdc
         <span class=\"note\">{{ \"PLUGIN_ADMIN.CANNOT_ADD_FILES_PAGE_NOT_SAVED\"|t|raw }}</span>
     {% endif %}
 {% endblock %}
-", "forms/fields/file/file.html.twig", "/home/edi0th/www/typotheque-prevert/user/plugins/admin/themes/grav/templates/forms/fields/file/file.html.twig");
+", "forms/fields/file/file.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/forms/fields/file/file.html.twig");
     }
 }

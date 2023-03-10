@@ -259,6 +259,6 @@ class __TwigTemplate_0f96e02e6bea098a8eb12bfcc073bfa24d07c577e597e5a6ef2845e650f
 </div>
 {% endif %}
 {% endblock %}
-", "forms/fields/pagemedia/pagemedia.html.twig", "/home/edi0th/www/typotheque-prevert/user/plugins/admin/themes/grav/templates/forms/fields/pagemedia/pagemedia.html.twig");
+", "forms/fields/pagemedia/pagemedia.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/forms/fields/pagemedia/pagemedia.html.twig");
     }
 }

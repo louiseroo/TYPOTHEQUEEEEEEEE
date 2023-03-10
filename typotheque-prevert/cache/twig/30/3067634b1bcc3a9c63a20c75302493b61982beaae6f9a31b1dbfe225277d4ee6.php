@@ -119,6 +119,6 @@ class __TwigTemplate_30914acb32345f847ceeb2058fb6890c0d5259d53fdfb5edbda18a8abc7
         'flex-objects/types/default/' ~ template ~ '.html.twig',
         'flex-objects/layouts/404.html.twig'
     ] -%}
-", "flex-objects.html.twig", "/home/edi0th/www/typotheque-prevert/user/plugins/flex-objects/admin/templates/flex-objects.html.twig");
+", "flex-objects.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/flex-objects/admin/templates/flex-objects.html.twig");
     }
 }

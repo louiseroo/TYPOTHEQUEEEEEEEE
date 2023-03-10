@@ -235,6 +235,6 @@ class __TwigTemplate_5186c07c4725a1af29b6292b2cce725f32cd21020b989fd62ed723e573c
     {% endif %}
 </ul>
 
-", "partials/nav-quick-tray.html.twig", "/home/edi0th/www/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/nav-quick-tray.html.twig");
+", "partials/nav-quick-tray.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/nav-quick-tray.html.twig");
     }
 }

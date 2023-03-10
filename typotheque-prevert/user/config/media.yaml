@@ -269,7 +269,7 @@ types:
   otf:
     type: file
     thumb: media/thumb-json.png
-    mime: application/vnd.ms-opentype
+    mime: application/octet-stream
     image: null
   ttf:
     type: file
@@ -280,7 +280,9 @@ types:
     type: file
     thumb: media/thumb-json.png
     mime: application/octet-stream
+    image: null
   woff2:
     type: file
     thumb: media/thumb-json.png
     mime: application/octet-stream
+    image: null
