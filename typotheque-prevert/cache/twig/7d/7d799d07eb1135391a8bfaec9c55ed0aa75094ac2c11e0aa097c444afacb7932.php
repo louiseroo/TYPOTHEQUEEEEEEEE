@@ -35,18 +35,24 @@ class __TwigTemplate_0f10004e02d81bc177439cf2244b6cae4af8c4f8d68c1f78bc321f6b0cf
         $this->parent->display($context, array_merge($this->blocks, $blocks));
     }
 
-    // line 5
+    // line 4
     public function block_content($context, array $blocks = [])
     {
-        // line 6
+        // line 5
         echo "
+  <div class=\"colophon\">
+    ";
+        // line 7
+        echo $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->markdownFunction($context, $this->getAttribute($this->getAttribute(($context["page"] ?? null), "find", [0 => "/typotheque"], "method"), "content", []));
+        echo "
+  </div> 
 
   ";
-        // line 8
+        // line 10
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute(($context["pages"] ?? null), "find", [0 => "/typotheque"], "method"), "children", []));
         foreach ($context['_seq'] as $context["_key"] => $context["post"]) {
-            // line 9
+            // line 11
             echo "          <h1 class=\"";
             echo twig_escape_filter($this->env, $this->getAttribute($context["post"], "title", []), "html", null, true);
             echo "\" ><a href=\"";
@@ -58,21 +64,21 @@ class __TwigTemplate_0f10004e02d81bc177439cf2244b6cae4af8c4f8d68c1f78bc321f6b0cf
             echo twig_escape_filter($this->env, $this->getAttribute($context["post"], "title", []), "html", null, true);
             echo "</a></h1>
           <div>Auteur(s) : ";
-            // line 10
+            // line 12
             echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($this->getAttribute($context["post"], "header", []), "custom", []), "auteur", []), "html", null, true);
             echo "</div>
           <div>Année : ";
-            // line 11
+            // line 13
             echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($this->getAttribute($context["post"], "header", []), "custom", []), "datesortie", []), "html", null, true);
             echo "</div>
           <div>Licence : ";
-            // line 12
+            // line 14
             echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($this->getAttribute($context["post"], "header", []), "custom", []), "licence", []), "html", null, true);
             echo "</div>
           <div class=\"";
-            // line 13
+            // line 15
             echo twig_escape_filter($this->env, $this->getAttribute($context["post"], "title", []), "html", null, true);
-            echo "\">
+            echo "\" contenteditable=\"true\">
             A B C D E F G H I J K L M N O P Q R S T U V W X Y Z<br>
             a b c d e f g h i j k l m n o p q r s t u v w x y z<br>
             0 1 2 3 4 5 6 7 8 9<br>
@@ -99,7 +105,7 @@ class __TwigTemplate_0f10004e02d81bc177439cf2244b6cae4af8c4f8d68c1f78bc321f6b0cf
 
     public function getDebugInfo()
     {
-        return array (  74 => 13,  70 => 12,  66 => 11,  62 => 10,  50 => 9,  46 => 8,  42 => 6,  39 => 5,  29 => 1,);
+        return array (  80 => 15,  76 => 14,  72 => 13,  68 => 12,  56 => 11,  52 => 10,  46 => 7,  42 => 5,  39 => 4,  29 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -115,16 +121,18 @@ class __TwigTemplate_0f10004e02d81bc177439cf2244b6cae4af8c4f8d68c1f78bc321f6b0cf
         return new Source("{% extends 'partials/base.html.twig' %}
 
 
-
 {% block content %}
 
+  <div class=\"colophon\">
+    {{ page.find('/typotheque').content|markdown }}
+  </div> 
 
   {% for post in pages.find('/typotheque').children %}
           <h1 class=\"{{ post.title }}\" ><a href=\"{{ base_url_absolute }}{{post.route}}/fichiersfontes/{{post.header.custom.archivezip|first.name}}\">{{ post.title }}</a></h1>
           <div>Auteur(s) : {{ post.header.custom.auteur }}</div>
           <div>Année : {{ post.header.custom.datesortie }}</div>
           <div>Licence : {{ post.header.custom.licence }}</div>
-          <div class=\"{{ post.title }}\">
+          <div class=\"{{ post.title }}\" contenteditable=\"true\">
             A B C D E F G H I J K L M N O P Q R S T U V W X Y Z<br>
             a b c d e f g h i j k l m n o p q r s t u v w x y z<br>
             0 1 2 3 4 5 6 7 8 9<br>
@@ -135,6 +143,6 @@ class __TwigTemplate_0f10004e02d81bc177439cf2244b6cae4af8c4f8d68c1f78bc321f6b0cf
   {% endfor %}
 {% endblock %}
 
-", "default.html.twig", "/home/edi0th/www/typotheque-prevert/user/themes/typotheque-prevert/templates/default.html.twig");
+", "default.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/themes/typotheque-prevert/templates/default.html.twig");
     }
 }

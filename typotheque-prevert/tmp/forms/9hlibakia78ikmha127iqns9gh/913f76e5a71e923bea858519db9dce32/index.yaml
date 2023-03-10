@@ -1,0 +1,31 @@
+form: flex-pages
+id: 'tmp://forms/session/913f76e5a71e923bea858519db9dce32'
+unique_id: 913f76e5a71e923bea858519db9dce32
+url: '/pages/typotheque/nouvellefonte/:add'
+user:
+  username: edi0th
+  email: bonjour@benjamindumond.fr
+timestamps:
+  created: 1678442276
+  updated: 1678442276
+data: null
+files: {  }
+object:
+  type: pages
+  key: typotheque/nouvellefonte
+  storage_key: ''
+  timestamp: 0
+  serialized:
+    __META: {  }
+    storage_key: ''
+    parent_key: typotheque
+    order: '04.'
+    folder: nouvellefonte
+    template: typographie
+    lang: ''
+    root: false
+    route: /typotheque
+    name: typographie
+    header:
+      title: NouvelleFonte
+    frontmatter: "title: NouvelleFonte\n"
