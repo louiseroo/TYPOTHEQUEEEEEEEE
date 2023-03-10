@@ -1,0 +1,9 @@
+1678375725
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:17:"typotheque/jester";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:2:{s:5:"title";s:6:"Jester";s:6:"custom";a:6:{s:10:"archivezip";a:0:{}s:8:"titresvg";a:0:{}s:8:"nbstyles";s:1:"2";s:6:"auteur";s:15:"Benjamin Dumond";s:10:"datesortie";s:4:"2022";s:7:"licence";s:3:"OFL";}}s:11:"frontmatter";s:149:"title: Jester
+custom:
+    archivezip: {  }
+    titresvg: {  }
+    nbstyles: '2'
+    auteur: 'Benjamin Dumond'
+    datesortie: '2022'
+    licence: OFL";s:8:"markdown";s:0:"";}s:7:"storage";a:6:{s:3:"key";s:17:"typotheque/jester";s:11:"storage_key";s:20:"typotheque/03.jester";s:8:"template";s:11:"typographie";s:17:"storage_timestamp";i:1678292636;s:8:"markdown";a:1:{s:0:"";a:1:{s:11:"typographie";i:1678292636;}}s:8:"checksum";s:32:"4ff2c034574773c043d6d2b0ec0ca059";}}

@@ -1,0 +1,2 @@
+1678439332
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:32:"typotheque/jester/fichiersfontes";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:0:{}s:11:"frontmatter";s:0:"";s:8:"markdown";s:0:"";}s:7:"storage";a:5:{s:3:"key";s:32:"typotheque/jester/fichiersfontes";s:11:"storage_key";s:35:"typotheque/03.jester/fichiersfontes";s:8:"template";N;s:17:"storage_timestamp";i:1678438732;s:8:"checksum";s:32:"3fdf9ad2d1e0c0636e4e83e7e27c90f3";}}

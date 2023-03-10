@@ -1,0 +1,51 @@
+title: Typotheque
+extends@:
+  type: default
+  context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+          type: tab
+
+          fields:
+
+            header.custom.nbstyles:
+              type: text
+              label: Nombres de styles
+
+            header.custom.auteur:
+              type: text
+              label: Auteur(s)
+
+            header.custom.datesortie:
+              type: text
+              label: Date
+
+            header.custom.licence:
+              type: text
+              label: Licence
+
+            header.custom.lienarticle:
+              type: text
+              label: Lien Article
+
+            header.custom.archivezip:
+              type: file
+              label: Archive ZIP
+              destination: '@self/fichiersfontes'
+              filesize: 100
+              accept:
+                - .zip
+                - .rar
+
+            header.custom.titresvg:
+              type: file
+              label: Titre SVG
+              destination: '@self/fichiersfontes'
+              filesize: 100

@@ -1,0 +1,11 @@
+state: enabled
+email: bonjour@benjamindumond.fr
+fullname: 'Benjamin Dumond'
+title: Administrator
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$bo6chXwZmNOS7LoAFFT/3ezZL.gog.nxqpaQtS/xCT7O7Lz/0zP0C
