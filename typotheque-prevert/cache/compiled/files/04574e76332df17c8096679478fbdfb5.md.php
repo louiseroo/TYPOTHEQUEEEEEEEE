@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledMarkdownFile',
     'filename' => '/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/pages/typotheque/04.death/typographie.md',
-    'modified' => 1678453828,
-    'size' => 401,
+    'modified' => 1678456933,
+    'size' => 649,
     'data' => [
         'header' => [
             'title' => 'Death',
@@ -19,7 +19,12 @@ return [
                     ]
                 ],
                 'fichiertypo' => [
-                    
+                    'user/pages/typotheque/04.death/fichiersfontes/Jester-13-DEATH.woff' => [
+                        'name' => 'Jester-13-DEATH.woff',
+                        'type' => 'font/woff',
+                        'size' => 343364,
+                        'path' => 'user/pages/typotheque/04.death/fichiersfontes/Jester-13-DEATH.woff'
+                    ]
                 ]
             ]
         ],
@@ -33,7 +38,12 @@ custom:
             type: application/zip
             size: 14883
             path: user/pages/typotheque/04.death/fichiersfontes/BasicallySerifBETA-Italic.zip
-    fichiertypo: {  }',
+    fichiertypo:
+        user/pages/typotheque/04.death/fichiersfontes/Jester-13-DEATH.woff:
+            name: Jester-13-DEATH.woff
+            type: font/woff
+            size: 343364
+            path: user/pages/typotheque/04.death/fichiersfontes/Jester-13-DEATH.woff',
         'markdown' => ''
     ]
 ];

@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/data/notifications/a14f640fcf99a0af733f1f4b9dd766a7.yaml',
-    'modified' => 1678453768,
+    'modified' => 1679294971,
     'size' => 8794,
     'data' => [
-        'last_checked' => 1678453768,
+        'last_checked' => 1679294971,
         'data' => [
             'feed' => [
                 0 => [

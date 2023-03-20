@@ -2,11 +2,11 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledJsonFile',
     'filename' => '/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/data/flex/indexes/pages.json',
-    'modified' => 1678453828,
+    'modified' => 1678456933,
     'size' => 2241,
     'data' => [
         'version' => '1.5',
-        'timestamp' => 1678453828,
+        'timestamp' => 1678456933,
         'count' => 9,
         'index' => [
             '' => [
@@ -97,23 +97,23 @@ return [
                 'key' => 'typotheque/death',
                 'storage_key' => 'typotheque/04.death',
                 'template' => 'typographie',
-                'storage_timestamp' => 1678453828,
+                'storage_timestamp' => 1678456933,
                 'markdown' => [
                     '' => [
-                        'typographie' => 1678453828
+                        'typographie' => 1678456933
                     ]
                 ],
                 'children' => [
-                    'fichiersfontes' => 1678453828
+                    'fichiersfontes' => 1678456933
                 ],
-                'checksum' => 'b728db37aebb6e7dd1db3d8932389c62'
+                'checksum' => '06e08aeaf4fbed574fc0f5576b21cddc'
             ],
             'typotheque/04.death/fichiersfontes' => [
                 'key' => 'typotheque/death/fichiersfontes',
                 'storage_key' => 'typotheque/04.death/fichiersfontes',
                 'template' => NULL,
-                'storage_timestamp' => 1678453828,
-                'checksum' => '94b9ea89d469dcd408566d44c22b4154'
+                'storage_timestamp' => 1678456933,
+                'checksum' => 'd7e2209d83e890a3940c9afb2e5f8363'
             ]
         ]
     ]

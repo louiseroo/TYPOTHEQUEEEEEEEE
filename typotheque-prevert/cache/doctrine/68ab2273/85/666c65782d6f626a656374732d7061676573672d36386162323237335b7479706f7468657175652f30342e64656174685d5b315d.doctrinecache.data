@@ -1,4 +1,4 @@
-1678454460
+1678457532
 O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:16:"typotheque/death";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:2:{s:5:"title";s:5:"Death";s:6:"custom";a:4:{s:6:"auteur";s:10:"Alan Moore";s:10:"datesortie";s:4:"2021";s:10:"archivezip";a:1:{s:75:"user/pages/typotheque/04.death/fichiersfontes/BasicallySerifBETA-Italic.zip";a:4:{s:4:"name";s:29:"BasicallySerifBETA-Italic.zip";s:4:"type";s:15:"application/zip";s:4:"size";i:14883;s:4:"path";s:75:"user/pages/typotheque/04.death/fichiersfontes/BasicallySerifBETA-Italic.zip";}}s:11:"fichiertypo";a:0:{}}}s:11:"frontmatter";s:391:"title: Death
 custom:
     auteur: 'Alan Moore'
