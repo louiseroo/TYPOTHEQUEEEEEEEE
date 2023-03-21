@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/accounts/etudiant.yaml',
-    'modified' => 1678440704,
+    'modified' => 1679412933,
     'size' => 520,
     'data' => [
         'state' => 'enabled',

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/flex-objects/languages/ja.yaml',
-    'modified' => 1677082903,
+    'modified' => 1679412933,
     'size' => 3858,
     'data' => [
         'PLUGIN_FLEX_OBJECTS' => [

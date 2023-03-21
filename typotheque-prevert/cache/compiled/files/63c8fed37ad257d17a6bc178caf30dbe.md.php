@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledMarkdownFile',
     'filename' => '/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/pages/typotheque/03.jester/typographie.md',
-    'modified' => 1678438732,
+    'modified' => 1679412933,
     'size' => 718,
     'data' => [
         'header' => [

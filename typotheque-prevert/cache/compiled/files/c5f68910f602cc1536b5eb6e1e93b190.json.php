@@ -2,118 +2,118 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledJsonFile',
     'filename' => '/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/data/flex/indexes/pages.json',
-    'modified' => 1678456933,
+    'modified' => 1679414422,
     'size' => 2241,
     'data' => [
         'version' => '1.5',
-        'timestamp' => 1678456933,
+        'timestamp' => 1679414422,
         'count' => 9,
         'index' => [
             '' => [
                 'key' => '',
                 'storage_key' => '',
                 'template' => NULL,
-                'storage_timestamp' => 1678440717,
+                'storage_timestamp' => 1679412933,
                 'children' => [
-                    '01.home' => 1677082903,
-                    'typotheque' => 1678291770
+                    '01.home' => 1679412933,
+                    'typotheque' => 1679412933
                 ],
-                'checksum' => 'ca6f94d283602147fe13f6f6be4e63b2'
+                'checksum' => 'f59375ccbb91523e3d0b9b46c36d5127'
             ],
             '01.home' => [
                 'key' => 'home',
                 'storage_key' => '01.home',
                 'template' => 'default',
-                'storage_timestamp' => 1677082903,
+                'storage_timestamp' => 1679412933,
                 'markdown' => [
                     '' => [
-                        'default' => 1677082903
+                        'default' => 1679412933
                     ]
                 ],
-                'checksum' => 'f9a67a0d302f3f9fc90f2a7b10a18a3d'
+                'checksum' => 'dae996fafd796396598f6be22a01c271'
             ],
             'typotheque' => [
                 'key' => 'typotheque',
                 'storage_key' => 'typotheque',
                 'template' => 'typotheque',
-                'storage_timestamp' => 1678453807,
+                'storage_timestamp' => 1679412933,
                 'markdown' => [
                     '' => [
-                        'typotheque' => 1678441118
+                        'typotheque' => 1679412933
                     ]
                 ],
                 'children' => [
-                    '02.michaux' => 1678438716,
-                    '03.jester' => 1678438732,
-                    '04.death' => 1678453807
+                    '02.michaux' => 1679412933,
+                    '03.jester' => 1679412933,
+                    '04.death' => 1679412933
                 ],
-                'checksum' => 'dc6d7fcd76d2a8115aeaef2f24eff971'
+                'checksum' => '3c016e5fa02dd74317c1e84139ddd7c5'
             ],
             'typotheque/02.michaux' => [
                 'key' => 'typotheque/michaux',
                 'storage_key' => 'typotheque/02.michaux',
                 'template' => 'typographie',
-                'storage_timestamp' => 1678438716,
+                'storage_timestamp' => 1679412933,
                 'markdown' => [
                     '' => [
-                        'typographie' => 1678438716
+                        'typographie' => 1679412933
                     ]
                 ],
                 'children' => [
-                    'fichiersfontes' => 1678438716
+                    'fichiersfontes' => 1679412933
                 ],
-                'checksum' => '634a50a884bc987df2ea597a5a339845'
+                'checksum' => '59d1d71533feca5181d39259a59552a0'
             ],
             'typotheque/02.michaux/fichiersfontes' => [
                 'key' => 'typotheque/michaux/fichiersfontes',
                 'storage_key' => 'typotheque/02.michaux/fichiersfontes',
                 'template' => NULL,
-                'storage_timestamp' => 1678438716,
-                'checksum' => '847407c0befa8ca0491b1c2e65a5178d'
+                'storage_timestamp' => 1679412933,
+                'checksum' => 'eb60ee7e2e7af31a2446d63b64656654'
             ],
             'typotheque/03.jester' => [
                 'key' => 'typotheque/jester',
                 'storage_key' => 'typotheque/03.jester',
                 'template' => 'typographie',
-                'storage_timestamp' => 1678438732,
+                'storage_timestamp' => 1679412933,
                 'markdown' => [
                     '' => [
-                        'typographie' => 1678438732
+                        'typographie' => 1679412933
                     ]
                 ],
                 'children' => [
-                    'fichiersfontes' => 1678438732
+                    'fichiersfontes' => 1679412933
                 ],
-                'checksum' => '83ced24ec9f42f8de50dcc92ce8c9b4a'
+                'checksum' => 'eacf62e8dc501e740bc7d472b7611035'
             ],
             'typotheque/03.jester/fichiersfontes' => [
                 'key' => 'typotheque/jester/fichiersfontes',
                 'storage_key' => 'typotheque/03.jester/fichiersfontes',
                 'template' => NULL,
-                'storage_timestamp' => 1678438732,
-                'checksum' => '3fdf9ad2d1e0c0636e4e83e7e27c90f3'
+                'storage_timestamp' => 1679412933,
+                'checksum' => 'a4ba45f91315e5f316879901ef3c0b0c'
             ],
             'typotheque/04.death' => [
                 'key' => 'typotheque/death',
                 'storage_key' => 'typotheque/04.death',
                 'template' => 'typographie',
-                'storage_timestamp' => 1678456933,
+                'storage_timestamp' => 1679412933,
                 'markdown' => [
                     '' => [
-                        'typographie' => 1678456933
+                        'typographie' => 1679412933
                     ]
                 ],
                 'children' => [
-                    'fichiersfontes' => 1678456933
+                    'fichiersfontes' => 1679412933
                 ],
-                'checksum' => '06e08aeaf4fbed574fc0f5576b21cddc'
+                'checksum' => '96f0e2ca91a5d9ac8dabecbeef7d967c'
             ],
             'typotheque/04.death/fichiersfontes' => [
                 'key' => 'typotheque/death/fichiersfontes',
                 'storage_key' => 'typotheque/04.death/fichiersfontes',
                 'template' => NULL,
-                'storage_timestamp' => 1678456933,
-                'checksum' => 'd7e2209d83e890a3940c9afb2e5f8363'
+                'storage_timestamp' => 1679412933,
+                'checksum' => '0814447d8485aa4d8051c597db6716c4'
             ]
         ]
     ]

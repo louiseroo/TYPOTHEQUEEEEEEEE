@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/data/feed/a14f640fcf99a0af733f1f4b9dd766a7.yaml',
-    'modified' => 1679294986,
+    'modified' => 1679414423,
     'size' => 1734,
     'data' => [
-        'last_checked' => 1679294986,
+        'last_checked' => 1679414423,
         'data' => [
             0 => [
                 'title' => 'macOS 13.0 Ventura Apache Setup: Upgrading Homebrew',
