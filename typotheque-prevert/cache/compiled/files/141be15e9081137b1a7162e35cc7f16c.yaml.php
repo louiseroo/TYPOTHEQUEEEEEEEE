@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/form/blueprints.yaml',
-    'modified' => 1677082903,
+    'modified' => 1679412933,
     'size' => 10222,
     'data' => [
         'name' => 'Form',

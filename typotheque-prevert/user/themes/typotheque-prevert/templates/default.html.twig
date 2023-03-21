@@ -11,6 +11,14 @@
           <h1 class="{{ post.title }}" ><a href="{{ base_url_absolute }}{{post.route}}/fichiersfontes/{{post.header.custom.archivezip|first.name}}">{{ post.title }}</a></h1>
           <div>Auteur(s) : {{ post.header.custom.auteur }}</div>
           <div>Année : {{ post.header.custom.datesortie }}</div>
+          <div class="{{ post.title }}" contenteditable="true">
+            A B C D E F G H I J K L M N O P Q R S T U V W X Y Z<br>
+            a b c d e f g h i j k l m n o p q r s t u v w x y z<br>
+            0 1 2 3 4 5 6 7 8 9<br>
+            Œ Ç À Â Ê Ë È É Î Ï Ô Û Ü Ù<br>
+            œ ç à â ê ë è é î ï ô û ü ù<br>
+            , . ; : ' ? ! · « » = ( ) - _ / @ €<br>
+        </div>
   {% endfor %}
   
 {% endblock %}

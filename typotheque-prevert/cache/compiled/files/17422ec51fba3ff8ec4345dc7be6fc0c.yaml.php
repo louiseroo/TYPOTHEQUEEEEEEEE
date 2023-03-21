@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/flex-objects/blueprints.yaml',
-    'modified' => 1677082903,
+    'modified' => 1679412933,
     'size' => 1394,
     'data' => [
         'name' => 'Flex Objects',
