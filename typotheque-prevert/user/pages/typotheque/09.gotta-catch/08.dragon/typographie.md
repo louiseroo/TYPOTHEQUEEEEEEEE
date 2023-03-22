@@ -1,5 +1,5 @@
 ---
-title: Dragon
+title: DRAGON
 custom:
     auteur: 'Jessy Moreira'
     datesortie: '2021'
