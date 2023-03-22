@@ -7,3 +7,28 @@ $(function() {
 	});
 });
 
+		var zoom = 1;
+
+			$('.target').css('transform', 'scale(' + zoom + ')');
+
+		$('.zoom').on('click', function(){
+			if (zoom < 3){
+				zoom += 0.3;
+			$('.target').css('transform', 'scale(' + zoom + ')');
+			};
+		});
+		$('.zoom-init').on('click', function(){
+			zoom = 1;
+			$('.target').css('transform', 'scale(' + zoom + ')');
+		});
+		$('.zoom-out').on('click', function(){
+			if (zoom > 1){
+				zoom -= 0.3;
+			$('.target').css('transform', 'scale(' + zoom + ')');
+		}
+		});
+
+  $( function() {
+    $( ".box" ).draggable();
+  } );
+
