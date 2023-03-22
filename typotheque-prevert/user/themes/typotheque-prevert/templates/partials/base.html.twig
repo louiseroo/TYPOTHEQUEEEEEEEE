@@ -13,15 +13,18 @@
     <link rel="canonical" href="{{ page.canonical(true)|e }}" />
 
     <style>
-        {% for post in pages.find('/typotheque').children %}
+  {% for workshop in pages.find('/typotheque').children %}
+    {% for font in workshop.children %}
         @font-face {
-            font-family: '{{post.title}}';
-            src: url('{{ base_url_absolute }}{{post.route}}/fichiersfontes/{{post.header.custom.fichiertypo|first.name}}') format('woff');
+            font-family: '{{font.title}}';
+            src: url('{{ base_url_absolute }}{{font.route}}/fichiersfontes/{{font.header.custom.fichiertypo|first.name}}') format('woff');
         }
-        .{{ post.title }}{
-            font-family:{{ post.title }};
+        .{{ font.title }}{
+            font-family:{{ font.title }};
         }
-        {% endfor %}
+    {% endfor %}
+   {% endfor %}
+
     </style>
 
 {% endblock head %}

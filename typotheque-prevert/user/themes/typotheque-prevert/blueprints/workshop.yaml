@@ -1,0 +1,28 @@
+title: Workshop
+extends@:
+  type: default
+  context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+          type: tab
+
+          fields:
+            
+            header.custom.anneeworkshop:
+              type: text
+              label: Année Workshop
+
+            header.custom.inviteworkshop:
+              type: text
+              label: Invité Workshop
+            
+            header.custom.urlspecimen:
+              type: text
+              label: Url specimen

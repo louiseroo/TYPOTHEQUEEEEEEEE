@@ -7,10 +7,12 @@
     {{ page.find('/typotheque').content|markdown }}
   </div> 
 
-  {% for post in pages.find('/typotheque').children %}
-          <h1 class="{{ post.title }}" ><a href="{{ base_url_absolute }}{{post.route}}/fichiersfontes/{{post.header.custom.archivezip|first.name}}">{{ post.title }}</a></h1>
-          <div>Auteur(s) : {{ post.header.custom.auteur }}</div>
-          <div>Année : {{ post.header.custom.datesortie }}</div>
+  {% for workshop in pages.find('/typotheque').children %}
+    {% for font in workshop.children %}
+    <div class="entree-font" data-workshop-name="{{ workshop.title }}" data-workshop-annee="{{ workshop.header.custom.anneeworkshop }}" data-workshop-invite="{{ workshop.header.custom.inviteworkshop }}" data-workshop-informations="{{ workshop.content }}">
+          <h1 class="{{ font.title }}" data-font-date="{{ font.header.custom.datesortie }}" data-font-lientelechargement="{{ base_url_absolute }}{{font.route}}/fichiersfontes/{{font.header.custom.archivezip|first.name}}" data-font-auteur="{{ font.header.custom.auteur }}">{{ font.title }}</h1>
+    </div>
+    {% endfor %}
   {% endfor %}
   
 {% endblock %}
