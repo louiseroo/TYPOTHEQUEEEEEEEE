@@ -23,6 +23,17 @@ form:
               type: text
               label: Date
 
+            header.custom.casses:
+              type: select
+              size: long
+              classes: fancy
+              label: Votre glyphset contient ?
+              default: glyphsetcomplet
+              options:
+                glyphsetcomplet: 'Tout'
+                glyphsetcapitales: 'Que les capitales'
+                glyphsetbasedecasse: 'Que les bas-de-casses'
+
             header.custom.archivezip:
               type: file
               label: Archive ZIP/RAR du fichier font
