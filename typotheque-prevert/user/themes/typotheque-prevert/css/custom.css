@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "SyneMono";
+    src: url("font/SyneMono-Regular.woff2") format("woff2");
+}
+
+
 /* Core Stuff */
 * {
     -webkit-box-sizing: border-box;
@@ -5,30 +11,57 @@
     box-sizing: border-box;
 }
 
+:root{
+    --primary-color: #ff5400;
+    --secondary-color: black;
+    --third-color: #FFBB99;
+    --grey-background-color: #fafafa;
+    --white-background-color: white;
+
+    --primary-font: "SyneMono";
+}
+
 body {
     font-size: 1rem;
     line-height: 1.7;
-    overflow: hidden;
+/*    overflow: hidden;*/
 }
 
 .header{
     width: 25vw;
-    padding-top: 10px;
     padding-left: 20px;
-    height: 10vh;
+    height: 12vh;
     position: fixed;
     z-index: 3;
-    background-color: white;
+    background-color: var(--white-background-color);
     box-shadow: 10px 5px 10px rgba(255, 84, 0, 0.5);
+    font-family: var(--primary-font);
+}
+
+h2{
+    font-size: 1.8em;
+    margin-top: 10px;
 }
 
 h1{
     width: fit-content;
     display: flex;
-    margin: 28px 20px 0px 20px; 
+    margin: 2px 20px 0px 20px; 
     font-size: 1.1em;
     position: relative;
-    color: #ff5400;
+    font-size: 1.3em;
+    color: var(--primary-color);
+}
+
+h5{
+    font-size: 1em;
+    margin-top: -2vh;
+    color: var(--primary-color);
+}
+
+h1:hover{
+    color: var(--secondary-color);
+    transition: color 1s;
 }
 
 #conteneur{
@@ -48,9 +81,13 @@ h1{
     left: 0vw;
     overflow: hidden;
     position: relative;
+    /*--pattern background--*/
+    background-color: var(--grey-background-color);
+    background-image: radial-gradient(var(--third-color) 1px, var(--grey-background-color) 1px);
+    background-size: 20px 20px;
 }
 
-.zoom{  
+.zoom-conteneur{  
     height:100vh;  
     width:50vw;  
     display:grid;  
@@ -58,18 +95,12 @@ h1{
     top:0;  
     left:33%;
     padding-top: 10px;
-  }
-
-body{
-    /*--pattern background--*/
-    background-color: #fafafa;
-    background-image: radial-gradient(#FFBB99 1px, #fafafa 1px);
-    background-size: 20px 20px;
 }
 
-
-
-
+.target{
+    transition: transform 1s;
+    transform-origin: top left;
+}
 
 
 #buttons{
@@ -77,30 +108,54 @@ body{
     height: fit-content;
     position: fixed;
     top: 40vh;
-    left: 93vw;
-
+    left: 96vw;
+    z-index: 10;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-/*    border: 1px solid black;*/
 }
 
 .btn {
     width: fit-content;
-    height: 10vh;
-
-
+    height: 3.5vh;
+    width: 3.5vh;
+    margin-bottom: 8px;
+    background-color: var(--secondary-color);
     display: flex;
     text-align: center;
     transition: all 0.3s ease;
     z-index: 1;
-/*    border: 1px solid red;*/
 }
 .btn:hover {
-  background: red;
+  background-color: var(--primary-color);
 }
 
 
+
+/*SCROLLBAR PROJETS*/
+
+/*barre de scroll*/
+::-webkit-scrollbar{
+  height: 8px;
+  width: 8px;
+}
+
+/* Trace de la barre de scroll */
+::-webkit-scrollbar-track {
+  background-color: var(--grey-background-color); 
+}
+ 
+/* Couleur de la barre */
+::-webkit-scrollbar-thumb {
+  background-color: var(--third-color); 
+  border-radius: 2.5px;
+}
+
+/* Couleur de la barre au déplacement */
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--primary-color); 
+  border-radius: 2.5px;
+}
 
 
 

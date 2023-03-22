@@ -15,7 +15,7 @@
 
 {# texte des fonts #}
 <div class="box target">
-  <div class="zoom" id="conteneur">
+  <div class="zoom-conteneur" id="conteneur">
     {% for workshop in pages.find('/typotheque').children %}
       {% for font in workshop.children %}
       <div class="entree-font" data-workshop-name="{{ workshop.title }}" data-workshop-annee="{{ workshop.header.custom.anneeworkshop }}" data-workshop-invite="{{ workshop.header.custom.inviteworkshop }}" data-workshop-informations="{{ workshop.content }}">
@@ -28,9 +28,9 @@
 
 
 <div id="buttons">
-  <div class="btn zoom">ZOOM IN</div>
-  <div class="btn zoom-out">ZOOM OUT</div>
-  <div class="btn zoom-init">RESET</div>
+  <div class="btn zoom"></div>
+  <div class="btn zoom-out"></div>
+  <div class="btn zoom-init"></div>
 </div>
 
 
