@@ -8,4 +8,59 @@
 body {
     font-size: 1rem;
     line-height: 1.7;
+    overflow: hidden;
 }
+
+.header{
+    width: 25vw;
+    padding-top: 10px;
+    padding-left: 20px;
+    height: 10vh;
+    position: fixed;
+    z-index: 3;
+    background-color: white;
+    box-shadow: 10px 5px 10px rgba(255, 84, 0, 0.5);
+}
+
+h1{
+    width: fit-content;
+    display: flex;
+    margin: 3px 20px 0px 20px; 
+    font-size: 1.1em;
+    position: relative;
+    color: #ff5400;
+}
+
+#conteneur{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    margin: auto;
+    grid-template-rows: repeat(30,20px);    
+    justify-content: start;
+}
+
+#box{
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    top: 0vh;
+    left: 0vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.zoom{  
+    height:100vh;  
+    width:50vw;  
+    display:grid;  
+    place-items:center;  
+    top:0;  
+    left:33%;
+    padding-top: 10px;
+      
+    /*--pattern background--*/
+    background-color: #ffffff;
+    background-image: radial-gradient(#FFBB99 1px, #ffffff 1px);
+    background-size: 20px 20px;
+  }
