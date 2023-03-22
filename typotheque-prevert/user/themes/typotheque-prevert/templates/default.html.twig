@@ -14,17 +14,26 @@
 
 
 {# texte des fonts #}
-<div id="box">
+<div class="box target">
   <div class="zoom" id="conteneur">
     {% for workshop in pages.find('/typotheque').children %}
       {% for font in workshop.children %}
       <div class="entree-font" data-workshop-name="{{ workshop.title }}" data-workshop-annee="{{ workshop.header.custom.anneeworkshop }}" data-workshop-invite="{{ workshop.header.custom.inviteworkshop }}" data-workshop-informations="{{ workshop.content }}">
-            <h1 class="{{ font.title }}" data-font-date="{{ font.header.custom.datesortie }}" data-font-lientelechargement="{{ base_url_absolute }}{{font.route}}/fichiersfontes/{{font.header.custom.archivezip|first.name}}" data-font-auteur="{{ font.header.custom.auteur }}">manger des fleurs</h1>
+            <h1 class="{{ font.title }}" data-font-date="{{ font.header.custom.datesortie }}" data-font-lientelechargement="{{ base_url_absolute }}{{font.route}}/fichiersfontes/{{font.header.custom.archivezip|first.name}}" data-font-auteur="{{ font.header.custom.auteur }}" contenteditable>manger des fleurs</h1>
       </div>
       {% endfor %}
     {% endfor %}
   </div>
 </div>
+
+
+<div id="buttons">
+  <div class="btn zoom">ZOOM IN</div>
+  <div class="btn zoom-out">ZOOM OUT</div>
+  <div class="btn zoom-init">RESET</div>
+</div>
+
+
 
 
   
