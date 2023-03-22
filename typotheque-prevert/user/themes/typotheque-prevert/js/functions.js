@@ -25,10 +25,7 @@ $(function() {
 			$('.target').css('transform', 'scale(' + zoom + ')');
 		}
 		});
-
-  $( function() {
-    $( ".box" ).draggable();
-  } );
+  
 });
 
 

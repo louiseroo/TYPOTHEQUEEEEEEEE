@@ -35,7 +35,8 @@
 
 {% block javascripts %}
     {% do assets.addJs('jquery', 100) %}
-    {% do assets.addJs('theme://js/functions.js', 99) %}
+    {% do assets.addJs('theme://js/jquery-ui.js', 99) %}
+    {% do assets.addJs('theme://js/functions.js', 98) %}
 {% endblock %}
 
 {% block assets deferred %}
@@ -47,7 +48,9 @@
 
 {% block header %}
     <div class="header">
-        Typothèque DNMADE Lycée Jacques Prévert
+        <h2>Typothèque Chic Type<h2>
+        <h5>infos + contact</h5>
+
     </div>
 {% endblock %}
 
