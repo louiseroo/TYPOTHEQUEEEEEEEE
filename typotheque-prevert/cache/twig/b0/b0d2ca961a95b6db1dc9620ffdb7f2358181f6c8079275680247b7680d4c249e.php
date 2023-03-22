@@ -84,6 +84,6 @@ class __TwigTemplate_38bb89fcc9400ff483a4851bfd2e114ff099a587e504f2366b1ba888e0b
         <ul></ul>
     </div>
 </div>
-", "partials/dashboard-notifications.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/dashboard-notifications.html.twig");
+", "partials/dashboard-notifications.html.twig", "/Applications/MAMP/htdocs/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/dashboard-notifications.html.twig");
     }
 }

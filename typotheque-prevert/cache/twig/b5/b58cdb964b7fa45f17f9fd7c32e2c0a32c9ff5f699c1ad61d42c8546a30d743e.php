@@ -73,6 +73,6 @@ class __TwigTemplate_91886dfe59d7bae8ef7ee5ee7aa25fb2d5a4c92d415bb38e0f1bd35d340
 {% if xss_status is not empty %}
     <div class=\"notice alert\">{{ \"PLUGIN_ADMIN.XSS_ISSUE\"|t(xss_status)|raw }}</div>
 {% endif %}
-", "forms/fields/xss/xss.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/forms/fields/xss/xss.html.twig");
+", "forms/fields/xss/xss.html.twig", "/Applications/MAMP/htdocs/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/forms/fields/xss/xss.html.twig");
     }
 }

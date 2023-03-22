@@ -665,6 +665,6 @@ class __TwigTemplate_b4ba6c7d206eb19bdf74466d08ac0f329e65b8f4cdd131b85b2336858c5
     {% endblock body %}
     </html>
 {% endif %}
-", "partials/base-root.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/base-root.html.twig");
+", "partials/base-root.html.twig", "/Applications/MAMP/htdocs/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/base-root.html.twig");
     }
 }

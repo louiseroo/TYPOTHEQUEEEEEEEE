@@ -79,6 +79,6 @@ class __TwigTemplate_5157581ae3360d7e953411f8ae9bfe5cf8c86a58262f021b9dc72969e6d
         return new Source("{% for entry in notifications %}
 <li class=\"single-notification {{ entry.type }}-notification\"><span class=\"badge alert {{ entry.type }}\">{{ entry.type|capitalize }}</span><a target=\"_blank\" href=\"{{ entry.link }}\" title=\"{{ entry.message|striptags|e('html_attr') }}\">{{ entry.message|raw }}</a></li>
 {% endfor %}
-", "partials/notification-feed-block.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/notification-feed-block.html.twig");
+", "partials/notification-feed-block.html.twig", "/Applications/MAMP/htdocs/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/notification-feed-block.html.twig");
     }
 }

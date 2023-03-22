@@ -80,6 +80,6 @@ class __TwigTemplate_bf12e06d57fb30fba214d18f712337f873c782be6ea0f512bf4a51e00ce
         <i class=\"fa fa-chevron-right\"></i>
     </span>
 {% endif %}
-", "flex-objects/types/pages/buttons/nav-next.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/flex-objects/admin/templates/flex-objects/types/pages/buttons/nav-next.html.twig");
+", "flex-objects/types/pages/buttons/nav-next.html.twig", "/Applications/MAMP/htdocs/typotheque-prevert/typotheque-prevert/user/plugins/flex-objects/admin/templates/flex-objects/types/pages/buttons/nav-next.html.twig");
     }
 }

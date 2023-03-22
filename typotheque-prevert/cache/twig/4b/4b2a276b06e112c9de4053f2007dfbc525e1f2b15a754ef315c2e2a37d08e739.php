@@ -93,6 +93,6 @@ class __TwigTemplate_427bb119fc9bd3bd9620328c2c660e7acd3277a924f6b5f60c08a11c5cf
         </div>
     </form>
 </div>
-", "partials/modal-changes-detected.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/modal-changes-detected.html.twig");
+", "partials/modal-changes-detected.html.twig", "/Applications/MAMP/htdocs/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/modal-changes-detected.html.twig");
     }
 }

@@ -285,6 +285,6 @@ class __TwigTemplate_2c1c6441f568986506d8fb1ce6b1a67a8874b2b81ec4b7e1c66a0493810
 
     </form>
 </div>
-", "partials/modal-update-packages.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/modal-update-packages.html.twig");
+", "partials/modal-update-packages.html.twig", "/Applications/MAMP/htdocs/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/modal-update-packages.html.twig");
     }
 }

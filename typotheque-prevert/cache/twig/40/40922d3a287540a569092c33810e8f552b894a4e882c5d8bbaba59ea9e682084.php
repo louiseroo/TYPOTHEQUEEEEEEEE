@@ -634,6 +634,6 @@ $context["add_modal"], "with", []), []))));
         </form>
     </div>
 {% endblock %}
-", "flex-objects/types/pages/list/columns.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/flex-objects/admin/templates/flex-objects/types/pages/list/columns.html.twig");
+", "flex-objects/types/pages/list/columns.html.twig", "/Applications/MAMP/htdocs/typotheque-prevert/typotheque-prevert/user/plugins/flex-objects/admin/templates/flex-objects/types/pages/list/columns.html.twig");
     }
 }

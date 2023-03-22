@@ -71,6 +71,6 @@ class __TwigTemplate_c243fea8ab52bc91368f138924f38ddb50e337e101925e74f1ac488ba52
 </a>
 <div class=\"remodal parents-container\" data-remodal-id=\"move\" data-remodal-options=\"hashTracking: false\">
     {% include 'partials/page-move.html.twig' with { blueprints: admin.blueprints('admin/pages/move'), data: context } %}
-</div>", "flex-objects/types/pages/buttons/move.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/flex-objects/admin/templates/flex-objects/types/pages/buttons/move.html.twig");
+</div>", "flex-objects/types/pages/buttons/move.html.twig", "/Applications/MAMP/htdocs/typotheque-prevert/typotheque-prevert/user/plugins/flex-objects/admin/templates/flex-objects/types/pages/buttons/move.html.twig");
     }
 }

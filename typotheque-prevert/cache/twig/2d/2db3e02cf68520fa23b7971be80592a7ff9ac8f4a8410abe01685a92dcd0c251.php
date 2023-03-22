@@ -84,6 +84,6 @@ class __TwigTemplate_ec217cb19641eedd0dfd0b6e99018e780545701268c54eac6262c238c4f
     {% include 'forms/default/fields.html.twig' with {name: field.name|parent_field, fields: field.fields, fallback_field: 'column', cols: cols} %}
 </div>
 {% endblock %}
-", "forms/fields/columns/columns.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/forms/fields/columns/columns.html.twig");
+", "forms/fields/columns/columns.html.twig", "/Applications/MAMP/htdocs/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/forms/fields/columns/columns.html.twig");
     }
 }

@@ -93,6 +93,6 @@ class __TwigTemplate_45fe7aab099dd02909e54c85fa52b892c2321f9cefb18321c16c95b71ae
         return new Source("{% for meta in page.metadata %}
     <meta {% if meta.name %}name=\"{{ meta.name|e }}\" {% endif %}{% if meta.http_equiv %}http-equiv=\"{{ meta.http_equiv|e }}\" {% endif %}{% if meta.charset %}charset=\"{{ meta.charset|e }}\" {% endif %}{% if meta.property %}property=\"{{ meta.property|e }}\" {% endif %}{% if meta.content %}content=\"{{ meta.content|raw }}\" {% endif %}/>
 {% endfor %}
-", "partials/metadata.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/system/templates/partials/metadata.html.twig");
+", "partials/metadata.html.twig", "/Applications/MAMP/htdocs/typotheque-prevert/typotheque-prevert/system/templates/partials/metadata.html.twig");
     }
 }

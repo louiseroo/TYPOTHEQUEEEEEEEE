@@ -220,7 +220,7 @@ class __TwigTemplate_6b4835e26e5558951a49b44a8100be09a52de7ba11184f2c4ef9078ed6c
         <div class=\"tabs-content\">
             ";
                 // line 48
-                $this->loadTemplate("forms/fields/tabs/tabs.html.twig", "forms/fields/tabs/tabs.html.twig", 48, "171007994")->display(twig_array_merge($context, ["name" => $this->getAttribute(($context["field"] ?? null), "name", []), "fields" => ($context["fields"] ?? null)]));
+                $this->loadTemplate("forms/fields/tabs/tabs.html.twig", "forms/fields/tabs/tabs.html.twig", 48, "657552665")->display(twig_array_merge($context, ["name" => $this->getAttribute(($context["field"] ?? null), "name", []), "fields" => ($context["fields"] ?? null)]));
                 // line 56
                 echo "        </div>
     ";
@@ -316,13 +316,13 @@ class __TwigTemplate_6b4835e26e5558951a49b44a8100be09a52de7ba11184f2c4ef9078ed6c
 {% endif %}
 </div>
 {% endblock %}
-", "forms/fields/tabs/tabs.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/form/templates/forms/fields/tabs/tabs.html.twig");
+", "forms/fields/tabs/tabs.html.twig", "/Applications/MAMP/htdocs/typotheque-prevert/typotheque-prevert/user/plugins/form/templates/forms/fields/tabs/tabs.html.twig");
     }
 }
 
 
 /* forms/fields/tabs/tabs.html.twig */
-class __TwigTemplate_6b4835e26e5558951a49b44a8100be09a52de7ba11184f2c4ef9078ed6c70c27___171007994 extends \Twig\Template
+class __TwigTemplate_6b4835e26e5558951a49b44a8100be09a52de7ba11184f2c4ef9078ed6c70c27___657552665 extends \Twig\Template
 {
     public function __construct(Environment $env)
     {
@@ -451,6 +451,6 @@ class __TwigTemplate_6b4835e26e5558951a49b44a8100be09a52de7ba11184f2c4ef9078ed6c
 {% endif %}
 </div>
 {% endblock %}
-", "forms/fields/tabs/tabs.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/form/templates/forms/fields/tabs/tabs.html.twig");
+", "forms/fields/tabs/tabs.html.twig", "/Applications/MAMP/htdocs/typotheque-prevert/typotheque-prevert/user/plugins/form/templates/forms/fields/tabs/tabs.html.twig");
     }
 }

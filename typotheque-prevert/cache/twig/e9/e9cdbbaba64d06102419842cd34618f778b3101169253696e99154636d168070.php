@@ -81,6 +81,6 @@ class __TwigTemplate_0318639d27060729e58b68d1ca29fae228c9c34e26d2d14234c553005b7
     {% set codemirrorOptions = codemirrorOptions|merge({'ignore': []}) %}
 {% endif %}
 {# end backward compatibility #}
-", "forms/fields/codemirror/codemirror.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/forms/fields/codemirror/codemirror.html.twig");
+", "forms/fields/codemirror/codemirror.html.twig", "/Applications/MAMP/htdocs/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/forms/fields/codemirror/codemirror.html.twig");
     }
 }

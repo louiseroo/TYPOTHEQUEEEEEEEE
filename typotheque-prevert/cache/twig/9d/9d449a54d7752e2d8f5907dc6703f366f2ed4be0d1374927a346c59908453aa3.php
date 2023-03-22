@@ -881,6 +881,6 @@ class __TwigTemplate_e5f7e5b4d8bab4d0d33e48fa311940b80d344de948bfe505416602187f1
         \$('.admin-pages .form-tabs .tabs-nav').css('margin-right', (\$('#admin-topbar').width() + 20) + 'px');
     </script>
 {% endblock bottom %}
-", "flex-objects/types/pages/edit.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/flex-objects/admin/templates/flex-objects/types/pages/edit.html.twig");
+", "flex-objects/types/pages/edit.html.twig", "/Applications/MAMP/htdocs/typotheque-prevert/typotheque-prevert/user/plugins/flex-objects/admin/templates/flex-objects/types/pages/edit.html.twig");
     }
 }

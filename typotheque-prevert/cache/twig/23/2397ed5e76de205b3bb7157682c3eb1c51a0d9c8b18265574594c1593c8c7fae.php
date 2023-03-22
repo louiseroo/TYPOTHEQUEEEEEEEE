@@ -75,6 +75,6 @@ class __TwigTemplate_e65a3ea6c4be942a6ff9fcbba857cb66ddbb6f1d006db44547ff1fd586a
         return new Source("{% for entry in feed %}
 <li><span class=\"date\">{{ entry.nicetime }}</span> <a href=\"{{ entry.url }}\" target=\"_blank\" title=\"{{ entry.title|striptags|e('html_attr') }}\">{{ entry.title }}</a>
 {% endfor %}
-", "partials/feed-block.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/feed-block.html.twig");
+", "partials/feed-block.html.twig", "/Applications/MAMP/htdocs/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/feed-block.html.twig");
     }
 }

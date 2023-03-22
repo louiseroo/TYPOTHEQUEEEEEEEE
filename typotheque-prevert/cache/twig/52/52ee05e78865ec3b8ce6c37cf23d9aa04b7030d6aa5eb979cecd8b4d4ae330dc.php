@@ -196,6 +196,6 @@ $context["name"]), "name" =>             // line 28
     {% include 'forms/fields/select/select.html.twig' %}
 {% endfor %}
 {% endblock %}
-", "forms/fields/taxonomy/taxonomy.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/forms/fields/taxonomy/taxonomy.html.twig");
+", "forms/fields/taxonomy/taxonomy.html.twig", "/Applications/MAMP/htdocs/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/forms/fields/taxonomy/taxonomy.html.twig");
     }
 }

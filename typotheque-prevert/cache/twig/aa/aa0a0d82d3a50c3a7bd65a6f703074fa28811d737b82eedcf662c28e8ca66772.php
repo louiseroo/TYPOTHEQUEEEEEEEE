@@ -153,6 +153,6 @@ class __TwigTemplate_5daac23107a10fba5e89af415acd035db5818d6b395646cb3828675a472
     {% include 'partials/modal-update-packages.html.twig' with { type: 'plugin' } %}
 
 {% endif %}
-", "partials/dashboard-maintenance.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/dashboard-maintenance.html.twig");
+", "partials/dashboard-maintenance.html.twig", "/Applications/MAMP/htdocs/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/dashboard-maintenance.html.twig");
     }
 }

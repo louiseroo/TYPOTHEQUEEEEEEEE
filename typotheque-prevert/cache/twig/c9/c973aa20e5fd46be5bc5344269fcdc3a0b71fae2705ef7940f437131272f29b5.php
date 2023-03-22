@@ -70,6 +70,6 @@ class __TwigTemplate_f5f263f5e11cb5f488c9b9f828b62c4e80028675956edf3d570ddd0c641
     <i class=\"fa fa-eye\"></i>
 </a>
 {% endif %}
-", "flex-objects/types/pages/buttons/preview.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/flex-objects/admin/templates/flex-objects/types/pages/buttons/preview.html.twig");
+", "flex-objects/types/pages/buttons/preview.html.twig", "/Applications/MAMP/htdocs/typotheque-prevert/typotheque-prevert/user/plugins/flex-objects/admin/templates/flex-objects/types/pages/buttons/preview.html.twig");
     }
 }

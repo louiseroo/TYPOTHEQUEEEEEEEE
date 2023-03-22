@@ -134,6 +134,6 @@ class __TwigTemplate_d81b09c73df1bb0705710b3a6a14df2a479dbe4c6ba96ce6a76c7bdc686
         <a class=\"front-end hint--left\" data-hint=\"{{ \"PLUGIN_ADMIN.VIEW_SITE_TIP\"|t }}\" target=\"_blank\" href=\"{{ base_url_relative_frontend }}\"> <i class=\"fa fa-external-link\"></i></a>
     </div>
 {% endif %}
-", "partials/logo.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/logo.html.twig");
+", "partials/logo.html.twig", "/Applications/MAMP/htdocs/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/logo.html.twig");
     }
 }

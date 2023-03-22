@@ -238,6 +238,6 @@ class __TwigTemplate_bd1ab162ab94bf74a1dd0216faebc52d5398ce68d7273b7adbb43bb6229
         </div>
     </nav>
 {% endif %}
-", "partials/nav.html.twig", "/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/nav.html.twig");
+", "partials/nav.html.twig", "/Applications/MAMP/htdocs/typotheque-prevert/typotheque-prevert/user/plugins/admin/themes/grav/templates/partials/nav.html.twig");
     }
 }
