@@ -30,7 +30,6 @@ body {
 .header{
     width: 25vw;
     padding-left: 20px;
-    height: 12vh;
     position: fixed;
     z-index: 3;
     background-color: var(--white-background-color);
@@ -56,12 +55,13 @@ h1{
 h5{
     font-size: 1em;
     margin-top: -2vh;
+    margin-bottom: 1vh;
     color: var(--primary-color);
 }
 
 h1:hover{
     color: var(--secondary-color);
-    transition: color 1s;
+    transition: color 0.5s ease-in-out;
 }
 
 #conteneur{
@@ -80,7 +80,7 @@ h1:hover{
     top: 0vh;
     left: 0vw;
     overflow: hidden;
-    position: relative;
+    position: absolute;
     /*--pattern background--*/
     background-color: var(--grey-background-color);
     background-image: radial-gradient(var(--third-color) 1px, var(--grey-background-color) 1px);
@@ -158,6 +158,42 @@ h1:hover{
 }
 
 
+
+/*ACCORDION HEADER*/
+.accordion {
+  cursor: pointer;
+  transition: 0.4s;
+  outline: none;
+  border: none;
+  background-color: var(--white-background-color);
+}
+
+.panel, .panel-font {
+  padding: 0 18px;
+  background-color: white;
+  overflow: hidden;
+  display: none;
+  transition: max-height 0.2s ease-out;
+}
+
+
+[contenteditable]{
+    outline: 0px solid transparent;
+}
+
+
+
+
+/*INFOS FONT*/
+
+
+h3{
+    font-size: 2em;
+}
+
+h4{
+
+}
 
 
 
