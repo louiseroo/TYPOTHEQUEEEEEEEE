@@ -3,17 +3,30 @@
 
 {% block content %}
 
-  <div class="colophon">
+
+{# texte intro colophon #}
+{#   <div class="colophon">
     {{ page.find('/typotheque').content|markdown }}
   </div> 
 
-  {% for workshop in pages.find('/typotheque').children %}
-    {% for font in workshop.children %}
-    <div class="entree-font" data-workshop-name="{{ workshop.title }}" data-workshop-annee="{{ workshop.header.custom.anneeworkshop }}" data-workshop-invite="{{ workshop.header.custom.inviteworkshop }}" data-workshop-informations="{{ workshop.content }}">
-          <h1 class="{{ font.title }}" data-font-date="{{ font.header.custom.datesortie }}" data-font-lientelechargement="{{ base_url_absolute }}{{font.route}}/fichiersfontes/{{font.header.custom.archivezip|first.name}}" data-font-auteur="{{ font.header.custom.auteur }}">{{ font.title }}</h1>
-    </div>
+ #}
+
+
+
+{# texte des fonts #}
+<div id="box">
+  <div class="zoom" id="conteneur">
+    {% for workshop in pages.find('/typotheque').children %}
+      {% for font in workshop.children %}
+      <div class="entree-font" data-workshop-name="{{ workshop.title }}" data-workshop-annee="{{ workshop.header.custom.anneeworkshop }}" data-workshop-invite="{{ workshop.header.custom.inviteworkshop }}" data-workshop-informations="{{ workshop.content }}">
+            <h1 class="{{ font.title }}" data-font-date="{{ font.header.custom.datesortie }}" data-font-lientelechargement="{{ base_url_absolute }}{{font.route}}/fichiersfontes/{{font.header.custom.archivezip|first.name}}" data-font-auteur="{{ font.header.custom.auteur }}">manger des fleurs</h1>
+      </div>
+      {% endfor %}
     {% endfor %}
-  {% endfor %}
+  </div>
+</div>
+
+
   
 {% endblock %}
 
