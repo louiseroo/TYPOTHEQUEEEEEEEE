@@ -15,5 +15,6 @@ custom:
             type: font/woff
             size: 13132
             path: user/pages/typotheque/05.bug/fichiersfontes/Bug-Regular.woff
+    casses: glyphsetcapitales
 ---
 
