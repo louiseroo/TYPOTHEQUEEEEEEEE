@@ -25,7 +25,7 @@ body {
 h1{
     width: fit-content;
     display: flex;
-    margin: 3px 20px 0px 20px; 
+    margin: 28px 20px 0px 20px; 
     font-size: 1.1em;
     position: relative;
     color: #ff5400;
@@ -40,7 +40,7 @@ h1{
     justify-content: start;
 }
 
-#box{
+.box{
     height: 100vh;
     width: 100vw;
     z-index: 1;
@@ -58,9 +58,51 @@ h1{
     top:0;  
     left:33%;
     padding-top: 10px;
-      
-    /*--pattern background--*/
-    background-color: #ffffff;
-    background-image: radial-gradient(#FFBB99 1px, #ffffff 1px);
-    background-size: 20px 20px;
   }
+
+body{
+    /*--pattern background--*/
+    background-color: #fafafa;
+    background-image: radial-gradient(#FFBB99 1px, #fafafa 1px);
+    background-size: 20px 20px;
+}
+
+
+
+
+
+
+#buttons{
+    width: 20vw;
+    height: fit-content;
+    position: fixed;
+    top: 40vh;
+    left: 93vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+/*    border: 1px solid black;*/
+}
+
+.btn {
+    width: fit-content;
+    height: 10vh;
+
+
+    display: flex;
+    text-align: center;
+    transition: all 0.3s ease;
+    z-index: 1;
+/*    border: 1px solid red;*/
+}
+.btn:hover {
+  background: red;
+}
+
+
+
+
+
+
+
