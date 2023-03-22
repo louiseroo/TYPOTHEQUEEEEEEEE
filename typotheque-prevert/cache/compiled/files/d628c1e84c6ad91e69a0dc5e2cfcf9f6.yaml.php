@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/config/security.yaml',
-    'modified' => 1679412933,
+    'modified' => 1679474026,
     'size' => 557,
     'data' => [
         'xss_whitelist' => [

@@ -1,91 +1,91 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1679413779,
-    'checksum' => '549f738d4ecf4fd8c4cdb0cb898cc65a',
+    'timestamp' => 1679476522,
+    'checksum' => 'c2e2dea3bb294c96731872ad26df8eb1',
     'files' => [
         'user/plugins/admin/blueprints/config' => [
             'media' => [
                 'file' => 'user/plugins/admin/blueprints/config/media.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474026
             ]
         ],
         'system/blueprints/config' => [
             'backups' => [
                 'file' => 'system/blueprints/config/backups.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474025
             ],
             'media' => [
                 'file' => 'system/blueprints/config/media.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474025
             ],
             'scheduler' => [
                 'file' => 'system/blueprints/config/scheduler.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474025
             ],
             'security' => [
                 'file' => 'system/blueprints/config/security.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474025
             ],
             'site' => [
                 'file' => 'system/blueprints/config/site.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474025
             ],
             'streams' => [
                 'file' => 'system/blueprints/config/streams.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474025
             ],
             'system' => [
                 'file' => 'system/blueprints/config/system.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474025
             ]
         ],
         'user/plugins' => [
             'plugins/form' => [
                 'file' => 'user/plugins/form/blueprints.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474026
             ],
             'plugins/devtools' => [
                 'file' => 'user/plugins/devtools/blueprints.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474026
             ],
             'plugins/markdown-notices' => [
                 'file' => 'user/plugins/markdown-notices/blueprints.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474026
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/blueprints.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474026
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/blueprints.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474026
             ],
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/blueprints.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474026
             ],
             'plugins/flex-objects' => [
                 'file' => 'user/plugins/flex-objects/blueprints.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474026
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/blueprints.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474026
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/blueprints.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474026
             ]
         ],
         'user/themes' => [
             'themes/typotheque-prevert' => [
                 'file' => 'user/themes/typotheque-prevert/blueprints.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474026
             ],
             'themes/quark' => [
                 'file' => 'user/themes/quark/blueprints.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474026
             ]
         ]
     ],

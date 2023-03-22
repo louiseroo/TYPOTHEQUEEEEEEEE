@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledMarkdownFile',
     'filename' => '/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/pages/01.home/default.md',
-    'modified' => 1679412933,
+    'modified' => 1679474026,
     'size' => 2418,
     'data' => [
         'header' => [

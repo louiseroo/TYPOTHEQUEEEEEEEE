@@ -46,47 +46,47 @@ class __TwigTemplate_b6d052444fb3ddd693a7251a0a86ffa0d4e4f52cf28084f63959b13a866
 ";
         // line 4
         $this->displayBlock('head', $context, $blocks);
-        // line 28
+        // line 31
         echo "
 ";
-        // line 29
-        $this->displayBlock('stylesheets', $context, $blocks);
         // line 32
+        $this->displayBlock('stylesheets', $context, $blocks);
+        // line 35
         echo "
 ";
-        // line 33
+        // line 36
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 37
+        // line 40
         echo "
 ";
-        // line 38
+        // line 41
         $this->displayBlock('assets', $context, $blocks);
-        // line 42
+        // line 45
         echo "</head>
 <body id=\"top\" class=\"";
-        // line 43
+        // line 46
         echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "body_classes", []));
         echo "\">
 
 ";
-        // line 45
+        // line 48
         $this->displayBlock('header', $context, $blocks);
-        // line 50
+        // line 53
         echo "
 ";
-        // line 51
+        // line 54
         $this->displayBlock('body', $context, $blocks);
-        // line 58
+        // line 61
         echo "
 ";
-        // line 59
-        $this->displayBlock('footer', $context, $blocks);
         // line 62
+        $this->displayBlock('footer', $context, $blocks);
+        // line 65
         echo "
 ";
-        // line 63
-        $this->displayBlock('bottom', $context, $blocks);
         // line 66
+        $this->displayBlock('bottom', $context, $blocks);
+        // line 69
         echo "
 </body>
 </html>
@@ -118,60 +118,72 @@ class __TwigTemplate_b6d052444fb3ddd693a7251a0a86ffa0d4e4f52cf28084f63959b13a866
         echo "\" />
 
     <style>
-        ";
+  ";
         // line 16
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute(($context["pages"] ?? null), "find", [0 => "/typotheque"], "method"), "children", []));
-        foreach ($context['_seq'] as $context["_key"] => $context["post"]) {
+        foreach ($context['_seq'] as $context["_key"] => $context["workshop"]) {
             // line 17
-            echo "        @font-face {
+            echo "    ";
+            $context['_parent'] = $context;
+            $context['_seq'] = twig_ensure_traversable($this->getAttribute($context["workshop"], "children", []));
+            foreach ($context['_seq'] as $context["_key"] => $context["font"]) {
+                // line 18
+                echo "        @font-face {
             font-family: '";
-            // line 18
-            echo twig_escape_filter($this->env, $this->getAttribute($context["post"], "title", []), "html", null, true);
-            echo "';
+                // line 19
+                echo twig_escape_filter($this->env, $this->getAttribute($context["font"], "title", []), "html", null, true);
+                echo "';
             src: url('";
-            // line 19
-            echo twig_escape_filter($this->env, ($context["base_url_absolute"] ?? null), "html", null, true);
-            echo twig_escape_filter($this->env, $this->getAttribute($context["post"], "route", []), "html", null, true);
-            echo "/fichiersfontes/";
-            echo twig_escape_filter($this->env, $this->getAttribute(twig_first($this->env, $this->getAttribute($this->getAttribute($this->getAttribute($context["post"], "header", []), "custom", []), "fichiertypo", [])), "name", []), "html", null, true);
-            echo "') format('woff');
+                // line 20
+                echo twig_escape_filter($this->env, ($context["base_url_absolute"] ?? null), "html", null, true);
+                echo twig_escape_filter($this->env, $this->getAttribute($context["font"], "route", []), "html", null, true);
+                echo "/fichiersfontes/";
+                echo twig_escape_filter($this->env, $this->getAttribute(twig_first($this->env, $this->getAttribute($this->getAttribute($this->getAttribute($context["font"], "header", []), "custom", []), "fichiertypo", [])), "name", []), "html", null, true);
+                echo "') format('woff');
         }
         .";
-            // line 21
-            echo twig_escape_filter($this->env, $this->getAttribute($context["post"], "title", []), "html", null, true);
-            echo "{
+                // line 22
+                echo twig_escape_filter($this->env, $this->getAttribute($context["font"], "title", []), "html", null, true);
+                echo "{
             font-family:";
-            // line 22
-            echo twig_escape_filter($this->env, $this->getAttribute($context["post"], "title", []), "html", null, true);
-            echo ";
+                // line 23
+                echo twig_escape_filter($this->env, $this->getAttribute($context["font"], "title", []), "html", null, true);
+                echo ";
         }
-        ";
+    ";
+            }
+            $_parent = $context['_parent'];
+            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['font'], $context['_parent'], $context['loop']);
+            $context = array_intersect_key($context, $_parent) + $_parent;
+            // line 26
+            echo "   ";
         }
         $_parent = $context['_parent'];
-        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['post'], $context['_parent'], $context['loop']);
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['workshop'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 25
-        echo "    </style>
+        // line 27
+        echo "
+    </style>
 
 ";
     }
 
-    // line 29
+    // line 32
     public function block_stylesheets($context, array $blocks = [])
     {
-        // line 30
+        // line 33
         echo "    ";
         $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => "theme://css/custom.css", 1 => 98], "method");
     }
 
-    // line 33
+    // line 36
     public function block_javascripts($context, array $blocks = [])
     {
-        // line 34
+        // line 37
         echo "    ";
         $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "jquery", 1 => 100], "method");
-        // line 35
+        // line 38
         echo "    ";
         $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/functions.js", 1 => 99], "method");
     }
@@ -181,63 +193,63 @@ class __TwigTemplate_b6d052444fb3ddd693a7251a0a86ffa0d4e4f52cf28084f63959b13a866
         $this->deferred->defer($this, 'assets');
     }
 
-    // line 38
+    // line 41
     public function block_assets_deferred($context, array $blocks = [])
     {
-        // line 39
+        // line 42
         echo "    ";
         echo $this->getAttribute(($context["assets"] ?? null), "css", [], "method");
         echo "
     ";
-        // line 40
+        // line 43
         echo $this->getAttribute(($context["assets"] ?? null), "js", [], "method");
         echo "
 ";
         $this->deferred->resolve($this, $context, $blocks);
     }
 
-    // line 45
+    // line 48
     public function block_header($context, array $blocks = [])
     {
-        // line 46
+        // line 49
         echo "    <div class=\"header\">
         Typothèque DNMAD Lycée Jacques Prévert
     </div>
 ";
     }
 
-    // line 51
+    // line 54
     public function block_body($context, array $blocks = [])
     {
-        // line 52
+        // line 55
         echo "    <section id=\"body\">
         <div class=\"wrapper padding\">
         ";
-        // line 54
+        // line 57
         $this->displayBlock('content', $context, $blocks);
-        // line 55
+        // line 58
         echo "        </div>
     </section>
 ";
     }
 
-    // line 54
+    // line 57
     public function block_content($context, array $blocks = [])
     {
     }
 
-    // line 59
+    // line 62
     public function block_footer($context, array $blocks = [])
     {
-        // line 60
+        // line 63
         echo "
 ";
     }
 
-    // line 63
+    // line 66
     public function block_bottom($context, array $blocks = [])
     {
-        // line 64
+        // line 67
         echo "    ";
         echo $this->getAttribute(($context["assets"] ?? null), "js", [0 => "bottom"], "method");
         echo "
@@ -256,7 +268,7 @@ class __TwigTemplate_b6d052444fb3ddd693a7251a0a86ffa0d4e4f52cf28084f63959b13a866
 
     public function getDebugInfo()
     {
-        return array (  241 => 64,  238 => 63,  233 => 60,  230 => 59,  225 => 54,  219 => 55,  217 => 54,  213 => 52,  210 => 51,  203 => 46,  200 => 45,  193 => 40,  188 => 39,  185 => 38,  175 => 35,  172 => 34,  169 => 33,  164 => 30,  161 => 29,  155 => 25,  146 => 22,  142 => 21,  134 => 19,  130 => 18,  127 => 17,  123 => 16,  117 => 13,  113 => 12,  110 => 11,  108 => 10,  101 => 5,  98 => 4,  90 => 66,  88 => 63,  85 => 62,  83 => 59,  80 => 58,  78 => 51,  75 => 50,  73 => 45,  68 => 43,  65 => 42,  63 => 38,  60 => 37,  58 => 33,  55 => 32,  53 => 29,  50 => 28,  48 => 4,  43 => 2,  40 => 1,);
+        return array (  253 => 67,  250 => 66,  245 => 63,  242 => 62,  237 => 57,  231 => 58,  229 => 57,  225 => 55,  222 => 54,  215 => 49,  212 => 48,  205 => 43,  200 => 42,  197 => 41,  187 => 38,  184 => 37,  181 => 36,  176 => 33,  173 => 32,  166 => 27,  160 => 26,  151 => 23,  147 => 22,  139 => 20,  135 => 19,  132 => 18,  127 => 17,  123 => 16,  117 => 13,  113 => 12,  110 => 11,  108 => 10,  101 => 5,  98 => 4,  90 => 69,  88 => 66,  85 => 65,  83 => 62,  80 => 61,  78 => 54,  75 => 53,  73 => 48,  68 => 46,  65 => 45,  63 => 41,  60 => 40,  58 => 36,  55 => 35,  53 => 32,  50 => 31,  48 => 4,  43 => 2,  40 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -284,15 +296,18 @@ class __TwigTemplate_b6d052444fb3ddd693a7251a0a86ffa0d4e4f52cf28084f63959b13a866
     <link rel=\"canonical\" href=\"{{ page.canonical(true)|e }}\" />
 
     <style>
-        {% for post in pages.find('/typotheque').children %}
+  {% for workshop in pages.find('/typotheque').children %}
+    {% for font in workshop.children %}
         @font-face {
-            font-family: '{{post.title}}';
-            src: url('{{ base_url_absolute }}{{post.route}}/fichiersfontes/{{post.header.custom.fichiertypo|first.name}}') format('woff');
+            font-family: '{{font.title}}';
+            src: url('{{ base_url_absolute }}{{font.route}}/fichiersfontes/{{font.header.custom.fichiertypo|first.name}}') format('woff');
         }
-        .{{ post.title }}{
-            font-family:{{ post.title }};
+        .{{ font.title }}{
+            font-family:{{ font.title }};
         }
-        {% endfor %}
+    {% endfor %}
+   {% endfor %}
+
     </style>
 
 {% endblock head %}

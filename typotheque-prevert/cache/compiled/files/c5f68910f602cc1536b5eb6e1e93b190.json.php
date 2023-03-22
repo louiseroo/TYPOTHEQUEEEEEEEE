@@ -2,118 +2,133 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledJsonFile',
     'filename' => '/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/data/flex/indexes/pages.json',
-    'modified' => 1679414422,
-    'size' => 2241,
+    'modified' => 1679476915,
+    'size' => 2791,
     'data' => [
         'version' => '1.5',
-        'timestamp' => 1679414422,
-        'count' => 9,
+        'timestamp' => 1679476915,
+        'count' => 10,
         'index' => [
             '' => [
                 'key' => '',
                 'storage_key' => '',
                 'template' => NULL,
-                'storage_timestamp' => 1679412933,
+                'storage_timestamp' => 1679475704,
                 'children' => [
-                    '01.home' => 1679412933,
-                    'typotheque' => 1679412933
+                    '01.home' => 1679474026,
+                    'typotheque' => 1679475595
                 ],
-                'checksum' => 'f59375ccbb91523e3d0b9b46c36d5127'
+                'checksum' => '68154e6647a3e7a1a0344d69af3d1cc5'
             ],
             '01.home' => [
                 'key' => 'home',
                 'storage_key' => '01.home',
                 'template' => 'default',
-                'storage_timestamp' => 1679412933,
+                'storage_timestamp' => 1679474026,
                 'markdown' => [
                     '' => [
-                        'default' => 1679412933
+                        'default' => 1679474026
                     ]
                 ],
-                'checksum' => 'dae996fafd796396598f6be22a01c271'
+                'checksum' => '020ca26be8b19f7fd78b4cf4b8e6105d'
             ],
             'typotheque' => [
                 'key' => 'typotheque',
                 'storage_key' => 'typotheque',
                 'template' => 'typotheque',
-                'storage_timestamp' => 1679412933,
+                'storage_timestamp' => 1679476915,
                 'markdown' => [
                     '' => [
-                        'typotheque' => 1679412933
+                        'typotheque' => 1679474026
                     ]
                 ],
                 'children' => [
-                    '02.michaux' => 1679412933,
-                    '03.jester' => 1679412933,
-                    '04.death' => 1679412933
+                    '09.gotta-catch' => 1679476915
                 ],
-                'checksum' => '3c016e5fa02dd74317c1e84139ddd7c5'
+                'checksum' => 'b1b3bd8a99870dc3736a09bea33126c8'
             ],
-            'typotheque/02.michaux' => [
-                'key' => 'typotheque/michaux',
-                'storage_key' => 'typotheque/02.michaux',
+            'typotheque/09.gotta-catch' => [
+                'key' => 'typotheque/gotta-catch',
+                'storage_key' => 'typotheque/09.gotta-catch',
+                'template' => 'workshop',
+                'storage_timestamp' => 1679476915,
+                'markdown' => [
+                    '' => [
+                        'workshop' => 1679476828
+                    ]
+                ],
+                'children' => [
+                    '05.bug' => 1679476894,
+                    '07.electric' => 1679476915,
+                    '08.dragon' => 1679476907
+                ],
+                'checksum' => '3eb12969596aefc49dfb8e720fcbd838'
+            ],
+            'typotheque/09.gotta-catch/05.bug' => [
+                'key' => 'typotheque/gotta-catch/bug',
+                'storage_key' => 'typotheque/09.gotta-catch/05.bug',
                 'template' => 'typographie',
-                'storage_timestamp' => 1679412933,
+                'storage_timestamp' => 1679476894,
                 'markdown' => [
                     '' => [
-                        'typographie' => 1679412933
+                        'typographie' => 1679474706
                     ]
                 ],
                 'children' => [
-                    'fichiersfontes' => 1679412933
+                    'fichiersfontes' => 1679474706
                 ],
-                'checksum' => '59d1d71533feca5181d39259a59552a0'
+                'checksum' => 'fc9eccaaae246dd8e3f38496a6730ecc'
             ],
-            'typotheque/02.michaux/fichiersfontes' => [
-                'key' => 'typotheque/michaux/fichiersfontes',
-                'storage_key' => 'typotheque/02.michaux/fichiersfontes',
+            'typotheque/09.gotta-catch/05.bug/fichiersfontes' => [
+                'key' => 'typotheque/gotta-catch/bug/fichiersfontes',
+                'storage_key' => 'typotheque/09.gotta-catch/05.bug/fichiersfontes',
                 'template' => NULL,
-                'storage_timestamp' => 1679412933,
-                'checksum' => 'eb60ee7e2e7af31a2446d63b64656654'
+                'storage_timestamp' => 1679474706,
+                'checksum' => '391a9d74ec7defae6d818538d8fd51d8'
             ],
-            'typotheque/03.jester' => [
-                'key' => 'typotheque/jester',
-                'storage_key' => 'typotheque/03.jester',
+            'typotheque/09.gotta-catch/07.electric' => [
+                'key' => 'typotheque/gotta-catch/electric',
+                'storage_key' => 'typotheque/09.gotta-catch/07.electric',
                 'template' => 'typographie',
-                'storage_timestamp' => 1679412933,
+                'storage_timestamp' => 1679476915,
                 'markdown' => [
                     '' => [
-                        'typographie' => 1679412933
+                        'typographie' => 1679475638
                     ]
                 ],
                 'children' => [
-                    'fichiersfontes' => 1679412933
+                    'fichiersfontes' => 1679475638
                 ],
-                'checksum' => 'eacf62e8dc501e740bc7d472b7611035'
+                'checksum' => '135e060019c334f45f3d1ed6165bfee7'
             ],
-            'typotheque/03.jester/fichiersfontes' => [
-                'key' => 'typotheque/jester/fichiersfontes',
-                'storage_key' => 'typotheque/03.jester/fichiersfontes',
+            'typotheque/09.gotta-catch/07.electric/fichiersfontes' => [
+                'key' => 'typotheque/gotta-catch/electric/fichiersfontes',
+                'storage_key' => 'typotheque/09.gotta-catch/07.electric/fichiersfontes',
                 'template' => NULL,
-                'storage_timestamp' => 1679412933,
-                'checksum' => 'a4ba45f91315e5f316879901ef3c0b0c'
+                'storage_timestamp' => 1679475638,
+                'checksum' => '8d7b3d4aa229c956985641e1c5d5dbf1'
             ],
-            'typotheque/04.death' => [
-                'key' => 'typotheque/death',
-                'storage_key' => 'typotheque/04.death',
+            'typotheque/09.gotta-catch/08.dragon' => [
+                'key' => 'typotheque/gotta-catch/dragon',
+                'storage_key' => 'typotheque/09.gotta-catch/08.dragon',
                 'template' => 'typographie',
-                'storage_timestamp' => 1679412933,
+                'storage_timestamp' => 1679476907,
                 'markdown' => [
                     '' => [
-                        'typographie' => 1679412933
+                        'typographie' => 1679475766
                     ]
                 ],
                 'children' => [
-                    'fichiersfontes' => 1679412933
+                    'fichiersfontes' => 1679475766
                 ],
-                'checksum' => '96f0e2ca91a5d9ac8dabecbeef7d967c'
+                'checksum' => '02d8a4b4b4a576024707819189393427'
             ],
-            'typotheque/04.death/fichiersfontes' => [
-                'key' => 'typotheque/death/fichiersfontes',
-                'storage_key' => 'typotheque/04.death/fichiersfontes',
+            'typotheque/09.gotta-catch/08.dragon/fichiersfontes' => [
+                'key' => 'typotheque/gotta-catch/dragon/fichiersfontes',
+                'storage_key' => 'typotheque/09.gotta-catch/08.dragon/fichiersfontes',
                 'template' => NULL,
-                'storage_timestamp' => 1679412933,
-                'checksum' => '0814447d8485aa4d8051c597db6716c4'
+                'storage_timestamp' => 1679475766,
+                'checksum' => 'df1f96728523196abc4f8db352b51eed'
             ]
         ]
     ]

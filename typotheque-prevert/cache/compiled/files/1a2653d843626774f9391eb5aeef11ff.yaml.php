@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/edi0th/www/typotheque-prevert/typotheque-prevert/user/themes/typotheque-prevert/blueprints/typographie.yaml',
-    'modified' => 1678443195,
+    'modified' => 1679474026,
     'size' => 976,
     'data' => [
         'title' => 'Typographie',

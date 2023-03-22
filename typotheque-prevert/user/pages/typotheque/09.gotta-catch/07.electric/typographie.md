@@ -1,5 +1,5 @@
 ---
-title: Electric
+title: ELECTRIC
 custom:
     auteur: 'Emma Grosu'
     datesortie: '2021'

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/edi0th/www/typotheque-prevert/typotheque-prevert/system/languages/mn.yaml',
-    'modified' => 1679412933,
+    'modified' => 1679474025,
     'size' => 4576,
     'data' => [
         'GRAV' => [

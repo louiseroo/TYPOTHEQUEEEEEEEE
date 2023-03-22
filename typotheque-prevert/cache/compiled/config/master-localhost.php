@@ -1,107 +1,107 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1679413481,
-    'checksum' => 'e082b90c6bd23c1f47aba0af9c7c7e8c',
+    'timestamp' => 1679476520,
+    'checksum' => 'bfb2e8553ba4b8cdb4263c8c0b2c69d4',
     'files' => [
         'user/config' => [
             'media' => [
                 'file' => 'user/config/media.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474026
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474026
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474026
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1679412933
+                'modified' => 1679476517
             ],
             'versions' => [
                 'file' => 'user/config/versions.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474026
             ]
         ],
         'system/config' => [
             'backups' => [
                 'file' => 'system/config/backups.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474025
             ],
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474025
             ],
             'mime' => [
                 'file' => 'system/config/mime.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474025
             ],
             'permissions' => [
                 'file' => 'system/config/permissions.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474025
             ],
             'security' => [
                 'file' => 'system/config/security.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474025
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474025
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474025
             ]
         ],
         'user/plugins' => [
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474026
             ],
             'plugins/devtools' => [
                 'file' => 'user/plugins/devtools/devtools.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474026
             ],
             'plugins/markdown-notices' => [
                 'file' => 'user/plugins/markdown-notices/markdown-notices.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474026
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474026
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474026
             ],
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474026
             ],
             'plugins/flex-objects' => [
                 'file' => 'user/plugins/flex-objects/flex-objects.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474026
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474026
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474026
             ]
         ],
         'user/themes' => [
             'themes/typotheque-prevert' => [
                 'file' => 'user/themes/typotheque-prevert/typotheque-prevert.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474026
             ],
             'themes/quark' => [
                 'file' => 'user/themes/quark/quark.yaml',
-                'modified' => 1679412933
+                'modified' => 1679474026
             ]
         ]
     ],
