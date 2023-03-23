@@ -48,14 +48,106 @@
 
 {% block header %}
     <div class="header">
-        <h2>Typothèque Chic Type<h2>
-
+        <p class="texte-back-colophon">Typothèque du DNMADE graphisme Augmenté</p>
+        <h2>chic type<h2>
             <h5 class="accordion">infos + contact</h5>
+        
         <div class="panel">
-            <p>Texte à afficher du colophon</p>
+
+            
+
+
+
+
+            <p class="texte-back-colophon colophon-open">Workshop réalisé par les deuxièmes années<br>de <a href="https://dnmade-prevert.fr" class="link-typo-texte">DNMADE</a> en mars 2023</p>
+
+            <p class="texte-back-colophon">Site codé par<br>Odilon Aouatah,<br>Victor Facon<br>et Louise Roo
+                <br><br>
+                Textes par<br>Madeleine Meranger<br>et Emelyne Phung
+                <br><br>
+                Design par<br>Melany Charlec<br>et Scar Descalzi
+                <br><br>
+                Specimens par<br>Quentin Dissard<br>et Médéric Chapiseau
+                <br><br>
+                Encadré par Benjamin Dumond<br>de <a href="https://bonjourmonde.net/en" class="link-typo-texte">Bonjour Monde</a>
+                <br>
+                Sous la supervision<br>de Romuald Roudier
+                <br><br><br>
+
+                <a href="https://gitlab.com/bonjour-monde/projects/typotheque-prevert" class="link-typo">Typothèque Gitlab</a>
+            </p>
+
+
+
+            {# <p class="texte-back-colophon colophon-open">Typographie dessinée lors du workshop avec Lucas Descrois en 2020<br>en s'inspirant des types de pokémon</p>
+
+            <p class="texte-back-colophon">Site codé par<br>Odilon Aouatah,<br>Victor Facon<br>et Louise Roo
+                <br><br>
+                Textes par<br>Madeleine Meranger<br>et Emelyne Phung
+                <br><br>
+                Design par<br>Melany Charlec<br>et Scar Descalzi
+                <br><br>
+                Specimens par<br>Quentin Dissard<br>et Médéric Chapiseau
+                <br><br>
+                Encadré par Benjamin Dumond<br>de <a href="https://bonjourmonde.net/en" class="link-typo-texte">Bonjour Monde</a>
+                <br>
+                Sous la supervision<br>de Romuald Roudier
+                <br><br><br>
+
+                <a href="https://gitlab.com/bonjour-monde/projects/typotheque-prevert" class="link-typo">Typothèque Gitlab</a>
+            </p> #}
         </div>
     </div>
 {% endblock %}
+
+<style type="text/css">
+/*.entree-font{
+    text-align: center;
+
+}*/
+
+
+
+.header{
+    text-align: center;
+    padding-right: 20px;
+}
+
+.texte-back-colophon{
+    font-size: 0.7em;
+    line-height: 1.3em;
+    color: var(--secondary-color);
+}
+
+h2{
+    color: var(--primary-color);
+    font-size: 4em;
+    margin-top: -30px;
+}
+
+h5{
+    font-size: 0.7em;
+    margin-top: -8vh;
+    margin-bottom: 2vh;
+    color: var(--secondary-color);
+}
+
+
+.link-typo, .link-typo-texte{
+    color: var(--primary-color);
+}
+
+.link-typo-texte{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+</style>
 
 
 {% block body %}

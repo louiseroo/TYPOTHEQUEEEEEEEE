@@ -30,6 +30,11 @@ $(function() {
   			$('.panel').slideToggle();
   		});
 
+  		$('.entree-font').on('click', function(){
+  			$('.panel-font').slideDown();
+  			//code odilon
+  		});
+
 });
 
 
