@@ -15,6 +15,11 @@ form:
 
           fields:
 
-            header.custom.nbstyles:
-              type: text
-              label: Nombres de styles
+            header.custom.asciiart:
+              type: list
+              style: vertical
+              label: Ascii Art
+              fields:
+                .ascii:
+                  type: editor
+                  label: Text

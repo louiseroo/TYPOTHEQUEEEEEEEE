@@ -23,6 +23,10 @@ form:
               type: text
               label: Date
 
+            header.custom.phrasepoetique:
+              type: text
+              label: Phrase Poétique
+
             header.custom.casses:
               type: select
               size: long
