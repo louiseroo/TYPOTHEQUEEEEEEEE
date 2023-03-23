@@ -1,5 +1,5 @@
 ---
-title: 'Main Gauche'
+title: MainGauche
 custom:
     auteur: 'Antoine Liberman'
     datesortie: '2022'

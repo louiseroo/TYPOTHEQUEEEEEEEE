@@ -1,5 +1,5 @@
 ---
-title: 'Vite Juin'
+title: ViteJuin
 custom:
     auteur: 'Marine Drouin'
     datesortie: '2022'

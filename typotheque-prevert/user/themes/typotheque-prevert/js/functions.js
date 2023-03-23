@@ -5,7 +5,10 @@ $(function() {
 	$("h1").each(function(){
 		$(this).css('left', getRandom(0, 1000)+"px");
 	});
-			var zoom = 1;
+			var zoom = 2.5;
+			var myDiv = $('.target');
+			var scrollto = myDiv.offset().top + (myDiv.height() / 2);
+			myDiv.animate({ scrollTop:  scrollto});
 
 			$('.target').css('transform', 'scale(' + zoom + ')');
 
@@ -32,9 +35,25 @@ $(function() {
 
   		$('.entree-font').on('click', function(){
   			$('.panel-font').slideDown();
-  			//code odilon
-  		});
+  			$('.entree-font').not(this).addClass('low-opacity');
 
+			var name = $(this).data('workshop-name');
+			var annee = $(this).data('workshop-annee');
+			var invite = $(this).data('workshop-invite');
+			var informations = $(this).data('workshop-informations');
+			var date = $(this).find("h1").data('font-date');
+			var telechargement = $(this).find("h1").data('font-lientelechargement');
+			var auteur = $(this).find("h1").data('font-auteur');
+
+			alert(name+annee+invite+informations+date+telechargement+auteur);
+			$('.a').html(name);
+			$('.b').html(annee);
+			$('.c').html(invite);
+			$('.d').html(informations);
+			$('.e').html(date);
+			$('.f').html(telechargement);
+			$('.g').html(auteur);
+  		});
 });
 
 
