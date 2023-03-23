@@ -31,13 +31,20 @@ $(function() {
   
   		$('.accordion').on('click', function(){
   			$('.panel').slideToggle();
+			$('.header-panel-font').slideUp();
   		});
-
+		  $('.fermer').on('click', function(){
+			$('.header-panel-font').slideUp();
+			$('.entree-font').removeClass('low-opacity');
+		});
   		$('.entree-font').on('click', function(){
-  			$('.panel-font').slideDown();
+			$('.panel').slideUp();
+  			$('.header-panel-font').slideDown();
+			$('.entree-font').removeClass('low-opacity');
   			$('.entree-font').not(this).addClass('low-opacity');
 
-			var name = $(this).data('workshop-name');
+			var name = $(this).data('font-name');
+			var workshopname = $(this).data('workshop-name');
 			var annee = $(this).data('workshop-annee');
 			var invite = $(this).data('workshop-invite');
 			var informations = $(this).data('workshop-informations');
@@ -45,14 +52,13 @@ $(function() {
 			var telechargement = $(this).find("h1").data('font-lientelechargement');
 			var auteur = $(this).find("h1").data('font-auteur');
 
-			alert(name+annee+invite+informations+date+telechargement+auteur);
-			$('.a').html(name);
-			$('.b').html(annee);
-			$('.c').html(invite);
-			$('.d').html(informations);
-			$('.e').html(date);
-			$('.f').html(telechargement);
-			$('.g').html(auteur);
+			$('.fonttitle').html(name);
+			$('.workshoptitle').html(workshopname);
+			$('.anneeworkshop').html(annee);
+			$('.inviteworkshop').html(invite);
+			$('.workshoptexte').html(informations);
+			$('.link-typo').attr('href', telechargement);
+			$('.auteurfont').html(auteur);
   		});
 });
 

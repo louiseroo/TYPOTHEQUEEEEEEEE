@@ -71,7 +71,16 @@ h1:hover{
     grid-template-rows: repeat(30,20px);    
     justify-content: start;
 }
-
+.low-opacity{
+    opacity:.3;
+}
+.fermer{
+    cursor:pointer;
+    transition: color 0.5s ease-in-out;
+}
+.fermer:hover{
+    color: var(--secondary-color);
+}
 .box{
     height: 100vh;
     width: 100vw;
