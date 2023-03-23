@@ -37,24 +37,36 @@
   <div class="btn zoom-init"><img src="{{ url('theme://images/fleche.png')|e }}"></div>
 </div>
 
+
+
 <style type="text/css">
-
-
-
-
 #buttons{
   top: 83vh;
+  font-family: var(--primary-font);
 }
 
 .btn{
-  color: black;
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.btn:hover{
+  color: var(--primary-color);
 }
 
 .btn img{
   width: 100%;
 }
 
+.zoom, .zoom-out{
+  font-size: 2.8em;
+  align-items: center;
+  padding-top: 20px;
+}
 
+.zoom-out{
+  margin-bottom: 20px;
+}
 
 
 
