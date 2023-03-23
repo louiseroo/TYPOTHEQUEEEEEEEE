@@ -11,10 +11,13 @@
 
  #}
 
-
+    {% for asciientry in pages.find('/typotheque').header.custom.asciiart %}
+      
+    {% endfor %}
 
 {# texte des fonts #}
 <div class="box target">
+
   <div class="zoom-conteneur" id="conteneur">
     {% for workshop in pages.find('/typotheque').children %}
       {% for font in workshop.children %}

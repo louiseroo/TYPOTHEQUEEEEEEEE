@@ -15,5 +15,7 @@ custom:
             type: font/woff
             size: 6584
             path: user/pages/typotheque/09.gotta-catch/17.water/fichiersfontes/Water-Regular.woff
+    phrasepoetique: 'SON MANTEAU DE PLUIE'
+    casses: glyphsetcomplet
 ---
 

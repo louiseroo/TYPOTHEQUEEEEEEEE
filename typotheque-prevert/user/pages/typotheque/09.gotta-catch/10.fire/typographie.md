@@ -15,5 +15,7 @@ custom:
             type: font/woff
             size: 3800
             path: user/pages/typotheque/09.gotta-catch/10.fire/fichiersfontes/Fire-Regular.woff
+    phrasepoetique: 'LE PAYSAGE CHARBON'
+    casses: glyphsetcomplet
 ---
 

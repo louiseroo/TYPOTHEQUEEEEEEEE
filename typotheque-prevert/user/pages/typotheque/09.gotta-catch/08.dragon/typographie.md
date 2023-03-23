@@ -15,5 +15,7 @@ custom:
             type: font/woff
             size: 3064
             path: user/pages/typotheque/08.dragon/fichiersfontes/Dragon-Regular.woff
+    phrasepoetique: 'ILS FERONT BEAUCOUP DE CHOSES AVEC LE SOLEIL'
+    casses: glyphsetcomplet
 ---
 

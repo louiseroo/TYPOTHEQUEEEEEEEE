@@ -15,5 +15,7 @@ custom:
             type: font/woff
             size: 7884
             path: user/pages/typotheque/09.gotta-catch/13.ice/fichiersfontes/Ice-Regular.woff
+    phrasepoetique: 'MOI JE PRENDS MA CASQUETTE'
+    casses: glyphsetcomplet
 ---
 

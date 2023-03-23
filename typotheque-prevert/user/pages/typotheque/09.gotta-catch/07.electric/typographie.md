@@ -15,5 +15,7 @@ custom:
             type: font/woff
             size: 5024
             path: user/pages/typotheque/07.electric/fichiersfontes/Electric-Regular.woff
+    phrasepoetique: 'DIS DONC CAMARADE SOLEIL'
+    casses: glyphsetcomplet
 ---
 
