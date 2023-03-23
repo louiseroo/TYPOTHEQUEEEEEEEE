@@ -116,9 +116,8 @@ h1:hover{
 .btn {
     width: fit-content;
     height: 3.5vh;
-    width: 3.5vh;
+    width: 1.9vw;
     margin-bottom: 8px;
-    background-color: var(--secondary-color);
     display: flex;
     text-align: center;
     transition: all 0.3s ease;
