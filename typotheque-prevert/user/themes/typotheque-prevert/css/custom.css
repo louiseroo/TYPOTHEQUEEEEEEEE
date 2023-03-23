@@ -148,9 +148,8 @@ h1:hover{
     transition: all 0.3s ease;
     z-index: 1;
 }
-.btn:hover {
-  background-color: var(--primary-color);
-}
+
+
 
 
 
