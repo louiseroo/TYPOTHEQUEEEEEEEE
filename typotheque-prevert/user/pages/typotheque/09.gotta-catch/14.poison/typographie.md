@@ -15,5 +15,7 @@ custom:
             type: font/woff
             size: 7004
             path: user/pages/typotheque/09.gotta-catch/14.poison/fichiersfontes/Poison-Regular.woff
+    phrasepoetique: 'le poisson scie a des soucis'
+    casses: glyphsetcomplet
 ---
 

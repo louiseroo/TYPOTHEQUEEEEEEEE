@@ -15,5 +15,7 @@ custom:
             type: font/woff
             size: 3324
             path: user/pages/typotheque/09.gotta-catch/16.rock/fichiersfontes/Rock-Regular.woff
+    phrasepoetique: 'ROSSIGNOLS DES BOIS'
+    casses: glyphsetcomplet
 ---
 

@@ -15,5 +15,7 @@ custom:
             type: font/woff
             size: 32024
             path: user/pages/typotheque/09.gotta-catch/09.fighting/fichiersfontes/Fighting-Regular.woff
+    phrasepoetique: 'des chevaliers d''industrie lourde'
+    casses: glyphsetcomplet
 ---
 
