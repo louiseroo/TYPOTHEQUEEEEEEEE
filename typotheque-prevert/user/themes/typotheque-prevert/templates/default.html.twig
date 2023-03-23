@@ -21,7 +21,7 @@
   <div class="zoom-conteneur" id="conteneur">
     {% for workshop in pages.find('/typotheque').children %}
       {% for font in workshop.children %}
-      <div class="entree-font" data-font-name="{{ font.title }}" data-workshop-name="{{ workshop.title }}" data-workshop-annee="{{ workshop.header.custom.anneeworkshop }}" data-workshop-invite="{{ workshop.header.custom.inviteworkshop }}" data-workshop-informations="{{ workshop.content }}">
+      <div class="entree-font" data-casse="{{font.header.custom.casses}}" data-font-name="{{ font.title }}" data-workshop-name="{{ workshop.title }}" data-workshop-annee="{{ workshop.header.custom.anneeworkshop }}" data-workshop-invite="{{ workshop.header.custom.inviteworkshop }}" data-workshop-informations="{{ workshop.content }}">
             <h1 class="{{ font.title }}" data-font-date="{{ font.header.custom.datesortie }}" data-font-lientelechargement="{{ base_url_absolute }}{{font.route}}/fichiersfontes/{{font.header.custom.archivezip|first.name}}" data-font-auteur="{{ font.header.custom.auteur }}" contenteditable>{{font.header.custom.phrasepoetique}}</h1>
       </div>
       {% endfor %}
