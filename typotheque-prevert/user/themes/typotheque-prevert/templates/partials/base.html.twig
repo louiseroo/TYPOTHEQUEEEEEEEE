@@ -53,14 +53,7 @@
             <h5 class="accordion">infos + contact</h5>
         
         <div class="panel">
-
-            
-
-
-
-
             <p class="texte-back-colophon colophon-open">Workshop réalisé par les deuxièmes années<br>de <a href="https://dnmade-prevert.fr" class="link-typo-texte">DNMADE</a> en mars 2023</p>
-
             <p class="texte-back-colophon">Site codé par<br>Odilon Aouatah,<br>Victor Facon<br>et Louise Roo
                 <br><br>
                 Textes par<br>Madeleine Meranger<br>et Emelyne Phung
@@ -73,40 +66,33 @@
                 <br>
                 Sous la supervision<br>de Romuald Roudier
                 <br><br><br>
-
                 <a href="https://gitlab.com/bonjour-monde/projects/typotheque-prevert" class="link-typo">Typothèque Gitlab</a>
             </p>
-
-
-
-            {# <p class="texte-back-colophon colophon-open">Typographie dessinée lors du workshop avec Lucas Descrois en 2020<br>en s'inspirant des types de pokémon</p>
-
-            <p class="texte-back-colophon">Site codé par<br>Odilon Aouatah,<br>Victor Facon<br>et Louise Roo
-                <br><br>
-                Textes par<br>Madeleine Meranger<br>et Emelyne Phung
-                <br><br>
-                Design par<br>Melany Charlec<br>et Scar Descalzi
-                <br><br>
-                Specimens par<br>Quentin Dissard<br>et Médéric Chapiseau
-                <br><br>
-                Encadré par Benjamin Dumond<br>de <a href="https://bonjourmonde.net/en" class="link-typo-texte">Bonjour Monde</a>
-                <br>
-                Sous la supervision<br>de Romuald Roudier
-                <br><br><br>
-
-                <a href="https://gitlab.com/bonjour-monde/projects/typotheque-prevert" class="link-typo">Typothèque Gitlab</a>
-            </p> #}
         </div>
     </div>
+
+
+{# panel header normal #}
+    <div class="header-panel-font">
+        <p class="texte-back-colophon">Typographie dessinée lors du workshop {{ workshop.title }} avec {{ workshop.header.custom.inviteworkshop }} en {{ workshop.header.custom.anneeworkshop }}.<br>{{ workshop.content }}</p>
+
+        <h2>{{font.title}}<h2>
+            <h5 class="accordion">{{ font.header.custom.auteur }}</h5>
+        
+        <div class="panel">
+            <p>
+                <a class="link-typo" href="{{ base_url_absolute }}{{font.route}}/fichiersfontes/{{font.header.custom.archivezip|first.name}}">Télécharger la font</a>
+            </p>
+        </div>
+    </div>
+
+    
 {% endblock %}
 
+
+
+
 <style type="text/css">
-/*.entree-font{
-    text-align: center;
-
-}*/
-
-
 
 .header{
     text-align: center;
@@ -139,6 +125,19 @@ h5{
 
 .link-typo-texte{
     text-decoration: none;
+}
+
+
+.header-panel-font{
+    width: auto;
+    padding-left: 20px;
+    text-align: center;
+    padding-right: 20px;
+    position: fixed;
+    z-index: 3;
+    background-color: var(--white-background-color);
+    box-shadow: 10px 5px 10px rgba(255, 84, 0, 0.5);
+    font-family: var(--primary-font);
 }
 
 
