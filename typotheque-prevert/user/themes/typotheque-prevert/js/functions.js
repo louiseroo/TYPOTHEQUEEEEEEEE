@@ -102,17 +102,6 @@ $(function() {
 		// }
   		});
 
-  	// position aléatoire des blocs ascii
-	// $(".entree-ascii").each(function(){
-	// 	$(this).css('left', getRandom(0, 5)+"vw");
-	// 	$(this).css('top', getRandom(0, 70)+"vh");
-	// });
-
-	// $(".entree-ascii").each(function(){
-	// 	$(this).css('left', getRandom(60, 85)+"vw");
-	// 	$(this).css('top', getRandom(0, 70)+"vh");
-	// });
-
 
 
 
