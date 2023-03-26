@@ -37,11 +37,20 @@ body {
     font-family: var(--primary-font);
 }
 .header{
-padding: 1em 1em .7em 1em;
+    padding: 1em 1em .7em 1em;
 }
+
+.header-index{
+    width: 30vw;
+}
+
+
+
 .petite-fonte{
     font-size: 0.7em;
     line-height: 1.3em;
+    margin-top: 0px;
+    margin-bottom: 40px;
     color: var(--secondary-color);
 }
 
@@ -162,7 +171,7 @@ h1:hover{
   transition: 0.4s;
   outline: none;
   border: none;
-  background-color: var(--white-background-color);
+  margin-bottom: 0px;
 }
 
 .panel, .panel-font {
@@ -173,10 +182,18 @@ h1:hover{
   transition: max-height 0.2s ease-out;
 }
 
-.panel, .texte-back-colophon, .titresite{
-    width:25rem;
-    margin: auto;
+.panel .texte-back-colophon, .titresite{
+/*    width: 25 em;*/
 }
+
+.texte-back-colophon{
+    margin-bottom: -20px;
+}
+
+.panel{
+    height: 52.5vh;
+}
+
 .titresite{
     line-height: .8em;
     margin-bottom: 1.2em;

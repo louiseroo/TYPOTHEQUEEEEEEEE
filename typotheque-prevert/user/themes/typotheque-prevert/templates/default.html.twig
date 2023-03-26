@@ -25,31 +25,6 @@
       </div>
     {% endfor %}
     {% endblock %}
-
-  {# {% block ascii2 %}
-      {% for asciientry in pages.find('/typotheque').header.custom.asciiart %} 
-      <div class="entree-ascii2">
-        <h4 class="{{ asciiart }}"data-text="{{header.custom.asciiart}}">
-           {{header.custom.asciiart.ascii}}
-        </h4>
-
-      </div>
-    {% endfor %}
-  {% endblock %}
-
-  {% block ascii3 %}
-      {% for asciientry in pages.find('/typotheque').header.custom.asciiart %} 
-      <div class="entree-ascii3">
-        <h4 class="{{ asciiart }}"data-text="{{header.custom.asciiart}}">
-           {{header.custom.asciiart.ascii}}
-        </h4>
-
-      </div>
-    {% endfor %}
-  {% endblock %} #}
-
-
-
   
   </div>
 </div>
@@ -64,36 +39,19 @@
 
 <style type="text/css">
 
-/* .entree-ascii, .entree-ascii2, .entree-ascii3{
-  position: fixed;
-  z-index: 1;
-  width: 15vw;
-  height: 25vh;
-  color: var(--third-color);
-} */
-
 .entree-ascii{
   font-size:.5em;
   line-height:1em;
   position:absolute;
   z-index:-9;
-  color: var(--primary-color);
+  color: rgba(0,0,0,0.5);
 }
+
+
 .entree-ascii pre{
   font-family:"SyneMono" !important;
 }
 
-.entree-ascii2{
-  left: 80vw;
-  top: 10vh;
-  border: 1px solid blue;
-}
-
-.entree-ascii3{
-  left: 60vw;
-  top: 70vh;
-  border: 1px solid green;
-}
 
 
 
@@ -145,6 +103,7 @@ h1{
 
 .entree-font{
   position: relative;
+  cursor: pointer;
 }
 
 
@@ -163,11 +122,6 @@ h1{
   top: -74px;
 }
 
-/*#conteneur{
-  margin-left: -25vw;
-  width: 125vw;
-  border: 1px solid blue;
-}*/
 
 
 </style>

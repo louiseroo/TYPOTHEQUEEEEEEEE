@@ -3,7 +3,7 @@
 <head>
 {% block head %}
     <meta charset="utf-8" />
-    <title>Typothèque Lycée Jacques Prévert</title>
+    <title>CHIC TYPE | Typothèque</title>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,7 +30,7 @@
 {% endblock head %}
 
 {% block stylesheets %}
-    {% do assets.addCss('theme://css/custom.css', 98) %}
+    {% do assets.addCss('theme://css/custom.css', 98)%}
 {% endblock %}
 
 {% block javascripts %}
@@ -48,12 +48,15 @@
 
 {% block header %}
     <div class="header" id="header">
-        <p class="petite-fonte">Typothèque du DNMADE graphisme Augmenté</p>
-        <h2 class="titresite">chic type<h2>
-            <h5 class="accordion">infos + contact</h5>
+        <div id="haut-header">
+            <p class="petite-fonte">Typothèque du DNMADE graphisme Augmenté</p>
+            <h2 class="titresite">chic type<h2>
+                <h5 class="accordion">informations</h5>
+        </div>
         
         <div class="panel">
-            <p class="texte-back-colophon colophon-open">Workshop réalisé par les deuxièmes années<br>de <a href="https://dnmade-prevert.fr" class="link-typo-texte">DNMADE</a> en mars 2023</p>
+
+            <p class="texte-back-colophon colophon-open"><br>Workshop réalisé par les deuxièmes années<br>de <a href="https://dnmade-prevert.fr" target="_blank"class="link-typo-texte">DNMADE</a> en mars 2023</p><br>
             <p class="texte-back-colophon">Site codé par<br>Odilon Aouatah,<br>Victor Facon<br>et Louise Roo
                 <br><br>
                 Textes par<br>Madeleine Meranger<br>et Emelyne Phung
@@ -62,16 +65,18 @@
                 <br><br>
                 Specimens par<br>Quentin Dissard<br>et Médéric Chapiseau
                 <br><br>
-                Encadré par Benjamin Dumond<br>de <a href="https://bonjourmonde.net/en" class="link-typo-texte">Bonjour Monde</a>
+                Encadré par Benjamin Dumond<br>de <a href="https://bonjourmonde.net/en" target="_blank"class="link-typo-texte">Bonjour Monde</a>
                 <br>
                 Sous la supervision<br>de Romuald Roudier
-                <br><br><br>
-                <a href="https://gitlab.com/bonjour-monde/projects/typotheque-prevert" class="link-typo">Typothèque Gitlab</a>
+                <br><br>
+                <a href="https://gitlab.com/bonjour-monde/projects/typotheque-prevert" target="_blank">Typothèque Gitlab</a>
             </p>
         </div>
 
     <div class="header-panel-font">
-        <p class="texte-back-colophon">Typographie dessinée lors du workshop <span class="workshoptitle"></span> avec <span class="inviteworkshop"></span> en <span class="anneeworkshop"></span>.<br><span class="workshoptexte"></span></p>
+        <hr>
+        <p class="texte-back-colophon">Typographie dessinée lors du workshop <span class="workshoptitle"></span> avec <span class="inviteworkshop"></span> en <span class="anneeworkshop"></span>.
+        <br><span class="workshoptexte"></span></p>
 
         <h2><span class="fonttitle"></span><h2>
             <h5 class="accordion"><span class="auteurfont"></span></h5>
@@ -90,9 +95,10 @@
 
 <style type="text/css">
 
-
-
-
+#haut-header{
+    width: 30vw;
+    margin: auto;
+}
 
 .header-panel-font h2{
     margin-top: 0.2vh;
@@ -106,6 +112,9 @@
 .texte-back-colophon{
     font-size: 0.7em;
     line-height: 1.3em;
+/*    width: 100%;*/
+    margin: auto;
+    margin-bottom: -13px;
     color: var(--secondary-color);
 }
 
@@ -115,11 +124,11 @@ h2{
     margin-top: -30px;
 }
 
-h5{
+.accordion{
     font-size: 0.7em;
-    margin-top: -8vh;
-    margin-bottom: 2vh;
+    margin-top: -7vh;
     color: var(--secondary-color);
+    width: auto;
 }
 
 .link-typo, .link-typo-texte{
@@ -134,9 +143,12 @@ h5{
     padding-left: 20px;
     text-align: center;
     padding-right: 20px;
-    padding-top:20px;
-    border-top: 1px solid var(--primary-color);
-    display:none;
+    display: none;
+}
+
+
+.texte-back-colophon{
+    width: 27vw;
 }
 
 </style>

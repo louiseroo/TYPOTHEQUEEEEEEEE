@@ -71,10 +71,6 @@ $(function() {
   			$('.panel').slideToggle();
 			$('.header-panel-font').slideUp();
   		});
-		//   $('.fermer').on('click', function(){
-		// 	$('.header-panel-font').slideUp();
-		// 	$('.entree-font').removeClass('low-opacity');
-		// });
 
 		var oldclass;
 		var oldcasse;
