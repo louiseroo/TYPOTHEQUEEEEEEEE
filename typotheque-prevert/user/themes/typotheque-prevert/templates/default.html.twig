@@ -19,15 +19,14 @@
     {% block ascii %}
       {% for asciientry in pages.find('/typotheque').header.custom.asciiart %} 
       <div class="entree-ascii">
-        <h4 class="{{ asciiart }}"data-text="{{header.custom.asciiart}}">
-           {{header.custom.asciiart.ascii}}
-        </h4>
-
+        <pre class="asciiart">
+           {{asciientry.ascii}}
+        </pre>
       </div>
     {% endfor %}
-  {% endblock %}
+    {% endblock %}
 
-  {% block ascii2 %}
+  {# {% block ascii2 %}
       {% for asciientry in pages.find('/typotheque').header.custom.asciiart %} 
       <div class="entree-ascii2">
         <h4 class="{{ asciiart }}"data-text="{{header.custom.asciiart}}">
@@ -47,7 +46,7 @@
 
       </div>
     {% endfor %}
-  {% endblock %}
+  {% endblock %} #}
 
 
 
@@ -65,18 +64,23 @@
 
 <style type="text/css">
 
-.entree-ascii, .entree-ascii2, .entree-ascii3{
+/* .entree-ascii, .entree-ascii2, .entree-ascii3{
   position: fixed;
   z-index: 1;
   width: 15vw;
   height: 25vh;
   color: var(--third-color);
-}
+} */
 
 .entree-ascii{
-  left: 2vw;
-  top: 40vh;
-  border: 1px solid red;
+  font-size:.5em;
+  line-height:1em;
+  position:absolute;
+  z-index:-9;
+  color: var(--primary-color);
+}
+.entree-ascii pre{
+  font-family:"SyneMono" !important;
 }
 
 .entree-ascii2{

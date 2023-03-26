@@ -16,7 +16,27 @@ $(function() {
 		$(this).css('left', getRandom(0, 45)+"vw");
 	});
 
+	//position des ascii
+	var circ = document.querySelectorAll('.entree-ascii');
+	var newq;
+	let h,w,nh,nw,s; 
+
+	function newPosition(){   
+		h = window.innerHeight - 50;
+		w = window.innerWidth - 50;
+		nh = Math.floor(Math.random() * h);
+		nw = Math.floor(Math.random() * w);
+		return [nh,nw];       
+	  }
+
 	
+	
+		circ.forEach(function circ(myclass) {
+			var newq = newPosition();
+			$(myclass).css({ 
+			  top: newq[0], left: newq[1] 
+			});
+		  });
 
 		// zooms de la page
 			var zoom = 2.5;
