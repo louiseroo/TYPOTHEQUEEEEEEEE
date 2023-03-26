@@ -16,6 +16,6 @@ custom:
             size: 7372
             path: user/pages/typotheque/09.gotta-catch/12.ghost/fichiersfontes/Ghost-Regular.woff
     phrasepoetique: 'TOMBER DE LA TOMBE COMME UN ENFANT DU LIT'
-    casses: glyphsetcomplet
+    casses: glyphsetcapitales
 ---
 

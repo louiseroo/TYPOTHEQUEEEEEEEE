@@ -16,6 +16,6 @@ custom:
             size: 3316
             path: user/pages/typotheque/09.gotta-catch/11.flying/fichiersfontes/Flying-Regular.woff
     phrasepoetique: 'QUI ASSOMMENT LES OISEAUX'
-    casses: glyphsetcomplet
+    casses: glyphsetcapitales
 ---
 

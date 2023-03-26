@@ -11,7 +11,7 @@ $(function() {
 	}
 
 	$(".entree-font").each(function(){
-		$(this).css('margin-left', getRandom(0, 1000)+"px");
+		$(this).css('margin-left', getRandom(0, 70)+"vw");
 	});
 			var zoom = 2.5;
 			var myDiv = $('.target');

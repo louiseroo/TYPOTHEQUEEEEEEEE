@@ -16,6 +16,6 @@ custom:
             size: 10376
             path: user/pages/typotheque/09.gotta-catch/15.psychic/fichiersfontes/Psychic-Regular.woff
     phrasepoetique: 'IL N''AVAIT PEUR DE RIEN'
-    casses: glyphsetcomplet
+    casses: glyphsetcapitales
 ---
 

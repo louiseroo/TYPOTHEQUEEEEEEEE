@@ -4,7 +4,7 @@ custom:
     auteur: 'Candice Terle'
     datesortie: '2022'
     phrasepoetique: 'attention aux rats'
-    casses: glyphsetcomplet
+    casses: glyphsetbasedecasse
     archivezip:
         user/pages/typotheque/10.manuelle/14.way/fichiersfontes/Marchetypo-way.zip:
             name: Marchetypo-way.zip
