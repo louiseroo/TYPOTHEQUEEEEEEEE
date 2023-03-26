@@ -3,6 +3,7 @@ $(function() {
 	  return Math.floor(Math.random() * (max - min + 1)) + min;
 	}
 
+	// position aléatoire en hauteur
 	var container = $('#conteneur'); // Container
 	var nodes = container.children(); // All children
 	for (var i = 1; i < nodes.length; i++) {
@@ -10,11 +11,14 @@ $(function() {
 		  container.append(nodes.eq(Math.floor(Math.random() * nodes.length)));
 	}
 
-	$(".entree-font h1").each(function(){
+	// position aléatoire en largeur
+	$(".entree-font").each(function(){
 		$(this).css('left', getRandom(0, 45)+"vw");
 	});
 
 	
+
+		// zooms de la page
 			var zoom = 2.5;
 			var myDiv = $('.target');
 			var scrollto = myDiv.offset().top + (myDiv.height() / 2);
@@ -39,14 +43,18 @@ $(function() {
 		}
 		});
   
+
+
+
+
   		$('.accordion').on('click', function(){
   			$('.panel').slideToggle();
 			$('.header-panel-font').slideUp();
   		});
-		  $('.fermer').on('click', function(){
-			$('.header-panel-font').slideUp();
-			$('.entree-font').removeClass('low-opacity');
-		});
+		//   $('.fermer').on('click', function(){
+		// 	$('.header-panel-font').slideUp();
+		// 	$('.entree-font').removeClass('low-opacity');
+		// });
 
 		var oldclass;
 		var oldcasse;
@@ -93,6 +101,21 @@ $(function() {
 			oldcasse=casse;
 		// }
   		});
+
+  	// position aléatoire des blocs ascii
+	// $(".entree-ascii").each(function(){
+	// 	$(this).css('left', getRandom(0, 5)+"vw");
+	// 	$(this).css('top', getRandom(0, 70)+"vh");
+	// });
+
+	// $(".entree-ascii").each(function(){
+	// 	$(this).css('left', getRandom(60, 85)+"vw");
+	// 	$(this).css('top', getRandom(0, 70)+"vh");
+	// });
+
+
+
+
 });
 
 

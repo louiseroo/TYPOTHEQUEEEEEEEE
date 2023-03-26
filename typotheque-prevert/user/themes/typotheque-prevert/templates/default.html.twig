@@ -1,11 +1,18 @@
 {% extends 'partials/base.html.twig' %}
 
+{# texte intro colophon #}
+{#   <div class="colophon">
+    {{ page.find('/typotheque').content|markdown }}
+  </div> 
 
-{% block content %}
+ #}
+
+{# {% block content %}
     {% for asciientry in pages.find('/typotheque').header.custom.asciiart %}  
-    {% endfor %}
+    {% endfor %} #}
 
 {# texte des fonts #}
+{% block content %}
 <div class="box target">
 
   <div class="zoom-conteneur" id="conteneur">
@@ -16,10 +23,33 @@
       </div>
       {% endfor %}
     {% endfor %}
+
+
+
+
+    {# {% block ascii %}
+      {% for asciientry in pages.find('/typotheque').header.custom.asciiart %} 
+      <div class="entree-ascii">
+        <h4 class="{{ asciiart }}"data-text="{{header.custom.asciiart}}">
+           {{header.custom.asciiart.ascii}}
+        </h4>
+
+      </div>
+    {% endfor %}
+  {% endblock %}
+
+  {% block ascii2 %}
+      {% for asciientry in pages.find('/typotheque').header.custom.asciiart %} 
+      <div class="entree-ascii2">
+        <h4 class="{{ asciiart }}"data-text="{{header.custom.asciiart}}">
+           {{header.custom.asciiart.ascii}}
+        </h4>
+
+      </div>
+    {% endfor %}
+  {% endblock %} #}
   </div>
 </div>
-
-
 
 <div id="buttons">
   <div class="btn zoom"><p>+</p></div>
@@ -30,6 +60,22 @@
 
 
 <style type="text/css">
+
+/*.entree-ascii, .entree-ascii2{
+  position: fixed;
+  z-index: 1;
+  border: 1px solid red;
+  width: 15vw;
+  height: 30vh;
+ 
+}*/
+
+
+
+
+
+
+
 
 
 h1{
