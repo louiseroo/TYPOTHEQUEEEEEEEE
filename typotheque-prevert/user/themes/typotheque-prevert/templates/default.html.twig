@@ -1,16 +1,5 @@
 {% extends 'partials/base.html.twig' %}
 
-{# texte intro colophon #}
-{#   <div class="colophon">
-    {{ page.find('/typotheque').content|markdown }}
-  </div> 
-
- #}
-
-{# {% block content %}
-    {% for asciientry in pages.find('/typotheque').header.custom.asciiart %}  
-    {% endfor %} #}
-
 {# texte des fonts #}
 {% block content %}
 <div class="box target">
@@ -27,7 +16,7 @@
 
 
 
-    {# {% block ascii %}
+    {% block ascii %}
       {% for asciientry in pages.find('/typotheque').header.custom.asciiart %} 
       <div class="entree-ascii">
         <h4 class="{{ asciiart }}"data-text="{{header.custom.asciiart}}">
@@ -47,7 +36,22 @@
 
       </div>
     {% endfor %}
-  {% endblock %} #}
+  {% endblock %}
+
+  {% block ascii3 %}
+      {% for asciientry in pages.find('/typotheque').header.custom.asciiart %} 
+      <div class="entree-ascii3">
+        <h4 class="{{ asciiart }}"data-text="{{header.custom.asciiart}}">
+           {{header.custom.asciiart.ascii}}
+        </h4>
+
+      </div>
+    {% endfor %}
+  {% endblock %}
+
+
+
+  
   </div>
 </div>
 
@@ -61,22 +65,40 @@
 
 <style type="text/css">
 
-/*.entree-ascii, .entree-ascii2{
+.entree-ascii, .entree-ascii2, .entree-ascii3{
   position: fixed;
   z-index: 1;
-  border: 1px solid red;
   width: 15vw;
-  height: 30vh;
- 
-}*/
+  height: 25vh;
+  color: var(--third-color);
+}
+
+.entree-ascii{
+  left: 2vw;
+  top: 40vh;
+  border: 1px solid red;
+}
+
+.entree-ascii2{
+  left: 80vw;
+  top: 10vh;
+  border: 1px solid blue;
+}
+
+.entree-ascii3{
+  left: 60vw;
+  top: 70vh;
+  border: 1px solid green;
+}
 
 
 
 
 
 
-
-
+#conteneur h1{
+  z-index: 100;
+}
 
 h1{
   white-space: nowrap;
