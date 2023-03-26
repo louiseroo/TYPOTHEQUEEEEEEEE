@@ -1,5 +1,5 @@
 ---
-title: Ice
+title: ICE
 custom:
     auteur: 'Léo Gobin'
     datesortie: '2021'

@@ -82,8 +82,8 @@ h1:hover{
     width: 100vw;
     height: 100vh;
     display: grid;
-    margin: auto;
-    grid-template-rows: repeat(30,20px);    
+/*    margin: auto;*/
+    grid-template-rows: repeat(60,20px);    
     justify-content: start;
 }
 
@@ -124,29 +124,6 @@ h1:hover{
 .target{
     transition: transform 1s;
     transform-origin: top left;
-}
-
-
-#buttons{
-    width: 20vw;
-    height: fit-content;
-    position: fixed;
-    left: 96vw;
-    z-index: 10;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.btn {
-    width: fit-content;
-    height: 3.5vh;
-    width: 1.9vw;
-    margin-bottom: 8px;
-    display: flex;
-    text-align: center;
-    transition: all 0.3s ease;
-    z-index: 1;
 }
 
 

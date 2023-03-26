@@ -1,5 +1,5 @@
 ---
-title: Way
+title: way
 custom:
     auteur: 'Candice Terle'
     datesortie: '2022'

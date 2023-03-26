@@ -1,5 +1,5 @@
 ---
-title: Rock
+title: ROCK
 custom:
     auteur: 'Laura François'
     datesortie: '2021'

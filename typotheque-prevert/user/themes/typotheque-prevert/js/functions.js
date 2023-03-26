@@ -2,9 +2,19 @@ $(function() {
 	function getRandom(min, max) {
 	  return Math.floor(Math.random() * (max - min + 1)) + min;
 	}
-	$("h1").each(function(){
-		$(this).css('left', getRandom(0, 1000)+"px");
+
+	var container = $('#conteneur'); // Container
+	var nodes = container.children(); // All children
+	for (var i = 1; i < nodes.length; i++) {
+		  // Move random child to the end
+		  container.append(nodes.eq(Math.floor(Math.random() * nodes.length)));
+	}
+
+	$(".entree-font h1").each(function(){
+		$(this).css('left', getRandom(0, 45)+"vw");
 	});
+
+	
 			var zoom = 2.5;
 			var myDiv = $('.target');
 			var scrollto = myDiv.offset().top + (myDiv.height() / 2);
@@ -37,7 +47,22 @@ $(function() {
 			$('.header-panel-font').slideUp();
 			$('.entree-font').removeClass('low-opacity');
 		});
-  		$('.entree-font').on('click', function(){
+
+		var oldclass;
+		var oldcasse;
+
+		$('body').click(function (event) {
+			if (!$(event.target).is('h1') && !$(event.target).is('h2') && !$(event.target).is('h5')  && !$(event.target).is('span')  && !$(event.target).is('p')  && !$(event.target).is('.btn')  && !$(event.target).is('img')) {
+				$('.header-panel-font').slideUp();
+				$('.entree-font').removeClass('low-opacity');
+			}
+		 });
+		
+  		$('.entree-font').on('click', function(e){
+			
+			$('.fonttitle').removeClass(oldclass);
+			$('.fonttitle').removeClass(oldcasse);
+
 			$('.panel').slideUp();
   			$('.header-panel-font').slideDown();
 			$('.entree-font').removeClass('low-opacity');
@@ -51,6 +76,8 @@ $(function() {
 			var date = $(this).find("h1").data('font-date');
 			var telechargement = $(this).find("h1").data('font-lientelechargement');
 			var auteur = $(this).find("h1").data('font-auteur');
+			var classfont = $(this).find("h1").attr('class');
+			var casse = $(this).data('casse');
 
 			$('.fonttitle').html(name);
 			$('.workshoptitle').html(workshopname);
@@ -59,6 +86,12 @@ $(function() {
 			$('.workshoptexte').html(informations);
 			$('.link-typo').attr('href', telechargement);
 			$('.auteurfont').html(auteur);
+			$('.fonttitle').addClass(classfont);
+			$('.fonttitle').addClass(casse);
+
+			oldclass=classfont;
+			oldcasse=casse;
+		// }
   		});
 });
 

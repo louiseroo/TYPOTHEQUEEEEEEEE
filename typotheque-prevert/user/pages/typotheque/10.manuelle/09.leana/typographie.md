@@ -3,8 +3,8 @@ title: Leana
 custom:
     auteur: 'Marion Villette'
     datesortie: '2022'
-    phrasepoetique: 'TRISTES PETITS INGRATS'
-    casses: glyphsetcapitales
+    phrasepoetique: 'il ne se lavait jamais les dents'
+    casses: glyphsetbasedecasse
     archivezip:
         user/pages/typotheque/10.manuelle/09.leana/fichiersfontes/Marchetypo-Leana.zip:
             name: Marchetypo-Leana.zip

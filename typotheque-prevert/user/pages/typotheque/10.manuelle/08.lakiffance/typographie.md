@@ -1,5 +1,5 @@
 ---
-title: Lakiffance
+title: LAKIFFANCE
 custom:
     auteur: 'Maïlys Larmitou'
     datesortie: '2022'
