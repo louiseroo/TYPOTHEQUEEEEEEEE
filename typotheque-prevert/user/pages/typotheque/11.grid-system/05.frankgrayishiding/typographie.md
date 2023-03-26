@@ -16,5 +16,6 @@ custom:
             type: font/woff
             size: 4612
             path: user/pages/typotheque/11.grid-system/05.frankgrayishiding/fichiersfontes/frankgrayishiding-Regular.woff
+    phrasepoetique: 'laissez les ruisseaux dans leur lit'
 ---
 

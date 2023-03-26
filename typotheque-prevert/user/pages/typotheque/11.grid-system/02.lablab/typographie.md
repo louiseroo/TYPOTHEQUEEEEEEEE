@@ -16,5 +16,6 @@ custom:
             path: user/pages/typotheque/11.grid-system/02.lablab/fichiersfontes/LablabVariableVF.woff
     auteur: 'Josselin Romé'
     datesortie: '2020'
+    phrasepoetique: 'je vous souhaite une bonne nuit'
 ---
 

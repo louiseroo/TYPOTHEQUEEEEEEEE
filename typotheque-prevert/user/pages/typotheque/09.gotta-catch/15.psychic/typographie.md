@@ -1,5 +1,5 @@
 ---
-title: Psychic
+title: PSYCHIC
 custom:
     auteur: 'Martin Gouriou'
     datesortie: '2021'

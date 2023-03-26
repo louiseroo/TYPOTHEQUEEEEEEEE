@@ -1,5 +1,5 @@
 ---
-title: Brutale
+title: Brutal
 custom:
     casses: glyphsetcomplet
     archivezip:
@@ -16,5 +16,6 @@ custom:
             path: user/pages/typotheque/11.grid-system/03.brutal/fichiersfontes/brutale-Regular-2.woff
     auteur: 'Laure Azizi'
     datesortie: '2020'
+    phrasepoetique: 'la brutal'
 ---
 

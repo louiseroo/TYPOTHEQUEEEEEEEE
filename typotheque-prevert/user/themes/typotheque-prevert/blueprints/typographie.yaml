@@ -53,7 +53,5 @@ form:
               destination: '@self/fichiersfontes'
               filesize: 1000
               accept:
-                - .otf
-                - .ttf
                 - .woff
                 - .woff2

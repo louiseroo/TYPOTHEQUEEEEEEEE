@@ -1,21 +1,7 @@
 {% extends 'partials/base.html.twig' %}
 
-
-{% block content %}
-
-
-{# texte intro colophon #}
-{#   <div class="colophon">
-    {{ page.find('/typotheque').content|markdown }}
-  </div> 
-
- #}
-
-    {% for asciientry in pages.find('/typotheque').header.custom.asciiart %}
-      
-    {% endfor %}
-
 {# texte des fonts #}
+{% block content %}
 <div class="box target">
 
   <div class="zoom-conteneur" id="conteneur">
@@ -26,29 +12,138 @@
       </div>
       {% endfor %}
     {% endfor %}
+
+
+
+
+    {% block ascii %}
+      {% for asciientry in pages.find('/typotheque').header.custom.asciiart %} 
+      <div class="entree-ascii">
+        <h4 class="{{ asciiart }}"data-text="{{header.custom.asciiart}}">
+           {{header.custom.asciiart.ascii}}
+        </h4>
+
+      </div>
+    {% endfor %}
+  {% endblock %}
+
+  {% block ascii2 %}
+      {% for asciientry in pages.find('/typotheque').header.custom.asciiart %} 
+      <div class="entree-ascii2">
+        <h4 class="{{ asciiart }}"data-text="{{header.custom.asciiart}}">
+           {{header.custom.asciiart.ascii}}
+        </h4>
+
+      </div>
+    {% endfor %}
+  {% endblock %}
+
+  {% block ascii3 %}
+      {% for asciientry in pages.find('/typotheque').header.custom.asciiart %} 
+      <div class="entree-ascii3">
+        <h4 class="{{ asciiart }}"data-text="{{header.custom.asciiart}}">
+           {{header.custom.asciiart.ascii}}
+        </h4>
+
+      </div>
+    {% endfor %}
+  {% endblock %}
+
+
+
+  
   </div>
 </div>
 
-
-
 <div id="buttons">
-  <div class="btn zoom">+</div>
-  <div class="btn zoom-out">-</div>
+  <div class="btn zoom"><p>+</p></div>
+  <div class="btn zoom-out"><p>-</p></div>
   <div class="btn zoom-init"><img src="{{ url('theme://images/fleche.png')|e }}"></div>
 </div>
 
 
 
 <style type="text/css">
+
+.entree-ascii, .entree-ascii2, .entree-ascii3{
+  position: fixed;
+  z-index: 1;
+  width: 15vw;
+  height: 25vh;
+  color: var(--third-color);
+}
+
+.entree-ascii{
+  left: 2vw;
+  top: 40vh;
+  border: 1px solid red;
+}
+
+.entree-ascii2{
+  left: 80vw;
+  top: 10vh;
+  border: 1px solid blue;
+}
+
+.entree-ascii3{
+  left: 60vw;
+  top: 70vh;
+  border: 1px solid green;
+}
+
+
+
+
+
+
+#conteneur h1{
+  z-index: 100;
+}
+
+h1{
+  white-space: nowrap;
+}
+
 #buttons{
-  top: 83vh;
+  font-size: 2.8em;
+  width: 20vw;
+  position: fixed;
+  left: 96vw;
+  bottom: 2vh;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   font-family: var(--primary-font);
 }
 
-.btn{
-  color: var(--secondary-color);
-  cursor: pointer;
+/*pas de selection*/
+#buttons{
+  -moz-user-select: none; /* Firefox */
+  -webkit-user-select: none; /* Chrome, Safari, Opéra depuis la version 15 */
+  -ms-user-select: none; /* Internet explorer depuis la version 10 et Edge */
+  user-select: none; /* Propriété standard */
 }
+
+.btn {
+  overflow: hidden;
+  border: 2px solid transparent;
+  height: 3.5vh;
+  width: 1.9vw;
+  display: flex;
+  margin-top: 6px;
+  text-align: center;
+  transition: all 0.3s ease;
+  z-index: 1;
+  cursor: pointer;
+  position: relative;
+}
+
+.entree-font{
+  position: relative;
+}
+
+
 
 .btn:hover{
   color: var(--primary-color);
@@ -56,27 +151,23 @@
 
 .btn img{
   width: 100%;
+  scale: 120%;
 }
 
-.zoom, .zoom-out{
-  font-size: 2.8em;
-  align-items: center;
-  padding-top: 20px;
+.btn p{
+  position: absolute;
+  top: -74px;
 }
 
-.zoom-out{
-  margin-bottom: 20px;
-}
-
-
-
+/*#conteneur{
+  margin-left: -25vw;
+  width: 125vw;
+  border: 1px solid blue;
+}*/
 
 
 </style>
 
-<div class="panel panel-font">
-  
-</div>
 
 
 

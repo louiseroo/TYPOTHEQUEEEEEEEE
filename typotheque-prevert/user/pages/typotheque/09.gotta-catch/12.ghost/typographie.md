@@ -1,5 +1,5 @@
 ---
-title: Ghost
+title: GHOST
 custom:
     auteur: 'Julia Koussa'
     datesortie: '2021'

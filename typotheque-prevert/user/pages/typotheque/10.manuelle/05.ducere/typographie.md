@@ -1,5 +1,5 @@
 ---
-title: Ducere
+title: DUCERE
 custom:
     auteur: 'Ivo Querniard'
     datesortie: '2022'
