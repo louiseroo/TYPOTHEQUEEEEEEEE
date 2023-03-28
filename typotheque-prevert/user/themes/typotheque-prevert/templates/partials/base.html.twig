@@ -2,15 +2,15 @@
 <html lang="{{ (grav.language.getActive ?: grav.config.site.default_lang)|e }}">
 <head>
 {% block head %}
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <title>CHIC TYPE | Typothèque</title>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% include 'partials/metadata.html.twig' %}
 
-    <link rel="icon" type="image/png" href="{{ url('theme://images/logo.png')|e }}" />
-    <link rel="canonical" href="{{ page.canonical(true)|e }}" />
+    <link rel="icon" type="image/png" href="{{ url('theme://images/logo.png')|e }}">
+    <link rel="canonical" href="{{ page.canonical(true)|e }}">
 
     <style>
   {% for workshop in pages.find('/typotheque').children %}
@@ -50,13 +50,13 @@
     <div class="header" id="header">
         <div id="haut-header">
             <p class="petite-fonte">Typothèque du DNMADE graphisme Augmenté</p>
-            <h2 class="titresite">chic type<h2>
-                <h5 class="accordion">informations</h5>
+            <h2 class="titresite">chic type</h2>
+            <h5 class="accordion">informations</h5>
         </div>
         
         <div class="panel">
 
-            <p class="texte-back-colophon colophon-open"><br>Workshop réalisé par les deuxièmes années<br>de <a href="https://dnmade-prevert.fr" target="_blank"class="link-typo-texte">DNMADE</a> en mars 2023</p><br>
+            <p class="texte-back-colophon colophon-open"><br>Workshop réalisé par les deuxièmes années<br>de <a href="https://dnmade-prevert.fr" target="_blank" class="link-typo-texte">DNMADE</a> en mars 2023</p><br>
             <p class="texte-back-colophon">Site codé par<br>Odilon Aouatah,<br>Victor Facon<br>et Louise Roo
                 <br><br>
                 Textes par<br>Madeleine Meranger<br>et Emelyne Phung
@@ -65,11 +65,11 @@
                 <br><br>
                 Specimens par<br>Quentin Dissard<br>et Médéric Chapiseau
                 <br><br>
-                Encadré par Benjamin Dumond<br>de <a href="https://bonjourmonde.net/en" target="_blank"class="link-typo-texte">Bonjour Monde</a>
+                Encadré par Benjamin Dumond<br>de <a href="https://bonjourmonde.net/en" target="_blank" class="link-typo-texte">Bonjour Monde</a>
                 <br>
                 Sous la supervision<br>de Romuald Roudier
                 <br><br>
-                <a href="https://gitlab.com/bonjour-monde/projects/typotheque-prevert" target="_blank">Typothèque Gitlab</a>
+                <a href="https://gitlab.com/bonjour-monde/projects/typotheque-prevert" class="link-typotheque" target="_blank">Typothèque Gitlab</a>
             </p>
         </div>
 
@@ -78,7 +78,7 @@
         <p class="texte-back-colophon">Typographie dessinée lors du workshop <span class="workshoptitle"></span> avec <span class="inviteworkshop"></span> en <span class="anneeworkshop"></span>.
         <br><span class="workshoptexte"></span></p>
 
-        <h2><span class="fonttitle"></span><h2>
+        <h2><span class="fonttitle"></span></h2>
             <h5 class="accordion"><span class="auteurfont"></span></h5>
         
         <div>
@@ -90,10 +90,26 @@
     </div>
 {% endblock %}
 
+{% block body %}
+    <section id="body">
+        <div class="wrapper padding">
+        {% block content %}{% endblock %}
+        </div>
+    </section>
+{% endblock %}
+
+{% block footer %}
+
+{% endblock %}
+
+{% block bottom %}
+    {{ assets.js('bottom')|raw }}
+{% endblock %}
+
+</body>
 
 
-
-<style type="text/css">
+<style>
 
 #haut-header{
     width: 30vw;
@@ -131,13 +147,14 @@ h2{
     width: auto;
 }
 
-.link-typo, .link-typo-texte{
+.link-typo, .link-typo-texte, .link-typotheque{
     color: var(--primary-color);
 }
 
 .link-typo-texte{
     text-decoration: none;
 }
+
 
 .header-panel-font{
     padding-left: 20px;
@@ -151,26 +168,74 @@ h2{
     width: 27vw;
 }
 
+
+
+
+
+
+@media screen and (max-width: 468px) {
+
+
+.header{
+    width: 93vw;
+    margin-left: 0.5vw;
+    position: fixed;
+}
+
+#haut-header{
+    width: 90vw;
+    margin: auto;
+    margin-left: -10px;
+}
+
+.panel{
+    height: auto;
+    padding-bottom: 3vh;
+}
+
+.texte-back-colophon{
+    width: 80vw;
+}
+
+
+.box{
+    height: 100vh;
+}
+
+.entree-font{
+    left: 0vw;
+}
+
+.entree-font h1{
+    top: 5vh;
+    left: 0vw;
+    flex-direction: column;
+    justify-content: start;
+    display: flex;
+    position: absolute;
+}
+
+.entree-ascii{
+    opacity: 0.5;
+}
+
+.header-panel-font{
+    overflow: hidden;
+}
+
+.header-panel-font hr, .header-panel-font p, .header-panel-font h2{
+    margin-left: -10px;
+}
+
+}
+
+
+
+
 </style>
 
 
 
 
-{% block body %}
-    <section id="body">
-        <div class="wrapper padding">
-        {% block content %}{% endblock %}
-        </div>
-    </section>
-{% endblock %}
 
-{% block footer %}
-
-{% endblock %}
-
-{% block bottom %}
-    {{ assets.js('bottom')|raw }}
-{% endblock %}
-
-</body>
 </html>

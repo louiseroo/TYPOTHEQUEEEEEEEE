@@ -191,7 +191,8 @@ h1:hover{
 }
 
 .panel{
-    height: 52.5vh;
+    height: auto;
+    padding-bottom: 3vh;
 }
 
 .titresite{
@@ -202,6 +203,7 @@ h1:hover{
 [contenteditable]{
     outline: 0px solid transparent;
 }
+
 
 
 
