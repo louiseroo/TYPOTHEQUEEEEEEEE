@@ -13,7 +13,7 @@ $(function() {
 
 	// position aléatoire en largeur
 	$(".entree-font").each(function(){
-		$(this).css('left', getRandom(0, 45)+"vw");
+		$(this).css('left', getRandom(0, 65)+"vw");
 	});
 
 	//position des ascii
