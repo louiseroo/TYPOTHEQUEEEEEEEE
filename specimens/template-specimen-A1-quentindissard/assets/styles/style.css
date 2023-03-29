@@ -1,0 +1,504 @@
+p{
+  text-align: center;
+  width: auto;
+  margin: -15px;
+  color: #ff5400;
+}
+
+p#footer{
+  color: lightgrey;
+  mix-blend-mode: difference;
+  font-size: 16pt;
+  font-family: 'SyneMono';
+  width: 2200px;
+  margin: 0px;
+  margin-top: 50px;
+  padding-bottom: 15px;
+}
+
+div#fonts1{
+  /*border: 1px solid white;*/
+  display: block;
+  margin: 0px auto;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+
+div#boite-texte{
+  position: relative;
+  bottom: 3000px;
+  margin: auto;
+  height: 40px;
+  font-family: 'SyneMono';
+}
+
+p.infos{
+  color: lightgrey;
+  font-size: 16pt;
+  mix-blend-mode: difference;
+  margin: auto;
+  width: 25%;
+  font-family: 'SyneMono';
+}
+
+p.point-typo{
+  font-family: 'SyneMono';
+  font-size: 10pt;
+  height: 100%;
+  margin-top: 60px;
+  padding-left: 60px;
+}
+
+p.glyphs{
+  font-family: 'SyneMono';
+  font-size: 10pt;
+  height: 100%;
+  margin-top: 60px;
+  padding-right: 60px;
+  padding-top: 60px;
+}
+
+article{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+pre{
+  font-family: 'SyneMono';
+  /* color: rgb(166, 166, 166);*/
+  /* color: #ff5400;*/
+  color: black;
+  mix-blend-mode: multiply;
+}
+
+pre.ascii-art1{
+  position: absolute;
+  right: 80px;
+  top: 40px;
+  transform: rotate(10deg);
+}
+
+pre.ascii-art2{
+  position: absolute;
+  left: 100px;
+  top: 400px;
+  transform: rotate(-3deg);
+}
+
+pre.ascii-art3{
+  position: absolute;
+  right: 80px;
+  top: 900px;
+  transform: rotate(4deg);
+}
+
+pre.ascii-art4{
+  position: absolute;
+  left: 200px;
+  top: 2200px;
+  transform: rotate(-2deg);
+}
+
+
+
+/*
+
+ _______   ______   .__   __. .___________.    __       __    __    ______     ___           _______.    _______   _______     _______.  ______ .______        ______    __  ___   ___ 
+|   ____| /  __  \  |  \ |  | |           |   |  |     |  |  |  |  /      |   /   \         /       |   |       \ |   ____|   /       | /      ||   _  \      /  __  \  |  | \  \ /  / 
+|  |__   |  |  |  | |   \|  | `---|  |----`   |  |     |  |  |  | |  ,----'  /  ^  \       |   (----`   |  .--.  ||  |__     |   (----`|  ,----'|  |_)  |    |  |  |  | |  |  \  V  /  
+|   __|  |  |  |  | |  . `  |     |  |        |  |     |  |  |  | |  |      /  /_\  \       \   \       |  |  |  ||   __|     \   \    |  |     |      /     |  |  |  | |  |   >   <   
+|  |     |  `--'  | |  |\   |     |  |        |  `----.|  `--'  | |  `----./  _____  \  .----)   |      |  '--'  ||  |____.----)   |   |  `----.|  |\  \----.|  `--'  | |  |  /  .  \  
+|__|      \______/  |__| \__|     |__|        |_______| \______/   \______/__/     \__\ |_______/       |_______/ |_______|_______/     \______|| _| `._____| \______/  |__| /__/ \__\
+
+
+*/
+
+
+
+p#water{
+  /* border: 1px solid red;*/
+  font-family: 'Water';
+  font-size: 165pt;
+  padding: 0px;
+}
+
+p#poison{
+  /* border: 1px solid red;*/
+  font-family: 'Poison';
+  font-size: 165pt;
+  padding: 0px;
+}
+
+p#rock{
+  /* border: 1px solid red;*/
+  font-family: 'Rock';
+  font-size: 165pt;
+  padding: 0px;
+}
+
+p#psychic{
+  /* border: 1px solid red;*/
+  font-family: 'Psychic';
+  font-size: 165pt;
+  padding: 0px;
+}
+
+p#ice{
+  /* border: 1px solid red;*/
+  font-family: 'Ice';
+  font-size: 165pt;
+  padding: 0px;
+}
+
+p#bug{
+  /* border: 1px solid red;*/
+  font-family: 'Bug';
+  font-size: 165pt;
+  padding: 0px;
+}
+
+p#dragon{
+  /* border: 1px solid red;*/
+  font-family: 'Dragon';
+  font-size: 165pt;
+  padding: 0px;
+}
+
+p#electric{
+  /* border: 1px solid red;*/
+  font-family: 'Electric';
+  font-size: 165pt;
+  padding: 0px;
+}
+
+p#fighting{
+  /* border: 1px solid red;*/
+  font-family: 'Fighting';
+  font-size: 165pt;
+  padding: 0px;
+}
+
+p#fire{
+  /* border: 1px solid red;*/
+  font-family: 'Fire';
+  font-size: 165pt;
+  padding: 0px;
+}
+
+p#flying{
+  /* border: 1px solid red;*/
+  font-family: 'Flying';
+  font-size: 165pt;
+  padding: 0px;
+}
+
+p#ghost{
+  /* border: 1px solid red;*/
+  font-family: 'Ghost';
+  font-size: 165pt;
+  padding: 0px;
+}
+
+
+
+/* 
+
+ _______   ______   .__   __. .___________.   .______       _______ .___  ___.  __      _______   ______   .______     .___________. _______     ___     ___    ___    ___   
+|   ____| /  __  \  |  \ |  | |           |   |   _  \     |   ____||   \/   | |  |    |   ____| /  __  \  |   _  \    |           ||   ____|   |__ \   / _ \  |__ \  |__ \  
+|  |__   |  |  |  | |   \|  | `---|  |----`   |  |_)  |    |  |__   |  \  /  | |  |    |  |__   |  |  |  | |  |_)  |   `---|  |----`|  |__         ) | | | | |    ) |    ) | 
+|   __|  |  |  |  | |  . `  |     |  |        |      /     |   __|  |  |\/|  | |  |    |   __|  |  |  |  | |      /        |  |     |   __|       / /  | | | |   / /    / /  
+|  |     |  `--'  | |  |\   |     |  |        |  |\  \----.|  |____ |  |  |  | |  |    |  |     |  `--'  | |  |\  \----.   |  |     |  |____     / /_  | |_| |  / /_   / /_  
+|__|      \______/  |__| \__|     |__|        | _| `._____||_______||__|  |__| |__|    |__|      \______/  | _| `._____|   |__|     |_______|   |____|  \___/  |____| |____|
+
+
+ */
+
+
+
+p#footer-bas{
+  color: lightgrey;
+  mix-blend-mode: difference;
+  font-size: 16pt;
+  font-family: 'SyneMono';
+  width: 2200px;
+  margin: 0px;
+  margin-top: 50px;
+  padding-bottom: 15px;
+  position: absolute;
+  bottom: 0px;
+}
+
+pre#ascii-art1{
+  position: absolute;
+  right: 10px;
+  top: 40px;
+}
+
+pre#ascii-art2{
+  position: absolute;
+  top: 40px;
+  left: 10px;
+}
+
+pre#ascii-art3{
+  position: absolute;
+  top: 2250px;
+  bottom: 0px;
+  right: 800px;
+  margin: auto;
+}
+
+div#fonts2{
+  display: block;
+  padding-top: 60px;
+  margin: 0px auto;
+  width: 100%;
+  position: absolute;
+}
+
+div#boite-texte2{
+  position: relative;
+  bottom: 2020px;
+  margin: auto;
+  height: 40px;
+  font-family: 'SyneMono';
+}
+
+p#glyphs-eartheater{
+  font-family: 'SyneMono';
+  font-size: 10pt;
+  height: 100%;
+  width: 200px;
+  margin-top: 80px;
+  padding-top: 80px;
+}
+
+p#point-typo-eartheater{
+  font-family: 'SyneMono';
+  font-size: 10pt;
+  height: 100%;
+  width: 80px;
+  margin-top: 60px;
+}
+
+p#brutal{
+  /* border: 1px solid red;*/
+  font-family: 'Brutal';
+  font-size: 165pt;
+  line-height: 250px;
+  padding: 0px;
+}
+
+p#eartheater{
+  /* border: 1px solid red;*/
+  font-family: 'Eartheater';
+  font-size: 165pt;
+  line-height: 400px;
+  padding: 0px;
+}
+
+p#frankgrayishiding{
+  /* border: 1px solid red;*/
+  font-family: 'Frankgrayishiding';
+  font-size: 165pt;
+  line-height: 280px;
+  padding: 0px;
+}
+
+p#tricurve{
+  /* border: 1px solid red;*/
+  font-family: 'Tricurve';
+  font-size: 165pt;
+  line-height: 250px;
+  padding: 0px;
+}
+
+p#fuite{
+  /* border: 1px solid red;*/
+  font-family: 'Fuite';
+  font-size: 165pt;
+  line-height: 250px;
+  padding: 0px;
+}
+
+p#lablab{
+  /* border: 1px solid red;*/
+  font-family: 'Lablab';
+  font-size: 165pt;
+  line-height: 250px;
+  padding: 0px;
+}
+
+
+
+/* 
+
+ _______   ______   .__   __. .___________.   .___  ___.   ______   .______        _______      ___      .__   __.  _______    .______    __   _______ .______          _______.  ______   .__   __.     ___     ___    ___    ____   
+|   ____| /  __  \  |  \ |  | |           |   |   \/   |  /  __  \  |   _  \      /  _____|    /   \     |  \ |  | |   ____|   |   _  \  |  | |   ____||   _  \        /       | /  __  \  |  \ |  |    |__ \   / _ \  |__ \  |___ \  
+|  |__   |  |  |  | |   \|  | `---|  |----`   |  \  /  | |  |  |  | |  |_)  |    |  |  __     /  ^  \    |   \|  | |  |__      |  |_)  | |  | |  |__   |  |_)  |      |   (----`|  |  |  | |   \|  |       ) | | | | |    ) |   __) | 
+|   __|  |  |  |  | |  . `  |     |  |        |  |\/|  | |  |  |  | |      /     |  | |_ |   /  /_\  \   |  . `  | |   __|     |   ___/  |  | |   __|  |      /        \   \    |  |  |  | |  . `  |      / /  | | | |   / /   |__ <  
+|  |     |  `--'  | |  |\   |     |  |        |  |  |  | |  `--'  | |  |\  \----.|  |__| |  /  _____  \  |  |\   | |  |____    |  |      |  | |  |____ |  |\  \----.----)   |   |  `--'  | |  |\   |     / /_  | |_| |  / /_   ___) | 
+|__|      \______/  |__| \__|     |__|        |__|  |__|  \______/  | _| `._____| \______| /__/     \__\ |__| \__| |_______|   | _|      |__| |_______|| _| `._____|_______/     \______/  |__| \__|    |____|  \___/  |____| |____/
+
+
+ */
+
+
+
+div#fonts3{
+  display: block;
+  margin: 0px auto;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+
+div#boite-texte3{
+  position: relative;
+  bottom: 3000px;
+  margin: auto;
+  height: 40px;
+  font-family: 'SyneMono';
+}
+
+pre#ascii-art5{
+  position: absolute;
+  right: 80px;
+  top: 40px;
+}
+
+pre#ascii-art6{
+  position: absolute;
+  top: 400px;
+  left: 200px;
+}
+
+pre#ascii-art7{
+  position: absolute;
+  top: 2250px;
+  bottom: 0px;
+  right: 200px;
+}
+
+pre#ascii-art8{
+  position: absolute;
+  top: 1800px;
+  bottom: 1000px;
+  left: 200px;
+  transform: rotate(-180deg);
+}
+
+pre#ascii-art9{
+  position: absolute;
+  top: 1940px;
+  bottom: 1000px;
+  right: 200px;
+}
+
+p#aube{
+  /* border: 1px solid red;*/
+  font-family: 'Aube';
+  font-size: 165pt;
+  line-height: 250px;
+  padding: 0px;
+}
+
+p#bazar {
+  /* border: 1px solid red;*/
+  font-family: 'Bazar';
+  font-size: 165pt;
+  line-height: 250px;
+  padding: 0px;
+}
+
+p#boniot{
+  /* border: 1px solid red;*/
+  font-family: 'Boniot';
+  font-size: 165pt;
+  line-height: 250px;
+  padding: 0px;
+}
+
+p#ducere{
+  /* border: 1px solid red;*/
+  font-family: 'Ducere';
+  font-size: 165pt;
+  line-height: 250px;
+  padding: 0px;
+}
+
+p#frimousse{
+  /* border: 1px solid red;*/
+  font-family: 'Frimousse';
+  font-size: 165pt;
+  line-height: 250px;
+  padding: 0px;
+}
+
+p#glouglou{
+  /* border: 1px solid red;*/
+  font-family: 'Glouglou';
+  font-size: 165pt;
+  line-height: 250px;
+  padding: 0px;
+}
+
+p#lutine{
+  /* border: 1px solid red;*/
+  font-family: 'Lutine';
+  font-size: 165pt;
+  line-height: 250px;
+  padding: 0px;
+}
+
+p#kiffance{
+  /* border: 1px solid red;*/
+  font-family: 'Kiffance';
+  font-size: 165pt;
+  line-height: 250px;
+  padding: 0px;
+}
+
+p#leana{
+  /* border: 1px solid red;*/
+  font-family: 'Leana';
+  font-size: 165pt;
+  line-height: 250px;
+  padding: 0px;
+}
+
+p#maingauche{
+  /* border: 1px solid red;*/
+  font-family: 'Maingauche';
+  font-size: 165pt;
+  line-height: 250px;
+  padding: 0px;
+}
+
+p#mina{
+  /* border: 1px solid red;*/
+  font-family: 'Mina';
+  font-size: 165pt;
+  line-height: 250px;
+  padding: 0px;
+}
+
+p#vitejuin{
+  /* border: 1px solid red;*/
+  font-family: 'Vitejuin';
+  font-size: 165pt;
+  line-height: 250px;
+  padding: 0px;
+}
+
+p#way{
+  /* border: 1px solid red;*/
+  font-family: 'Way';
+  font-size: 165pt;
+  line-height: 250px;
+  padding: 0px;
+}
+
+

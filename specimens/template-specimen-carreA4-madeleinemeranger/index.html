@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Paged.js</title>
+    <script>this.ready=new Promise(function($){document.addEventListener('DOMContentLoaded',$,{once:true})})</script>
+    <script src="dist/paged.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="assets/styles/reglages.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/preview.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+</head>
+<body>
+
+<!--
+   ___   ___   ____    ____
+  //    // \\  || \\  ||   
+ ((    ((   )) ||  )) ||== 
+  \\__  \\_//  ||_//  ||___ -->
+
+  <script>
+    ready.then(async function () {
+      let flowText = document.querySelector("#flow");
+
+      let t0 = performance.now();
+
+      let paged = new Paged.Previewer()
+
+      paged.preview(flowText.content).then((flow) => {
+        let t1 = performance.now();
+
+        console.log("Rendering " + flow.total + " pages took " + (t1 - t0) + " milliseconds.");
+
+        let editable = document.querySelectorAll(".pagedjs_page .pagedjs_area > div");
+        for (var i = 0; i < editable.length; i++) {
+          editable[i].setAttribute("contenteditable", true);
+        }
+      });
+
+      let resizer = () => {
+        let pages = document.querySelector(".pagedjs_pages");
+
+        if (pages) {
+          let scale = ((window.innerWidth * .9 ) / pages.offsetWidth);
+          if (scale < 1) {
+            pages.style.transform = `scale(${scale}) translate(${(window.innerWidth / 2) - ((pages.offsetWidth * scale / 2) ) }px, 0)`;
+          } else {
+            pages.style.transform = "none";
+          }
+        }
+      };
+      resizer();
+
+      window.addEventListener("resize", resizer, false);
+
+      paged.on("rendering", () => {
+        resizer();
+      });
+
+    });
+  </script>
+
+<!--
+   ___   ___   __  __ ______  ____ __  __ __ __
+  //    // \\  ||\ || | || | ||    ||\ || || ||
+ ((    ((   )) ||\\||   ||   ||==  ||\\|| || ||
+  \\__  \\_//  || \||   ||   ||___ || \|| \\_// -->
+
+<template id="flow">
+
+<div class="conteneur">
+
+<p class="lettrine">ABC</p>
+
+<pre class="ascii1">    \\_//
+   __/".
+  /__ |
+  || ||</pre>
+
+<pre class="ascii2">   __v_
+  (____\/{</pre>
+
+<pre class="ascii3"> ,_,
+(O,O)
+(   )
+-"-"------</pre>
+
+<pre class="ascii4">      __
+(____()'`;
+/,     /`
+\\"---\\</pre>
+
+<pre class="ascii5">  _      _
+>(.)__ =(.)__
+ (___/  (___/</pre>
+
+<pre class="ascii6">        _   
+     _-(_)- 
+   `(___)  
+    // \\ </pre>
+
+<pre class="ascii7">                   ___
+                  / *_) 
+       _.----. _ /../
+     /............./
+ ___/..(...|.(...|
+/__.-|_|--|_|</pre>
+
+<pre class="ascii8">  .-"""-.
+ /* * * *\
+:_.-:`:-._;
+    (_)
+ \|/(_)\|/</pre>
+
+</div>
+
+<div class="conteneur">
+
+<pre class="ascii1">      __
+(____()'`;
+/,     /`
+\\"---\\</pre>
+
+<pre class="ascii2"> ,_,
+(O,O)
+(   )
+-"-"------</pre>
+
+<pre class="ascii3">  .-"""-.
+ /* * * *\
+:_.-:`:-._;
+    (_)
+ \|/(_)\|/</pre>
+
+<pre class="ascii4">  _      _
+>(.)__ =(.)__
+ (___/  (___/</pre>
+
+<pre class="ascii5">   __v_
+  (____\/{</pre>
+
+<pre class="ascii6">                   ___
+                  / *_) 
+       _.----. _ /../
+     /............./
+ ___/..(...|.(...|
+/__.-|_|--|_|</pre>
+
+<pre class="ascii7">    \\_//
+   __/".
+  /__ |
+  || ||</pre>
+
+<pre class="ascii8">        _   
+     _-(_)- 
+   `(___)  
+    // \\ </pre>
+
+</div>
+
+<div class="conteneur">
+    <div class="tapis">
+    <p class="texte">CETTE AFFREUSE QUESTION DES SALAIRES NOUS BUVIONS UN VERRE AUDITIF OU NON AUDITIF SON GRAND AMOUR DANS UN JARDIN DANS UN BOIS IL A FAIT DES RONDS UNE ORANGE SUR LA TABLE DANS UN RUISSEAU DE LARMES PUISQUE LA VIE EST BELLE ET LA VACHE BRETONNE DANS UN SQUARE SUR UN BANC IL VA PLEURER LE TEMPS NE FAIT PAS DE CADEAUX VIDE EST LA CORBEILLE GRIS DE GRAFFITI SUR MUR GRIS DE PRISON LA LUNE VEUILLE SUR EUX IL Y A TROP DE VOYAGEURS CELA NE VEUT RIEN DIRE SON GRAND AMOUR DORS TON GRAND CORPS MAIS LE SERVICE OUVRIER TOI TU CONNAIS DES CHIENS QUI DISPARAISSENT NOUS AVONS TOUT LA MORT DANS UN CRI PAYS TROP LOIN IL Y AVAIT DANS UN TRAIN FOU UN GRAND SOUPIR VOS MORTS SONT BIEN MORTS JE SUIS LE PREMIER REMPLIE DE PLUMES VERTES LE VIEUX SOLEIL DE CUIVRE HEUREUSEMENT ET TRISTEMENT ON NE SALUE PLUS LES FEUX FOLLETS ROUGES IMMENSE ET ROUGE QUI VEND DES POTS DE FLEURS CES FUTURS SOUVENIRS DE TENDRE FURIE JE SUIS DIT LE PREMIER SUR LES FESSES DU CHEF UNE ROSE ROUGE NOUS BUVIONS UN VERRE LIVIDE COMME LA LUNE DE DEUX CHOSES LUNE DANS UNE MUSIQUE DE CIRQUE IL Y AVAIT</p>
+  </div> 
+<pre class="ascii3"> ,xXXXXx,
+,XXXXXXXX,
+XXXXXXXXXX
+`"""XX"""`
+    XX
+    XX
+    XX</pre>
+</div>
+
+<div class="conteneur">
+  <pre class="asciilong1">
+                                                                                      
+  (____________________________________________________________________________________
+  /,                                                                                 
+  \\"----------------------------------------------------------------------------------
+
+   ____________________________________________________________________________________
+                                                                                    
+   ------------------------------------------------------------------------------------
+
+   ____________________________________________________________________________________
+                                                                                    
+   ------------------------------------------------------------------------------------
+
+   ____________________________________________________________________________________
+                                                                                    
+   ------------------------------------------------------------------------------------
+
+   ____________________________________________________________________________________
+                                                                                    
+   ------------------------------------------------------------------------------------
+
+   ____________________________________________________________________________________
+                                                                                    
+   ------------------------------------------------------------------------------------
+
+   ____________________________________________________________________________________
+                                                                                    
+   ------------------------------------------------------------------------------------
+
+   ____________________________________________________________________________________
+                                                                                    
+   ------------------------------------------------------------------------------------
+
+   ____________________________________________________________________________________
+                                                                                    
+   ------------------------------------------------------------------------------------
+                                                                                    __
+   ________________________________________________________________________________()'`;
+                                                                                     /`
+   ---------------------------------------------------------------------------------\\
+
+</pre>
+</div>
+
+<div class="conteneur">
+  <div class="tapis">
+    <p class="big">
+      O
+    </p>
+  </div>
+  <pre class="asciicenter">
+      __
+(____()'`;
+/,     /`
+\\"---\\</pre>
+</div>
+
+<div class="conteneur">
+  <p class="ligne1">
+    CPOUR TOI MON AMOUR POUR TOI MON AMOUR POUR 
+  </p>
+  
+    <pre class="asciibanner">
+       wWWWw               wWWWw               wWWWw               wWWWw               wWWWw               wWWWw        
+ vVVVv (___) wWWWw   vVVVv (___) wWWWw   vVVVv (___) wWWWw   vVVVv (___) wWWWw   vVVVv (___) wWWWw   vVVVv (___) wWWWw  
+ (___)  ~Y~  (___)   (___)  ~Y~  (___)   (___)  ~Y~  (___)   (___)  ~Y~  (___)   (___)  ~Y~  (___)   (___)  ~Y~  (___)  
+  ~Y~   \|    ~Y~     ~Y~   \|    ~Y~     ~Y~   \|    ~Y~     ~Y~   \|    ~Y~     ~Y~   \|    ~Y~     ~Y~   \|    ~Y~   
+  \|   \ |/   \| /    \|   \ |/   \| /    \|   \ |/   \| /    \|   \ |/   \| /    \|   \ |/   \| /    \|   \ |/   \| /  
+ \\|// \\|// \\|///  \\|// \\|// \\|///  \\|// \\|// \\|///  \\|// \\|// \\|///  \\|// \\|// \\|///  \\|// \\|// \\|/// 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    </pre>
+
+  <p class="ligne2">
+    IL DESSINE LE VISAGE DU BONHEUR IL DESSINE LE 
+  </p>
+  
+</div>
+
+
+
+</template>
+
+</body>
+</html>

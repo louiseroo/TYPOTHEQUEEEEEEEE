@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Paged.js</title>
+    <script>this.ready=new Promise(function($){document.addEventListener('DOMContentLoaded',$,{once:true})})</script>
+    <script src="dist/paged.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="assets/styles/reglages.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/preview.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+</head>
+<body>
+  <script>
+    ready.then(async function () {
+      let flowText = document.querySelector("#flow");
+
+      let t0 = performance.now();
+
+      let paged = new Paged.Previewer()
+
+      paged.preview(flowText.content).then((flow) => {
+        let t1 = performance.now();
+
+        console.log("Rendering " + flow.total + " pages took " + (t1 - t0) + " milliseconds.");
+
+        let editable = document.querySelectorAll(".pagedjs_page .pagedjs_area > div");
+        for (var i = 0; i < editable.length; i++) {
+          editable[i].setAttribute("contenteditable", true);
+        }
+      });
+
+      let resizer = () => {
+        let pages = document.querySelector(".pagedjs_pages");
+
+        if (pages) {
+          let scale = ((window.innerWidth * .9 ) / pages.offsetWidth);
+          if (scale < 1) {
+            pages.style.transform = `scale(${scale}) translate(${(window.innerWidth / 2) - ((pages.offsetWidth * scale / 2) ) }px, 0)`;
+          } else {
+            pages.style.transform = "none";
+          }
+        }
+      };
+      resizer();
+
+      window.addEventListener("resize", resizer, false);
+
+      paged.on("rendering", () => {
+        resizer();
+      });
+
+    });
+  </script>
+  <template id="flow">
+
+<section>
+     <h3 class="nomtypo"> Fighting</h3>
+     <h3 class="nomtypo"> Fighting</h3>
+     <h3 class="nomtypo"> Fighting</h3>
+     <h3 class="nomtypo"> Fighting</h3>
+     
+     <h4 id="auteur"></h4>
+
+     <p class="plus typo1">fighting</p>
+
+</section>
+
+
+<section>
+    <div id="lettre">
+    <h2 id="fighting">R</h2> 
+    </div>
+   
+    <p class="backgroundtext">
+        <br>
+        <br>
+        Le [type Combat]
+        <br> est l'un des dix-huit types de la série principale, introduit dès la première génération. Jusqu'à la troisième génération incluse, ce type était classé physique.
+        <br>
+        Tous les doubles types contenant Combat sont représentés par au moins un Pokémon.
+        <br>
+        Dans le Jeu de Cartes à Collectionner, le type Combat inclut aussi les Pokémon Roche et Sol.
+
+        <br><br>
+        Le groupe Combat est celui des Pokémon spécialisés dans la force brute, favoris de Dresseurs eux-mêmes versés dans les arts martiaux, et dont la moyenne d'Attaque surpasse celle des autres types. Les quelques combattants frappant dans le Spécial doivent leur particularité à un second type, le plus souvent Feu ou Psy. 
+        <br><br>Dans les autres statistiques, l'écart-type est élevé et l'on peut distinguer deux classes de Pokémon Combat : ceux qui misent sur la Vitesse, et ceux qui privilégient l'endurance.
+    </p>
+
+
+    <p class="abc typo1">
+        a b c d e f g h i j k l m n o p q r s t u v w x y z
+    </p>
+     <p class="abc2 typo1">
+        a b c d e f g h i j k l m n o p q r s t u v w x y z
+    </p>
+
+
+    <div>
+        
+    <p class="corps1 typo1">
+        Cela ne veut rien dire
+    </p>
+    <br>
+    <p class="corps2 typo1"> 
+        Cela ne veut rien dire
+    </p>
+    <br>
+    <p class="corps3 typo1">
+        Cela ne veut rien dire
+    </p>
+    <br>
+    <p class="corps4 typo1">
+        Cela ne veut rien dire
+    </p>
+    <br>
+    <p class="corps5 typo1">
+        Cela ne veut rien dire
+    </p>
+
+    </div>
+    
+</section>
+
+
+<section>
+     <h3 class="nomtypo2"> Poison</h3>
+     <h3 class="nomtypo2"> Poison</h3>
+     <h3 class="nomtypo2"> Poison</h3>
+     <h3 class="nomtypo2"> Poison</h3>
+     
+     <h4 id="auteur"></h4>
+
+     <p class="plus typo2">poison</p>
+
+</section>
+
+
+<section>
+    <div id="lettre">
+    <h2 id="poison">G</h2> 
+    </div>
+   
+    <p class="backgroundtext">
+        <br>
+        <br>
+        Le [type Poison] est l'un des dix-huit types de la série principale, introduit dès la première génération. Jusqu'à la troisième génération incluse, ce type était classé physique.
+        <br>
+        Parmi les doubles types contenant Poison, seul Glace/Poison ne compte aucun représentant. Le type Poison vient souvent en complément des types Plante et Insecte.
+
+        <br><br>
+        Le type Poison est associé au venin, à la toxicité et à l'altération de statut qui fait perdre à la victime plus ou moins de PV à chaque tour selon la capacité qui en est à l'origine. Certains représentants du groupe Poison peuvent d'ailleurs être vus comme des allégories de la pollution.
+        <br><br>
+        Poison s'emploie mieux défensivement qu'offensivement puisqu'il comporte 5 résistances pour 2 faiblesses. En particulier, le type Acier est immunisé tant aux attaques Poison qu'à l'empoisonnement, et le type Sol le bat dans les deux domaines.
+
+
+
+</p>
+    <p class="abc typo2">
+        a b c d e f g h i j k l m n o p q r s t u v w x y z
+    </p>
+     <p class="abc2 typo2">
+        a b c d e f g h i j k l m n o p q r s t u v w x y z
+    </p>
+    <div>
+        
+    
+    <p class="corps1 typo2">
+        Le clair de lune
+    </p>
+    <br>
+    <p class="corps2 typo2"> 
+        Le clair de lune
+    </p>
+    <br>
+    <p class="corps3 typo2">
+        Le clair de lune
+    </p>
+    <br>
+    <p class="corps4 typo2">
+        Le clair de lune
+    </p>
+    <br>
+     <br>
+    <p class="corps5 typo2">
+        Le clair de lune
+
+    </div>
+    
+</section>
+
+
+
+
+
+
+
+
+<section>
+     <h3 class="nomtypo typo3"> ICE</h3>
+     <h3 class="nomtypo typo3"> ICE</h3>
+     <h3 class="nomtypo typo3"> ICE</h3>
+     <h3 class="nomtypo typo3"> ICE</h3>
+     
+     <h4 id="auteur"></h4>
+
+     <p class="plus typo3">ICE ICE</p>
+
+</section>
+
+<section>
+    <div id="lettre">
+    <h2 class="typo3">F</h2> 
+    </div>
+   
+    <p class="backgroundtext">
+        <br>
+        <br>
+        Le [type Glace] est l'un des dix-huit types de la série principale, introduit dès la première génération. Jusqu'à la troisième génération incluse, ce type était classé spécial.
+        <br>
+        Les types se combinant le plus souvent avec la Glace sont les types Eau et Psy.
+        <br><br>
+        Le type Glace est l'attribut des Pokémon habitués aux basses températures et des capacités basées sur celles-ci. En particulier, il est indissociable du statut de gel, qui laisse la victime figée sur place et est, comme les attaques à pouvoir l'induire, neutralisé par le Feu. Les Pokémon Glace sont immunisés à cette altération depuis la troisième génération et le correctif appliqué à Triplattaque. La Glace se décline aussi sous la forme de la Grêle, perturbation qui enlève à chaque fin de tour 1/16 des PV totaux aux Pokémon non protégés par le type Glace ou un talent tel que Ciel Gris.
+
+
+</p>
+    <p class="abc typo3">
+        a b c d e f g h i j k l m n o p q r s t u v w x y z
+    </p>
+     <p class="abc2 typo3">
+        a b c d e f g h i j k l m n o p q r s t u v w x y z
+    </p>
+    <div>
+    
+    <br><br><br><br>
+    
+    <p class="corps1 typo3">
+        toucher du bois
+    </p>
+    <br>
+    <p class="corps2 typo3"> 
+        toucher du bois
+    </p>
+    <br>
+    <p class="corps3 typo3">
+        toucher du bois
+    </p>
+    <br>
+    <p class="corps4 typo3">
+        toucher du bois
+    </p>
+    <br>
+     <br>
+    <p class="corps5 typo3">
+        toucher <br>du bois
+
+    </div>
+    
+</section>
+
+
+
+</template>
+</body>
+</html>
+

@@ -1,0 +1,361 @@
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* REGLAGES DE BASES DES PAGES */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+@page {
+  size: 5.8in 8.3in;
+  margin: 20mm 25mm;
+  marks: crop; */
+  color: white;
+
+  @footnote {
+    margin: 2em 0 0 0;
+    padding: 0.3em 0 0 0;
+    max-height: 10em;
+  }
+
+  @top-center {
+    vertical-align: bottom;
+    padding-bottom: 4mm;
+    content: string(booktitle);
+    width:7cm;
+  }
+}
+
+@page :left {
+  margin: 5mm 10mm 5mm 5mm;
+  background-color: rgb(216, 216, 216);
+
+ @bottom-left-corner {
+  /* content: counter(page); */
+ }
+}
+
+@page :right {
+  margin: 2mm 2mm 5mm 10mm;
+  background-color: rgb(216, 216, 216);
+
+ @bottom-right-corner {
+   /* content: counter(page); */
+ }
+
+}
+
+@page cover {
+  @top-center{
+    content: none;
+   }
+}
+
+@page:nth(2){
+}
+
+@page {
+  @footnote {
+    float: bottom;
+  }
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* IMPORTATION    TYPOGRAPHIES */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+
+/*
+
+ _______   ______   .__   __. .___________.    __       __    __    ______     ___           _______.    _______   _______     _______.  ______ .______        ______    __  ___   ___ 
+|   ____| /  __  \  |  \ |  | |           |   |  |     |  |  |  |  /      |   /   \         /       |   |       \ |   ____|   /       | /      ||   _  \      /  __  \  |  | \  \ /  / 
+|  |__   |  |  |  | |   \|  | `---|  |----`   |  |     |  |  |  | |  ,----'  /  ^  \       |   (----`   |  .--.  ||  |__     |   (----`|  ,----'|  |_)  |    |  |  |  | |  |  \  V  /  
+|   __|  |  |  |  | |  . `  |     |  |        |  |     |  |  |  | |  |      /  /_\  \       \   \       |  |  |  ||   __|     \   \    |  |     |      /     |  |  |  | |  |   >   <   
+|  |     |  `--'  | |  |\   |     |  |        |  `----.|  `--'  | |  `----./  _____  \  .----)   |      |  '--'  ||  |____.----)   |   |  `----.|  |\  \----.|  `--'  | |  |  /  .  \  
+|__|      \______/  |__| \__|     |__|        |_______| \______/   \______/__/     \__\ |_______/       |_______/ |_______|_______/     \______|| _| `._____| \______/  |__| /__/ \__\
+
+
+*/
+
+
+
+@font-face {
+font-family: 'SyneMono';
+src: url("../fonts/SyneMono-Regular.ttf");
+font-weight: normal;
+font-style: normal;
+}
+
+
+@font-face {
+font-family: 'Water';
+src: url("../fonts/Water-Regular.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Poison';
+src: url("../fonts/Poison-Regular.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Rock';
+src: url("../fonts/Rock-Regular.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Psychic';
+src: url("../fonts/Psychic-Regular.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Ice';
+src: url("../fonts/Ice-Regular.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Bug';
+src: url("../fonts/Bug-Regular.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Dragon';
+src: url("../fonts/Dragon-Regular.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Electric';
+src: url("../fonts/Electric-Regular.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Fighting';
+src: url("../fonts/Fighting-Regular.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Fire';
+src: url("../fonts/Fire-Regular.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Flying';
+src: url("../fonts/Flying-Regular.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Ghost';
+src: url("../fonts/Ghost-Regular.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+
+
+/* 
+
+ _______   ______   .__   __. .___________.   .______       _______ .___  ___.  __      _______   ______   .______     .___________. _______     ___     ___    ___    ___   
+|   ____| /  __  \  |  \ |  | |           |   |   _  \     |   ____||   \/   | |  |    |   ____| /  __  \  |   _  \    |           ||   ____|   |__ \   / _ \  |__ \  |__ \  
+|  |__   |  |  |  | |   \|  | `---|  |----`   |  |_)  |    |  |__   |  \  /  | |  |    |  |__   |  |  |  | |  |_)  |   `---|  |----`|  |__         ) | | | | |    ) |    ) | 
+|   __|  |  |  |  | |  . `  |     |  |        |      /     |   __|  |  |\/|  | |  |    |   __|  |  |  |  | |      /        |  |     |   __|       / /  | | | |   / /    / /  
+|  |     |  `--'  | |  |\   |     |  |        |  |\  \----.|  |____ |  |  |  | |  |    |  |     |  `--'  | |  |\  \----.   |  |     |  |____     / /_  | |_| |  / /_   / /_  
+|__|      \______/  |__| \__|     |__|        | _| `._____||_______||__|  |__| |__|    |__|      \______/  | _| `._____|   |__|     |_______|   |____|  \___/  |____| |____|
+
+
+ */
+
+
+
+@font-face {
+font-family: 'Brutal';
+src: url("../fonts/Brutal-Regular.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Eartheater';
+src: url("../fonts/Eartheater-Cross.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Frankgrayishiding';
+src: url("../fonts/Frankgrayishiding-Regular.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Tricurve';
+src: url("../fonts/Tricurve-Thin.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Fuite';
+src: url("../fonts/Fuite-Regular.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Lablab';
+src: url("../fonts/Lablab-Variable.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+
+
+/* 
+
+ _______   ______   .__   __. .___________.   .___  ___.   ______   .______        _______      ___      .__   __.  _______    .______    __   _______ .______          _______.  ______   .__   __.     ___     ___    ___    ____   
+|   ____| /  __  \  |  \ |  | |           |   |   \/   |  /  __  \  |   _  \      /  _____|    /   \     |  \ |  | |   ____|   |   _  \  |  | |   ____||   _  \        /       | /  __  \  |  \ |  |    |__ \   / _ \  |__ \  |___ \  
+|  |__   |  |  |  | |   \|  | `---|  |----`   |  \  /  | |  |  |  | |  |_)  |    |  |  __     /  ^  \    |   \|  | |  |__      |  |_)  | |  | |  |__   |  |_)  |      |   (----`|  |  |  | |   \|  |       ) | | | | |    ) |   __) | 
+|   __|  |  |  |  | |  . `  |     |  |        |  |\/|  | |  |  |  | |      /     |  | |_ |   /  /_\  \   |  . `  | |   __|     |   ___/  |  | |   __|  |      /        \   \    |  |  |  | |  . `  |      / /  | | | |   / /   |__ <  
+|  |     |  `--'  | |  |\   |     |  |        |  |  |  | |  `--'  | |  |\  \----.|  |__| |  /  _____  \  |  |\   | |  |____    |  |      |  | |  |____ |  |\  \----.----)   |   |  `--'  | |  |\   |     / /_  | |_| |  / /_   ___) | 
+|__|      \______/  |__| \__|     |__|        |__|  |__|  \______/  | _| `._____| \______| /__/     \__\ |__| \__| |_______|   | _|      |__| |_______|| _| `._____|_______/     \______/  |__| \__|    |____|  \___/  |____| |____/
+
+
+ */
+
+
+
+@font-face {
+font-family: 'Aube';
+src: url("../fonts/Aube-Regular.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Bazar';
+src: url("../fonts/Bazar-Regular.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Boniot';
+src: url("../fonts/Boniot-Regular.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Ducere';
+src: url("../fonts/Ducere-Regular.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Frimousse';
+src: url("../fonts/Frimousse-Regular.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Glouglou';
+src: url("../fonts/Glouglou-Regular.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Lutine';
+src: url("../fonts/Lutine-Regular.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Kiffance';
+src: url("../fonts/Kiffance-Regular.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Leana';
+src: url("../fonts/Leana-Regular.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Leana';
+src: url("../fonts/Leana-Regular.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Maingauche';
+src: url("../fonts/Maingauche-Regular.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Mina';
+src: url("../fonts/Mina-Regular.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Vitejuin';
+src: url("../fonts/Vitejuin-Regular.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Way';
+src: url("../fonts/Way-Regular.otf");
+font-weight: normal;
+font-style: normal;
+}
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* REGLAGE DES BREAKS DE PAGES */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+section:nth-child(1) h1 {
+ /* string-set: booktitle content(text);*/
+}
+
+section {
+  break-before: right;
+  break-after: always;
+}
+
+.footnote {
+  float: footnote;
+}
+

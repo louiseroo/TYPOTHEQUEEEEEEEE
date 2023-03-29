@@ -1,0 +1,329 @@
+body{
+  font-family: sans-serif;
+}
+
+div#header{
+  height: 200px;
+  display: flex;
+  width: 100%;
+}
+
+p{
+  color: #FF5400;
+}
+
+p#point-typo,#point-typo1,#point-typo2,#point-typo3,#point-typo4,#point-typo5,#infos,#pagejs,#glyph,#point-typo2-cap,#point-typo4-cap,#point-typo5-cap{
+  font-family: 'SyneMono';
+  color: black;
+  mix-blend-mode: multiply;
+
+}
+
+p#point-typo{
+  position: absolute;
+  top: 10px;
+  margin-top: 0px;
+  font-size: 6pt; 
+  height: auto;
+}
+
+p#point-typo1{
+  position: absolute;
+  top: 200px;
+  left: 0px;
+  font-size: 6pt;
+  margin-top: 0px;
+  height: auto;
+}
+
+p#point-typo2{
+  position: absolute;
+  top: 570px;
+  left: 0px;
+  font-size: 6pt;
+  margin-top: 0px;
+  height: auto;
+}
+
+p#point-typo3{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 6pt;
+  margin-top: 0px;
+  height: auto;
+}
+
+p#point-typo4{
+  position: absolute;
+  top: 570px;
+  right: 365px;
+  font-size: 6pt;
+  margin-top: 0px;
+  height: auto;
+}
+
+p#point-typo5{
+  position: absolute;
+  top: 620px;
+  right: 240px;
+  font-size: 6pt;
+  margin-top: 0px;
+  height: auto;
+}
+
+p#hight,#hight-cap{
+  font-size: 140pt;
+  line-height: 100pt;
+  margin-top: 0px;
+  width: 25%;
+}
+
+p#low{  
+  padding: 5px;
+  padding-left: 10px;
+  padding-top: 0px;
+  width: 75%;
+  height: 100%;
+  margin-top: 0px;
+}
+
+footer{
+  width: 100%;
+  border-top: 1px solid black;
+  padding-top: 5px;
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+}
+
+p#infos,#glyph,#pagejs{
+  width: 25%;
+  margin: 0px;
+  font-size: 6pt;
+}
+
+p#pagejs{
+  width: 50%;
+  margin: 0px;
+  font-size: 6pt;
+}
+
+p#glyph{
+  text-align: right;
+}
+
+div#bas{
+  display: flex;
+  width: 100%;
+}
+
+p#middle,#middle-cap{
+  font-size: 20pt;
+  padding: 5px;
+  padding-bottom: 0px;
+  margin: 0px;
+  margin-bottom: 0px;
+  overflow: hidden;
+  border-bottom: 1px solid black;
+  height: 200px;
+  width: 75%;
+}
+
+p#abcde,#abcde-cap{
+  height: 136px;
+  text-align: center;
+  font-size: 140pt;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 20px;
+  margin-top: -20px;
+  overflow: hidden;
+}
+
+p#gauche,#gauche-cap{
+  padding: 5px;
+  margin-top: 9px;  
+  font-size: 6pt;
+  width: 25%;
+}
+
+p#droit,#droit-cap{
+  border-top: 1px solid black;
+  padding: 5px;
+  margin-top: 0px;
+  font-size: 12pt;
+  width: 75%;
+}
+
+p#aba,#aba-cap{
+  margin-top: -10pt;
+  text-align: right;
+  line-height: 40pt;
+  font-size: 60pt;
+  margin-top: -20px;
+}
+
+p#middle-cap,#abcde-cap,#gauche-cap,#droit-cap,#aba-cap,#hight-cap{
+  text-transform: uppercase;
+}
+
+p#point-typo2-cap{
+  position: absolute;
+  top: 620px;
+  left: 0px;
+  font-size: 6pt;
+  margin-top: 0px;
+  height: auto;
+}
+
+p#point-typo4-cap{
+  position: absolute;
+  top: 620px;
+  right: 365px;
+  font-size: 6pt;
+  margin-top: 0px;
+  height: auto;
+}
+
+p#point-typo5-cap{
+  position: absolute;
+  top: 680px;
+  right: 240px;
+  font-size: 6pt;
+  margin-top: 0px;
+  height: auto;
+}
+
+section#water{
+  font-family: 'Water';
+}
+
+section#poison{
+  font-family: 'Poison';
+}
+
+section#rock{
+  font-family: 'Rock';
+}
+
+section#psychic{
+  font-family: 'Psychic';
+}
+
+section#ice{
+  font-family: 'Ice';
+}
+
+section#bug{
+  font-family: 'Bug';
+}
+
+section#dragon{
+  font-family: 'Dragon';
+}
+
+section#electric{
+  font-family: 'Electric';
+}
+
+section#fighting{
+  font-family: 'Fighting';
+}
+
+section#fire{
+  font-family: 'Fire';
+}
+
+section#flying{
+  font-family: 'Flying';
+}
+
+section#ghost{
+  font-family: 'Ghost';
+}
+
+
+
+
+
+section#brutal{
+  font-family: 'Brutal';
+}
+
+section#eartheater{
+  font-family: 'Eartheater';
+}
+
+section#frankgrayishiding{
+  font-family: 'Frankgrayishiding';
+}
+
+section#tricurve{
+  font-family: 'Tricurve';
+}
+
+section#fuite{
+  font-family: 'Fuite';
+}
+
+section#lablab{
+  font-family: 'Lablab';
+}
+
+
+
+
+
+
+section#aube{
+  font-family: 'Aube';
+}
+
+section#bazar{
+  font-family: 'Bazar';
+}
+
+section#boniot{
+  font-family: 'Boniot';
+}
+
+section#ducere{
+  font-family: 'ducere';
+}
+
+section#frimousse{
+  font-family: 'Frimousse';
+}
+
+section#glouglou{
+  font-family: 'Glouglou';
+}
+
+section#kiffance{
+  font-family: 'Kiffance';
+}
+
+section#leana{
+  font-family: 'Leana';
+}
+
+section#lutine{
+  font-family: 'Lutine';
+}
+
+section#maingauche{
+  font-family: 'MainGauche';
+}
+
+section#mina{
+  font-family: 'Mina';
+}
+
+section#vitejuin{
+  font-family: 'Vitejuin';
+}
+
+section#way{
+  font-family: 'Way';
+}

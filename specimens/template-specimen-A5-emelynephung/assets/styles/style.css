@@ -1,0 +1,123 @@
+body {
+font-size: 12pt;
+line-height: 1.33em;
+font-family: 'base';
+font-variant-numeric: oldstyle-nums;
+}
+
+p {
+padding: 0;
+margin: 0;
+}
+
+p + p {
+text-indent: 2em;
+}
+
+img{
+  width: 100%;
+  margin-top: 7mm;
+}
+
+.legendes{
+  font-size: 9pt;
+  margin-bottom: 5mm;
+}
+
+h2{
+	font-size: 30em;
+	color: #FF5400;
+	opacity: 0.8;
+}
+
+h3{
+	width: 100%;
+	height: 100%;
+	font-size: 7.6em;
+	color: #FF5400;
+}
+
+
+
+#fighting, .nomtypo, .plus, .typo1, #corps1, #corps2, #corps3, #corps4, #corps5 {
+	font-family:typo;
+}
+
+
+.plus{
+	color: white;
+	writing-mode: vertical-rl;
+	transform: translate(80px);
+	font-size: 15em;
+	text-transform: uppercase;
+}
+
+#lettre{
+	position: absolute;
+	color: rgb(216, 216, 216);
+}
+
+.backgroundtext{
+	font-size: 0.9em;
+	width: 35%;
+	margin: auto;
+	line-height: 1.3em;
+	text-align: center;
+}
+
+.abc, .abc2{
+	line-height: 0.9em;
+}
+
+.abc{
+
+		font-size: 7.9em;
+		color: #FF5400;
+}
+
+.abc2{
+	font-size: 7.5em;
+	color: white;
+	text-transform: uppercase;
+}
+
+.corps1{
+	font-size: 3em;
+}
+
+.corps2{
+	font-size: 4em;
+}
+
+.corps3{
+	font-size: 5em;
+}
+
+.corps4{
+	font-size: 7em;
+}
+
+.corps5{
+	font-size: 10em;
+	color: #FF5400;
+	line-height: 0.9em;
+	text-transform: uppercase;
+}
+
+.corps1, .corps2, .corps3, .corps4{
+	line-height: 0.9em;
+	color: white;
+}
+
+
+.nomtypo2, #poison, #plus2, .typo2{
+	font-family: typo2;
+}
+
+
+.typo3, #ice{
+	font-family: typo3;
+	text-transform: uppercase;
+	letter-spacing: -0.2em;
+}
+

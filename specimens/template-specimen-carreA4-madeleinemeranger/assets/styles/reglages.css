@@ -1,0 +1,32 @@
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* REGLAGES DE BASES DES PAGES */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+@page {
+  size: 21cm 21cm;
+  margin: 0px;
+  background-color: black;
+  /*background-color: rgb(216, 216, 216);*/
+}
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* IMPORTATION    TYPOGRAPHIES */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+@font-face {
+  font-family: 'typo1';
+  src: url("../fonts/MainGauche-Regular.otf");
+}
+
+@font-face{
+  font-family: 'ascii';
+  src: url("../fonts/SyneMono-Regular.otf");
+}
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* REGLAGE DES BREAKS DE PAGES */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!! */
