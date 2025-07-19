@@ -1,7 +1,7 @@
 ---
 title: Aube
 custom:
-    auteur: Sophie
+    auteur: 'Sophie Aube'
     datesortie: '2022'
     phrasepoetique: 'et le clair de lune pour les travailleurs de nuit'
     casses: glyphsetbasedecasse

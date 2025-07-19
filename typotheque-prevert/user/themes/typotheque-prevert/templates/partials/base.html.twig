@@ -3,7 +3,7 @@
 <head>
 {% block head %}
     <meta charset="utf-8">
-    <title>CHIC TYPE | Typothèque</title>
+    <title>8 TYPES | Typothèque</title>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -49,14 +49,24 @@
 {% block header %}
     <div class="header" id="header">
         <div id="haut-header">
-            <p class="petite-fonte">Typothèque du DNMADE graphisme Augmenté</p>
-            <h2 class="titresite">chic type</h2>
+            <p class="petite-fonte">Typothèque du DNMADE graphisme augmenté</p>
+            <h2 class="titresite">8 types</h2>
             <h5 class="accordion">informations</h5>
         </div>
         
         <div class="panel">
 
-            <p class="texte-back-colophon colophon-open"><br>Workshop réalisé par les deuxièmes années<br>de <a href="https://dnmade-prevert.fr" target="_blank" class="link-typo-texte">DNMADE</a> en mars 2023</p><br>
+            <p class="texte-back-colophon colophon-open"><br>
+                Site web pensé et développé par <br>
+                la promotion 2021-2024 du <a href="https://dnmade-prevert.fr" target="_blank" class="link-typo-texte">DNMADE</a><br>
+                Lors d'un workshop mené par <br><a href="https://bonjourmonde.net/en" target="_blank" class="link-typo-texte">Bonjour Monde</a> en mars 2023<br>
+                sous la supervision<br> de Romuald Roudier Théron<br><br>
+
+
+
+
+
+                {# Workshop réalisé par les deuxièmes années<br>de DNMADE en mars 2023</p><br>
             <p class="texte-back-colophon">Site codé par<br>Odilon Aouatah,<br>Victor Facon<br>et Louise Roo
                 <br><br>
                 Textes par<br>Madeleine Meranger<br>et Emelyne Phung
@@ -65,11 +75,13 @@
                 <br><br>
                 Specimens par<br>Quentin Dissard<br>et Médéric Chapiseau
                 <br><br>
-                Encadré par Benjamin Dumond<br>de <a href="https://bonjourmonde.net/en" target="_blank" class="link-typo-texte">Bonjour Monde</a>
+                Encadré par Benjamin Dumond<br>de Bonjour Monde
                 <br>
-                Sous la supervision<br>de Romuald Roudier
-                <br><br>
+                Sous la supervision<br>de Romuald Roudier Théron
+                <br><br> #}
                 <a href="https://gitlab.com/bonjour-monde/projects/typotheque-prevert" class="link-typotheque" target="_blank">Typothèque Gitlab</a>
+                <br>
+                <a href="https://gitlab.com/bonjour-monde/projects/typotheque-prevert/-/tree/main/specimens" class="link-typotheque" target="_blank">Specimens</a>
             </p>
         </div>
 
@@ -83,7 +95,8 @@
         
         <div>
             <p>
-                <a class="link-typo" href="">Télécharger la font</a>
+                <a class="link-typo" href="">Télécharger la font</a><br>
+                <a href="https://gitlab.com/bonjour-monde/projects/typotheque-prevert/-/tree/main/specimens" class="link-typotheque" target="_blank">Specimens</a>
             </p>
         </div>
     </div>
@@ -137,12 +150,12 @@
 h2{
     color: var(--primary-color);
     font-size: 4em;
-    margin-top: -30px;
+    margin-top: -20px;
 }
 
 .accordion{
     font-size: 0.7em;
-    margin-top: -7vh;
+    margin-top: -8vh;
     color: var(--secondary-color);
     width: auto;
 }

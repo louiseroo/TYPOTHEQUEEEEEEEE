@@ -1,7 +1,7 @@
 ---
 title: Lutine
 custom:
-    auteur: Zoé
+    auteur: 'Zoé Leroux'
     datesortie: '2022'
     phrasepoetique: 'qui ou quoi'
     casses: glyphsetbasedecasse
