@@ -26,7 +26,7 @@ Site web conçu et développé par la promotion 2021-2024 du DNMADE Graphisme Au
 
 **01/08/2025** 
 
-	Mise en ligne publique - http://typothequeeeeeeee.netlify.com
+	Mise en ligne publique - http://typothequeeeeeeee.netlify.app
 
 
 ## CRÉDITS
