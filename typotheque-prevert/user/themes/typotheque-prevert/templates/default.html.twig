@@ -30,103 +30,10 @@
 </div>
 
 <div id="buttons">
-  <div class="btn zoom"><p>+</p></div>
-  <div class="btn zoom-out"><p>-</p></div>
-  <div class="btn zoom-init"><img alt="" src="{{ url('theme://images/fleche.png')|e }}"></div>
+  <div class="btn zoom"><p>agrandir</p></div>
+  <p>|</p>
+  <div class="btn zoom-out"><p>réduire</p></div>
 </div>
-
-
-
-<style>
-
-.entree-ascii{
-  font-size:.5em;
-  line-height:1em;
-  position:absolute;
-  z-index:-9;
-  color: rgba(0,0,0,0.5);
-}
-
-
-.entree-ascii pre{
-  font-family:"SyneMono" !important;
-}
-
-
-
-
-
-
-
-#conteneur h1{
-  z-index: 100;
-}
-
-h1{
-  white-space: nowrap;
-}
-
-#buttons{
-  font-size: 2.8em;
-  width: 20vw;
-  position: fixed;
-  left: 96vw;
-  bottom: 2vh;
-  z-index: 10;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  font-family: var(--primary-font);
-}
-
-/*pas de selection*/
-#buttons{
-  -moz-user-select: none; /* Firefox */
-  -webkit-user-select: none; /* Chrome, Safari, Opéra depuis la version 15 */
-  -ms-user-select: none; /* Internet explorer depuis la version 10 et Edge */
-  user-select: none; /* Propriété standard */
-}
-
-.btn {
-  overflow: hidden;
-  border: 2px solid transparent;
-  height: 3.5vh;
-  width: 1.9vw;
-  display: flex;
-  box-shadow: 5px 2.5px 5px rgba(255, 84, 0, 0.7);
-  margin-top: 6px;
-  text-align: center;
-  transition: all 0.3s ease;
-  background-color: white;
-  z-index: 10;
-  cursor: pointer;
-  position: relative;
-}
-
-.entree-font{
-  position: relative;
-  cursor: pointer;
-}
-
-
-
-.btn:hover{
-  color: var(--primary-color);
-}
-
-.btn img{
-  width: 100%;
-  scale: 120%;
-}
-
-.btn p{
-  position: absolute;
-  top: -74px;
-}
-
-
-
-</style>
 
 
 

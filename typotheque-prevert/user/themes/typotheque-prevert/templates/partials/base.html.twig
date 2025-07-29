@@ -6,8 +6,11 @@
     <title>8 TYPES | Typothèque</title>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {# <meta name="viewport" content="width=device-width, initial-scale=1"> #}
     {% include 'partials/metadata.html.twig' %}
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+
 
     <link rel="icon" type="image/png" href="{{ url('theme://images/logo.png')|e }}">
     <link rel="canonical" href="{{ page.canonical(true)|e }}">
@@ -47,60 +50,149 @@
 <body id="top" class="{{ page.header.body_classes|e }}">
 
 {% block header %}
-    <div class="header" id="header">
-        <div id="haut-header">
-            <p class="petite-fonte">Typothèque du DNMADE graphisme augmenté</p>
-            <h2 class="titresite">8 types</h2>
-            <h5 class="accordion">informations</h5>
+
+    <hr id="trait-vertical-gauche">
+    <hr id="trait-horizontal-haut">
+
+    <div id="header-cote">
+        <p>typothèqueeeeeeee</p>
+
+    </div>
+
+    <div class="header">
+
+        <div class="header-gauche">
+            <p>Typothèque du DNMADE graphisme augmenté</p>
         </div>
+
+        <ul>
+            <li class="infos-panel">infos</li>
+            <li>|</li>
+            <li><a href="https://dnmade-prevert.fr/" target="_blank">dnmade</a></li>
+            <li>|</li>
+            <li><a href="https://gitlab.com/louiseroo/TYPOTHEQUEEEEEEEEs" class="link-typotheque" target="_blank">gitlab</a></li>
+            <li>|</li>
+            <li class="credits-panel">credits</li>
+        </ul>
+    </div>
+
+    <div id="trait-zoom"></div>
         
-        <div class="panel">
+    <div class="infos-panel-description">
+        <p>
+            Site web conçu et développé par la&#160;promotion&#160;2021-2024 du&#160;<a href="https://dnmade-prevert.fr" target="_blank">DNMADE Graphisme Augmenté</a> en mars&#160;2023 lors d’un workshop initié par&#160;Romuald&#160;Roudier&#160;Théron et&#160;encadré par&#160;<a href="https://bonjourmonde.net/" target="_blank">Benjamin&#160;Dumont (Bonjour&#160;Monde)</a>.
+            <br><br>
+            Site web codé par 
+            <a href="https://odilonath.fr/" target="_blank">Odilon&#160;Aouatah</a>, Victor&#160;Facon&#160;&&#160;<a href="https://louiseroo.fr/" target="_blank">Louise Roo</a>
+            <br>
+            Textes rédigés par <a href="https://madeleinemeranger.fr/" target="_blank">Madeleine&#160;Meranger</a> &&#160;<a href="https://emelynephung.com/" target="_blank">Emelyne&#160;Phung</a>
+            <br>
+            Design graphique par Melany&#160;Charlec, Scar&#160;Descalzi &&#160;<a href="https://quentindissard.com/" target="_blank">Quentin&#160;Dissard</a>
+            <br>
+            Spécimens typographiques par <a href="https://medericchapiseau.com/" target="_blank">Médéric&#160;Chapiseau</a> &&#160;<a href="https://quentindissard.com/" target="_blank">Quentin&#160;Dissard</a>  
+            <br><br>
+            Mis à jour en juillet 2025 par <a href="https://louiseroo.fr/" target="_blank">Louise&#160;Roo</a> &&#160;<a href="https://quentindissard.com/" target="_blank">Quentin&#160;Dissard</a>.
+        </p>
+    </div>
 
-            <p class="texte-back-colophon colophon-open"><br>
-                Site web pensé et développé par <br>
-                la promotion 2021-2024 du <a href="https://dnmade-prevert.fr" target="_blank" class="link-typo-texte">DNMADE</a><br>
-                Lors d'un workshop mené par <br><a href="https://bonjourmonde.net/en" target="_blank" class="link-typo-texte">Bonjour Monde</a> en mars 2023<br>
-                sous la supervision<br> de Romuald Roudier Théron<br><br>
+    <div class="credits-panel-description">
+        <p>
+            Nous tenons à&#160;remercier dans l’ordre et&#160;le&#160;désordre tous les&#160;étudiant·e·s et&#160;ancien·ne·s qui&#160;ont&#160;généreusement accepté que&#160;leurs typographies soient présentées et&#160;mises&#160;en&#160;valeur dans ce&#160;projet&#8239;:<br><br>
+
+            <a href="https://eulaliearies.fr/" target="_blank">Eulalie&#160;Aries</a>, 
+            Sophie&#160;Aubé, 
+            <a href="https://laureazizi.fr/" target="_blank">Laure&#160;Azizi</a>, 
+            <a href="https://erwanbatnini.github.io/portfolio/" target="_blank">Erwan&#160;Batnini</a>, 
+            <a href="https://maiwennbrochen.fr/" target="_blank">Maïwenn&#160;Brochen</a>, 
+            Am&#160;Courbot, 
+            <a href="https://leilacp.fr/" target="_blank">Leïla&#160;Courset</a>, 
+            <a href="https://marinedrouin.fr/" target="_blank">Marine&#160;Drouin</a>, 
+            <a href="https://www.laura-francois.fr/" target="_blank">Laura&#160;François</a>, 
+            Louanne&#160;Fournier, 
+            <a href="https://pazteks.com/" target="_blank">Léo&#160;Gobin</a>, 
+            <a href="https://sarahgarraud.fr/" target="_blank">Sarah&#160;Garraud</a>, 
+            <a href="https://elisagandon.github.io/" target="_blank">Élisa&#160;Gandon</a>, 
+            Martin&#160;Gouriou, 
+            <a href="https://emmagrosu.ch/" target="_blank">Emma&#160;Grosu</a>, 
+            <a href="https://mailie-hombert.github.io/" target="_blank">Maïlie&#160;Hombert</a>, 
+            <a href="https://juliakoussa.fr/" target="_blank">Julia&#160;Koussa</a>, 
+            Maïlys&#160;Larmitou, 
+            <a href="https://antoineliberman.fr/" target="_blank">Antoine&#160;Liberman</a>, 
+            <a href="https://emelinemartin.fr/" target="_blank">Emeline&#160;Martin</a>, 
+            <a href="https://aurelienmaufroid.fr/" target="_blank">Aurélien&#160;Maufroid</a>, 
+            Sarah&#160;Marouzé, 
+            <a href="https://jessymoreira.fr/" target="_blank">Jessy&#160;Moreira</a>, 
+            Tonya&#160;Palcy, 
+            Elodie&#160;Perez, 
+            <a href="https://enora-pichavant.myportfolio.com/" target="_blank">Enora&#160;Pichavant</a>, 
+            <a href="https://ivoquerniard.com/" target="_blank">Ivo&#160;Querniard</a>, 
+            <a href="https://josselinrome.fr/" target="_blank">Josselin&#160;Romé</a>, 
+            Julia&#160;Rodriguez, 
+            <a href="https://vertpierre.com/" target="_blank">Pierre&#160;Roussel</a>, 
+            <a href="https://clarasaffre.github.io/" target="_blank">Clara&#160;Saffre</a>, 
+            <a href="https://discontrol-studio.com/" target="_blank">Candice&#160;Terle</a>, 
+            <a href="https://www.leatoluzzo.fr/" target="_blank">Léa&#160;Toluzzo</a>, 
+            <a href="http://yassminetissaoui.cf/?i=2" target="_blank">Yassmine&#160;Tissaoui</a>, 
+            <a href="https://marion-villette.github.io/" target="_blank">Marion&#160;Villette</a>. 
+            <br><br>
+
+            Un grand merci également à celles et ceux qui ont mené les&#160;workshops de&#160;création typographique au&#160;fil des années&#8239;:<br><br>
+
+            <a href="https://www.lucasdescroix.fr/" target="_blank">Lucas&#160;Descroix</a> - 2021<br>
+            <a href="https://www.rmfrt.com/" target="_blank">Rémi&#160;Forte</a> - 2022<br>
+            <a href="https://www.instagram.com/morgane_pierson/?hl=fr" target="_blank">Morgane&#160;Pierson</a> - 2023<br>
+            <a href="https://bonjourmonde.net/" target="_blank">Benjamin&#160;Dumont</a> - 2024<br><br>
+
+            Les typographies présentées sur&#160;ce&#160;site sont publiées sous licence Open Source, afin d’encourager leur diffusion, réutilisation et&#160;évolution. La&#160;majorité des&#160;caractères sont diffusés sous la&#160;SIL&#160;Open&#160;Font&#160;License&#160;(OFL) ou&#160;des&#160;licences Creative&#160;Commons compatibles. Les&#160;fichiers fontes et&#160;les&#160;spécimens sont disponibles sur&#160;le&#160;GitLab.
+
+        </p>
+    </div>
 
 
 
-
-
-                {# Workshop réalisé par les deuxièmes années<br>de DNMADE en mars 2023</p><br>
-            <p class="texte-back-colophon">Site codé par<br>Odilon Aouatah,<br>Victor Facon<br>et Louise Roo
-                <br><br>
-                Textes par<br>Madeleine Meranger<br>et Emelyne Phung
-                <br><br>
-                Design par<br>Melany Charlec<br>et Scar Descalzi
-                <br><br>
-                Specimens par<br>Quentin Dissard<br>et Médéric Chapiseau
-                <br><br>
-                Encadré par Benjamin Dumond<br>de Bonjour Monde
-                <br>
-                Sous la supervision<br>de Romuald Roudier Théron
-                <br><br> #}
-                <a href="https://gitlab.com/bonjour-monde/projects/typotheque-prevert" class="link-typotheque" target="_blank">Typothèque Gitlab</a>
-                <br>
-                <a href="https://gitlab.com/bonjour-monde/projects/typotheque-prevert/-/tree/main/specimens" class="link-typotheque" target="_blank">Specimens</a>
-            </p>
-        </div>
 
     <div class="header-panel-font">
-        <hr>
-        <p class="texte-back-colophon">Typographie dessinée lors du workshop <span class="workshoptitle"></span> avec <span class="inviteworkshop"></span> en <span class="anneeworkshop"></span>.
-        <br><span class="workshoptexte"></span></p>
+        <div class="haut-panel-font">
+            <ul class="liste-colonne-total">
+                <li class="conteneur-textes-typos-panel">
+                    <ul class="sous-conteneur-textes-typos">
+                        <li class="texte-intro-typo">
+                            <p>Typographie dessinée lors du workshop <span class="workshoptitle"></span> avec <span class="inviteworkshop"></span> en <span class="anneeworkshop"></span>.</p>
+                        </li>
+                        <li class="texte-workshop">
+                            <p><span class="workshoptexte"></span></p>
+                        </li>
+                    </ul>
+                </li>
 
-        <h2><span class="fonttitle"></span></h2>
-            <h5 class="accordion"><span class="auteurfont"></span></h5>
-        
-        <div>
-            <p>
-                <a class="link-typo" href="">Télécharger la font</a><br>
-                <a href="https://gitlab.com/bonjour-monde/projects/typotheque-prevert/-/tree/main/specimens" class="link-typotheque" target="_blank">Specimens</a>
-            </p>
+                <li class="bloc-sans-image-panel-font">
+                    <figure class="sans-image">
+                        {# INTEGRER IMAGE #}
+                    </figure>
+                </li>
+            </ul>
+        </div>
+
+        <div class="font-title"><h2><span class="fonttitle"></span></h2></div>
+
+        <div class="bas-panel-font">
+            <div>
+                <ul>
+                    <li class="etudiants-typos">étudiant·e</li>
+                    <li class="textes-droite-typos"><span class="auteurfont"></span></li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li class="telecharger-typos"><a class="link-typo" href="">Télécharger la font</a></li>
+                    <li class="textes-droite-typos"><a href="https://gitlab.com/bonjour-monde/projects/typotheque-prevert/-/tree/main/specimens" target="_blank">Specimens</a></li>
+                </ul>
+            </div>
         </div>
     </div>
-    </div>
+
+
 {% endblock %}
 
 {% block body %}
@@ -120,135 +212,5 @@
 {% endblock %}
 
 </body>
-
-
-<style>
-
-#haut-header{
-    width: 30vw;
-    margin: auto;
-}
-
-.header-panel-font h2{
-    margin-top: 0.2vh;
-}
-
-.header{
-    text-align: center;
-    padding-right: 20px;
-}
-
-.texte-back-colophon{
-    font-size: 0.7em;
-    line-height: 1.3em;
-/*    width: 100%;*/
-    margin: auto;
-    margin-bottom: -13px;
-    color: var(--secondary-color);
-}
-
-h2{
-    color: var(--primary-color);
-    font-size: 4em;
-    margin-top: -20px;
-}
-
-.accordion{
-    font-size: 0.7em;
-    margin-top: -8vh;
-    color: var(--secondary-color);
-    width: auto;
-}
-
-.link-typo, .link-typo-texte, .link-typotheque{
-    color: var(--primary-color);
-}
-
-.link-typo-texte{
-    text-decoration: none;
-}
-
-
-.header-panel-font{
-    padding-left: 20px;
-    text-align: center;
-    padding-right: 20px;
-    display: none;
-}
-
-
-.texte-back-colophon{
-    width: 27vw;
-}
-
-
-
-
-
-
-@media screen and (max-width: 468px) {
-
-
-.header{
-    width: 93vw;
-    margin-left: 0.5vw;
-    position: fixed;
-}
-
-#haut-header{
-    width: 90vw;
-    margin: auto;
-    margin-left: -10px;
-}
-
-.panel{
-    height: auto;
-    padding-bottom: 3vh;
-}
-
-.texte-back-colophon{
-    width: 80vw;
-}
-
-
-.box{
-    height: 100vh;
-}
-
-.entree-font{
-    left: 0vw;
-}
-
-.entree-font h1{
-    top: 5vh;
-    left: 0vw;
-    flex-direction: column;
-    justify-content: start;
-    display: flex;
-    position: absolute;
-}
-
-.entree-ascii{
-    opacity: 0.5;
-}
-
-.header-panel-font{
-    overflow: hidden;
-}
-
-.header-panel-font hr, .header-panel-font p, .header-panel-font h2{
-    margin-left: -10px;
-}
-
-}
-
-
-
-
-</style>
-
-
-
-
 
 </html>
