@@ -307,9 +307,31 @@ h1:hover{
 /*ul 1 - li 2*/
 .bloc-sans-image-panel-font{
     width: 40%;
+    position: relative;
     border-bottom: var(--border-size) solid var(--primary-color);
     border-left: var(--border-size) solid var(--primary-color);
 }
+
+
+ .diagonal {
+    position: absolute;
+    width: 2px; /* épaisseur du trait */
+    height: 100%;
+    background-color: black;
+    top: 0;
+    z-index: 10;
+    left: 50%;
+    border: 2px solid blue;
+    transform-origin: center;
+  }
+ /* .diagonal.first {
+    transform: translateX(-50%) rotate(45deg);
+  }
+  .diagonal.second {
+    transform: translateX(-50%) rotate(-45deg);
+  }*/
+
+
 
 /*ul 2*/
 .sous-conteneur-textes-typos {
