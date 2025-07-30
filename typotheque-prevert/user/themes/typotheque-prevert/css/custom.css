@@ -152,12 +152,6 @@ h1:hover{
 }
 
 
-
-
-
-
-
-
 /* ========== TOP HEADER BAR ========== */
 .header{
     font-size: 16px;
@@ -184,12 +178,12 @@ h1:hover{
     padding: 0.1% 1.5%;
     background-color: var(--third-color);
     border: var(--border-size) solid var(--primary-color);
-
 }
 
 .header p{
     position: relative;
     z-index: 9;
+    white-space: nowrap;
 }
 
 .header ul{
@@ -197,6 +191,7 @@ h1:hover{
     z-index: 9;
     top: 0.5%;
     width: 28%;
+    padding-right: 0.5%;
     padding-top: 0.1%;
     height: 100%;
     display: flex;
@@ -317,7 +312,7 @@ h1:hover{
     position: absolute;
     width: 2px; /* épaisseur du trait */
     height: 100%;
-    background-color: black;
+    background-color: blue;
     top: 0;
     z-index: 10;
     left: 50%;
@@ -497,7 +492,7 @@ h1:hover{
 #buttons{
     font-size: 16px;
     position: fixed;
-    left: 83.5%;
+    left: 84%;
     bottom: 1.5%;
     z-index: 9;
     display: flex;
@@ -549,6 +544,71 @@ h1:hover{
     z-index: 9;
     color: var(--primary-color);
 }
+
+
+
+
+
+
+
+@media screen and (max-width: 468px) {
+
+.header-gauche{
+    width: 95%;
+    left: 30px;
+}
+
+.header ul{
+    top: 850px;
+    left: -387px;
+    width: 380px;
+    padding-right: 15px;
+}
+
+#trait-vertical-gauche{
+    width: 850px;
+    left: 30px;
+}
+
+#trait-horizontal-haut{
+    left: 30px;
+}
+
+#buttons, #trait-zoom{
+    display: none;
+}
+
+
+
+.header-panel-font{
+    width: 338px;
+    margin-left: 50px;
+}
+
+.bas-panel-font ul li{
+    padding-right: 20px;
+    white-space: nowrap;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
